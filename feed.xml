@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2026 17:50:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 05:38:08 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Six Blocks of My CRM</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/six-blocks-of-my-crm.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/six-blocks-of-my-crm.md</guid>
+      <pubDate>Mon, 10 Aug 2026 05:37:51 +0000</pubDate>
+      <description>A working outreach system, described by the person who runs it, plus the blocks we found missing.</description>
+    </item>
     <item>
       <title>Agent Interface, Not User Interface</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/agent-interface-not-user-interface.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/publishing-on-arxiv-cross-linked-with-github.md</guid>
       <pubDate>Sun, 26 Jul 2026 15:55:09 +0000</pubDate>
       <description>Does anyone read papers on arxiv.org? It is focused on scientific work that researchers publish. I have another simple idea. I want to put up there both the things I wrote earlier (I have some very timely publications, ones that partly even called the trends in advance) and the things we are doing…</description>
-    </item>
-    <item>
-      <title>A gotcha-checker that mines my AI&#x27;s own mistakes across every machine</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-gotcha-checker-mines-my-ai-mistakes.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-gotcha-checker-mines-my-ai-mistakes.md</guid>
-      <pubDate>Fri, 24 Jul 2026 05:24:21 +0000</pubDate>
-      <description>Let me tell you about one thing I set up for myself. I call it the gotcha-checker. Gotchas, you get the idea, are our repeating screw-ups. The spots where my AI trips, walks in circles, and does not give me a result. And in every session those gotchas get logged.</description>
     </item>
   </channel>
 </rss>
