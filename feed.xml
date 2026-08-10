@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 05:51:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 05:59:59 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>No 20x on the Team Plan</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/no-20x-on-the-team-plan.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/no-20x-on-the-team-plan.md</guid>
+      <pubDate>Mon, 10 Aug 2026 05:59:45 +0000</pubDate>
+      <description>Anton&#x27;s verdict, and the part of it we checked against the vendor&#x27;s own price page today.</description>
+    </item>
     <item>
       <title>Two Accounts, One Vault, and Where the Tokens Actually Went</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/two-accounts-one-vault.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-registry-of-all-my-routines.md</guid>
       <pubDate>Tue, 28 Jul 2026 13:20:26 +0000</pubDate>
       <description>Let me tell you about one more thing I have. A whole pile of automations and robots run across my machines. Some every hour, some at night, some watch the mail, some watch the sync, and so on. And at some point I realized I no longer remember them all. That is a real risk for the whole process. A…</description>
-    </item>
-    <item>
-      <title>How is your voice-note pipeline set up?</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/how-is-your-voice-note-pipeline-set-up.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/how-is-your-voice-note-pipeline-set-up.md</guid>
-      <pubDate>Mon, 27 Jul 2026 18:02:06 +0000</pubDate>
-      <description>I record a huge number of voice notes. I have written about this before, and about the problem: a voice note turns into text and then it is forgotten. Not all of them, but most. What I want is for any voice note to turn into a task.</description>
     </item>
   </channel>
 </rss>
