@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 05:59:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 06:17:44 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Every Session Starts With Remembering, Not With the Task</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/every-session-starts-with-recall.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/every-session-starts-with-recall.md</guid>
+      <pubDate>Mon, 10 Aug 2026 06:17:36 +0000</pubDate>
+      <description>Rule number one, and the three things we found out after making it rule number one.</description>
+    </item>
     <item>
       <title>No 20x on the Team Plan</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/no-20x-on-the-team-plan.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/dumb-script-runs-my-twins-memory.md</guid>
       <pubDate>Tue, 28 Jul 2026 21:36:24 +0000</pubDate>
       <description>Previously. A non-coder builds himself a second brain inside Claude Code and promises to push it all the way to a digital twin. The brain lives in plain text files. Semantic search sits on top. And one stubborn rule: anything a dumb script can do, a dumb script does — not the language model.</description>
-    </item>
-    <item>
-      <title>A registry of all my routines, so none of them dies in silence</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-registry-of-all-my-routines.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-registry-of-all-my-routines.md</guid>
-      <pubDate>Tue, 28 Jul 2026 13:20:26 +0000</pubDate>
-      <description>Let me tell you about one more thing I have. A whole pile of automations and robots run across my machines. Some every hour, some at night, some watch the mail, some watch the sync, and so on. And at some point I realized I no longer remember them all. That is a real risk for the whole process. A…</description>
     </item>
   </channel>
 </rss>
