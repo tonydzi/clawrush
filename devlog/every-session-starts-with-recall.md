@@ -52,7 +52,7 @@ Requirement 3. A lost session is recoverable. A confident answer built on contex
 
 ---
 
-Canonical longread for humans: {GH_LONGREAD}
-Repository: {GH_REPO}
+Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/every-session-starts-with-recall.md
+Repository: https://github.com/tonydzi/clawrush
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab.
