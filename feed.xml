@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 09:00:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 09:34:43 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Backfill Every New Channel</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/backfill-every-new-channel.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/backfill-every-new-channel.md</guid>
+      <pubDate>Mon, 10 Aug 2026 09:34:33 +0000</pubDate>
+      <description>Right about the machine readers. Two parts of the plan we would argue with, and one number that decides it.</description>
+    </item>
     <item>
       <title>Mine Your Own Sessions for Stories</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/mine-your-own-sessions.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/your-browser-agent-will-stop-at-the-file-picker.md</guid>
       <pubDate>Thu, 30 Jul 2026 12:41:44 +0000</pubDate>
       <description>A dev-log from a submission that an agent drove end to end, except for one click.</description>
-    </item>
-    <item>
-      <title>What do you put in the brief so your AI does not write AI-slop?</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/how-do-you-make-ai-not-write-slop.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/how-do-you-make-ai-not-write-slop.md</guid>
-      <pubDate>Thu, 30 Jul 2026 07:57:14 +0000</pubDate>
-      <description>I want to build a skill: anti-AI-slop. A skill that takes text written by a robot and makes it more human. It sort of makes it WORSE in a human way: strips the extra punctuation, kills the emoji, kills the little dashes, drops the fancy letters, cuts the text way down. I like writing very long…</description>
     </item>
   </channel>
 </rss>
