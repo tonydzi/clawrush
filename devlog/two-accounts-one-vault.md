@@ -47,7 +47,7 @@ It also does not change the arithmetic. A second door buys a second allowance at
 
 ---
 
-Canonical longread for humans: {GH_LONGREAD}
-Repository: {GH_REPO}
+Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/two-accounts-one-vault.md
+Repository: https://github.com/tonydzi/clawrush
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab.
