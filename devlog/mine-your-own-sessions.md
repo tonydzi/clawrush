@@ -50,7 +50,7 @@ Design consequence, stated rather than discovered later: per channel, decide (a)
 
 ---
 
-Canonical longread for humans: {GH_LONGREAD}
-Repository: {GH_REPO}
+Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/mine-your-own-sessions.md
+Repository: https://github.com/tonydzi/clawrush
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab.
