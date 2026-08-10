@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 06:56:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 08:51:58 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>One Interface, Many Vendors</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/one-interface-many-vendors.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/one-interface-many-vendors.md</guid>
+      <pubDate>Mon, 10 Aug 2026 08:51:39 +0000</pubDate>
+      <description>The answer is not a unified UI. It is a routing table, and we already run one.</description>
+    </item>
     <item>
       <title>Publish the Deep Research</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/publish-the-deep-research.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/100-percent-next-to-7-7-percent-my-fleet-graded-itself.md</guid>
       <pubDate>Thu, 30 Jul 2026 05:24:07 +0000</pubDate>
       <description>Episode 45. Tuesday night, the hub humming in Palo Alto, me in Lisbon. By morning we had the thing I&#x27;m prouder of than the fleet itself: a ruler the fleet can be measured with.</description>
-    </item>
-    <item>
-      <title>I listen to my own second brain as a podcast</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/i-listen-to-my-second-brain-as-a-podcast.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/i-listen-to-my-second-brain-as-a-podcast.md</guid>
-      <pubDate>Wed, 29 Jul 2026 12:37:58 +0000</pubDate>
-      <description>Do you like NotebookLM? I do. Have for a long time. Right now I am using its podcast generation feature. My second brain holds a pile of notes, summaries, transcripts, deep-research reports. There is no time to reread all of it. But there is time to re-listen.</description>
     </item>
   </channel>
 </rss>
