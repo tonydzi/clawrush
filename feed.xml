@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 05:38:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 05:51:52 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Two Accounts, One Vault, and Where the Tokens Actually Went</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/two-accounts-one-vault.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/two-accounts-one-vault.md</guid>
+      <pubDate>Mon, 10 Aug 2026 05:51:33 +0000</pubDate>
+      <description>The comments said we had a leak. We went and measured it. They were right, and the leak was not where anyone guessed.</description>
+    </item>
     <item>
       <title>Six Blocks of My CRM</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/six-blocks-of-my-crm.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/how-is-your-voice-note-pipeline-set-up.md</guid>
       <pubDate>Mon, 27 Jul 2026 18:02:06 +0000</pubDate>
       <description>I record a huge number of voice notes. I have written about this before, and about the problem: a voice note turns into text and then it is forgotten. Not all of them, but most. What I want is for any voice note to turn into a task.</description>
-    </item>
-    <item>
-      <title>Putting our work on arXiv, cross-linked with the open code on GitHub</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/publishing-on-arxiv-cross-linked-with-github.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/publishing-on-arxiv-cross-linked-with-github.md</guid>
-      <pubDate>Sun, 26 Jul 2026 15:55:09 +0000</pubDate>
-      <description>Does anyone read papers on arxiv.org? It is focused on scientific work that researchers publish. I have another simple idea. I want to put up there both the things I wrote earlier (I have some very timely publications, ones that partly even called the trends in advance) and the things we are doing…</description>
     </item>
   </channel>
 </rss>
