@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 08:51:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 09:00:23 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mine Your Own Sessions for Stories</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/mine-your-own-sessions.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/mine-your-own-sessions.md</guid>
+      <pubDate>Mon, 10 Aug 2026 09:00:03 +0000</pubDate>
+      <description>Three traps in &quot;turn the last 24 hours of work into posts&quot;, each one measured on us while running exactly this pipeline.</description>
+    </item>
     <item>
       <title>One Interface, Many Vendors</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/one-interface-many-vendors.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/how-do-you-make-ai-not-write-slop.md</guid>
       <pubDate>Thu, 30 Jul 2026 07:57:14 +0000</pubDate>
       <description>I want to build a skill: anti-AI-slop. A skill that takes text written by a robot and makes it more human. It sort of makes it WORSE in a human way: strips the extra punctuation, kills the emoji, kills the little dashes, drops the fancy letters, cuts the text way down. I like writing very long…</description>
-    </item>
-    <item>
-      <title>100% next to 7.7%: my agent fleet graded itself, and the failure became the exhibit</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/100-percent-next-to-7-7-percent-my-fleet-graded-itself.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/100-percent-next-to-7-7-percent-my-fleet-graded-itself.md</guid>
-      <pubDate>Thu, 30 Jul 2026 05:24:07 +0000</pubDate>
-      <description>Episode 45. Tuesday night, the hub humming in Palo Alto, me in Lisbon. By morning we had the thing I&#x27;m prouder of than the fleet itself: a ruler the fleet can be measured with.</description>
     </item>
   </channel>
 </rss>
