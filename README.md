@@ -59,8 +59,8 @@ cofounder, and a fleet of machines that reach consensus with each other and wake
 for money or the irreversible. It was extracted after it survived production, not written as a
 demo — and it runs on its own: nothing here phones home to the rest.
 
-**See how the whole thing fits together → [SYSTEM.md](https://github.com/Palo-Alto-AI-Research-Lab/Palo-Alto-AI-Research-Lab/blob/main/SYSTEM.md)**
+**See how the whole thing fits together → [SYSTEM.md](https://github.com/tonydzi/Palo-Alto-AI-Research-Lab/blob/main/SYSTEM.md)**
 
-Its closest neighbours in the **in public** layer: [`the-journey`](https://github.com/Palo-Alto-AI-Research-Lab/the-journey) · [`dashboards`](https://github.com/Palo-Alto-AI-Research-Lab/dashboards) · [`awesome-verified-agents`](https://github.com/Palo-Alto-AI-Research-Lab/awesome-verified-agents)
+Its closest neighbours in the **in public** layer: [`the-journey`](https://github.com/tonydzi/the-journey) · [`dashboards`](https://github.com/tonydzi/dashboards) · [`awesome-verified-agents`](https://github.com/tonydzi/awesome-verified-agents)
 
 <!--ecosystem-map:end-->
