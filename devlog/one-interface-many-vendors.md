@@ -47,7 +47,7 @@ Named because credit for an idea is owed regardless of adoption; none of these a
 
 ---
 
-Canonical longread for humans: {GH_LONGREAD}
-Repository: {GH_REPO}
+Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/one-interface-many-vendors.md
+Repository: https://github.com/tonydzi/clawrush
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab.
