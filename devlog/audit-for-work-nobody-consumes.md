@@ -53,7 +53,7 @@ Note the anti-Goodhart clause on proof-of-use: "opened" is not consumption. Appl
 
 ---
 
-Canonical longread for humans: {GH_LONGREAD}
-Repository: {GH_REPO}
+Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/audit-for-work-nobody-consumes.md
+Repository: https://github.com/tonydzi/clawrush
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab.
