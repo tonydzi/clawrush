@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 06:05:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 06:37:29 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Should This Have Been a Skill?</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/should-this-be-a-skill.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/should-this-be-a-skill.md</guid>
+      <pubDate>Tue, 11 Aug 2026 06:37:15 +0000</pubDate>
+      <description>We ask that at the end of every session. Here is what the question produced, including the part we cannot answer.</description>
+    </item>
     <item>
       <title>My Sessions Spend Their Time Tidying Up</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/parasitic-work-once-a-day.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-most-ambitious-case-of-a-synthetic-person.md</guid>
       <pubDate>Tue, 04 Aug 2026 12:12:31 +0000</pubDate>
       <description>i have a request</description>
-    </item>
-    <item>
-      <title>I make my AI smarter every day, and I never trust one model blindly</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/i-make-my-ai-smarter-every-day.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/i-make-my-ai-smarter-every-day.md</guid>
-      <pubDate>Tue, 04 Aug 2026 08:34:18 +0000</pubDate>
-      <description>I make my AI smarter every day.</description>
     </item>
   </channel>
 </rss>
