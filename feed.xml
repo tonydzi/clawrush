@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 09:46:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 11:54:40 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Teaching Claude to Like</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/teaching-claude-to-like.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/teaching-claude-to-like.md</guid>
+      <pubDate>Tue, 11 Aug 2026 11:54:21 +0000</pubDate>
+      <description>Presence in a feed is work, and work can be delegated. Where that stops being true is the interesting part.</description>
+    </item>
     <item>
       <title>Five Whys, Run Over a Series of Sessions</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/five-whys-on-a-series.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ants-and-the-experimenter.md</guid>
       <pubDate>Thu, 06 Aug 2026 08:50:57 +0000</pubDate>
       <description>This continues the thought about Homo sapiens and outside influence. Part one is here.</description>
-    </item>
-    <item>
-      <title>The Influence Is Not the Pyramids. I Think It Is Money.</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/hidden-in-plain-sight-money.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/hidden-in-plain-sight-money.md</guid>
-      <pubDate>Thu, 06 Aug 2026 08:21:11 +0000</pubDate>
-      <description>Some thoughts on our development as Homo sapiens.</description>
     </item>
   </channel>
 </rss>
