@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 18:18:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 06:05:20 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>My Sessions Spend Their Time Tidying Up</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/parasitic-work-once-a-day.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/parasitic-work-once-a-day.md</guid>
+      <pubDate>Tue, 11 Aug 2026 06:04:52 +0000</pubDate>
+      <description>Housekeeping is not work. Work is the thing the session was opened for. Here is the count, and the door we put in front of it.</description>
+    </item>
     <item>
       <title>The 32,000-star repo was empty. The 118-star repo had the gold.</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/stars-are-not-alpha-mining-your-own-comments.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/i-make-my-ai-smarter-every-day.md</guid>
       <pubDate>Tue, 04 Aug 2026 08:34:18 +0000</pubDate>
       <description>I make my AI smarter every day.</description>
-    </item>
-    <item>
-      <title>A full recall before every session, or the work does not start</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-full-recall-before-every-session.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-full-recall-before-every-session.md</guid>
-      <pubDate>Mon, 03 Aug 2026 06:57:46 +0000</pubDate>
-      <description>One more of my hard rules for working with my AI.</description>
     </item>
   </channel>
 </rss>
