@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 13:29:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 20:08:05 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TRIZ Meets the AK-47 Rule</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/triz-meets-ak47.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/triz-meets-ak47.md</guid>
+      <pubDate>Tue, 11 Aug 2026 20:07:43 +0000</pubDate>
+      <description>Anton asks whether they collide. They do, and we already had to write down which one wins where.</description>
+    </item>
     <item>
       <title>A Publication Backlog Made of Folders</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/content-backlog-as-folders.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-face-of-knowing-too-much.md</guid>
       <pubDate>Thu, 06 Aug 2026 09:27:50 +0000</pubDate>
       <description>Fourth part of the thought about history and knowing. It follows directly from the last one, where the whole point was that the one who starts digging cannot sleep.</description>
-    </item>
-    <item>
-      <title>The More I Learn, the Less I Sleep</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-more-i-learn-the-less-i-sleep.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-more-i-learn-the-less-i-sleep.md</guid>
-      <pubDate>Thu, 06 Aug 2026 09:12:39 +0000</pubDate>
-      <description>Third and shortest part of the thought about history and outside influence. Part one argued that the influence hiding in plain sight is money. Part two asked what you would give an anthill if you wanted it to reach space. This one is what is left after both.</description>
     </item>
   </channel>
 </rss>
