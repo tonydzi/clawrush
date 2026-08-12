@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 17:55:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 18:31:07 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Where My Sessions Went</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/where-my-sessions-went.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/where-my-sessions-went.md</guid>
+      <pubDate>Wed, 12 Aug 2026 18:30:49 +0000</pubDate>
+      <description>816 transcripts on one machine, 94 of them abandoned mid-build. The registry Anton wants, and why Obsidian stops being the answer at scale.</description>
+    </item>
     <item>
       <title>Credit the Person Who Gave You the Idea</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/credit-the-idea-author.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/one-pipe-for-every-voice-note.md</guid>
       <pubDate>Thu, 06 Aug 2026 18:13:27 +0000</pubDate>
       <description>I dictate in two places: in Telegram, and on the iPhone into local voice memos. So the sources are scattered.</description>
-    </item>
-    <item>
-      <title>A Trigger on Volume</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-trigger-on-volume.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-trigger-on-volume.md</guid>
-      <pubDate>Thu, 06 Aug 2026 12:16:04 +0000</pubDate>
-      <description>Another rule for my agent. It follows the one about recall.</description>
     </item>
   </channel>
 </rss>
