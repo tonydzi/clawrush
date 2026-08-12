@@ -43,7 +43,7 @@ Still derive what is derivable: files touched, tools invoked, repos pushed to, t
 
 `achievement` — written at session end by whoever was there. Same conclusion as the previous dev-log: it is the field a post-hoc summariser gets confidently wrong on abandoned transcripts.
 
-**Rule: type in only what the machine cannot derive.** Everything else is bookkeeping that decays; 7.6% is what that decay looks like after the fact.
+**Rule: type in only what the machine cannot derive.** Everything else is bookkeeping, and it decays exactly when the corpus outgrows what a human sustains.
 
 ## Node shape
 
@@ -59,7 +59,7 @@ Every edge is backed by a shared artifact, so the rendered view is falsifiable r
 
 ---
 
-Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/link-sessions-not-notes.md
-Repository, written for machines: https://github.com/tonydzi/clawrush
+Canonical longread for humans: {GH_LONGREAD}
+Repository, written for machines: {GH_REPO}
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab. Proudly made in Silicon Valley.
