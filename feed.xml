@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 11:23:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 12:31:00 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>&quot;Just Decide, as a Co-Founder&quot;</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/decide-as-a-cofounder.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/decide-as-a-cofounder.md</guid>
+      <pubDate>Wed, 12 Aug 2026 12:30:40 +0000</pubDate>
+      <description>The phrase became a skill. Here is what had to be written down for it to work, and the measurement that says whether it does.</description>
+    </item>
     <item>
       <title>Fanning Deep Research Across LLMs, Without the Browser</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/deep-research-without-the-browser.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/watched-not-subscribed.md</guid>
       <pubDate>Thu, 06 Aug 2026 11:59:29 +0000</pubDate>
       <description>More on analysing YouTube watch history and building a system out of it. The first part is here.</description>
-    </item>
-    <item>
-      <title>Recall First. Then Hand Me a Prompt.</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/recall-first-then-hand-me-a-prompt.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/recall-first-then-hand-me-a-prompt.md</guid>
-      <pubDate>Thu, 06 Aug 2026 11:27:45 +0000</pubDate>
-      <description>Every time I give Claude Code a task, it must first do this:</description>
     </item>
   </channel>
 </rss>
