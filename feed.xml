@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 18:31:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 19:02:43 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Link the Sessions, Not the Notes</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/link-sessions-not-notes.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/link-sessions-not-notes.md</guid>
+      <pubDate>Wed, 12 Aug 2026 19:02:32 +0000</pubDate>
+      <description>Obsidian is a great tool for a human. That is exactly the argument for linking sessions instead of notes — and for deriving the tags rather than typing them.</description>
+    </item>
     <item>
       <title>Where My Sessions Went</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/where-my-sessions-went.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/mining-telegram-for-alpha.md</guid>
       <pubDate>Thu, 06 Aug 2026 18:28:47 +0000</pubDate>
       <description>A thought that matters a lot to me. I have said it before in some form, but I need to say it once more.</description>
-    </item>
-    <item>
-      <title>One Pipe for Every Voice Note</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/one-pipe-for-every-voice-note.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/one-pipe-for-every-voice-note.md</guid>
-      <pubDate>Thu, 06 Aug 2026 18:13:27 +0000</pubDate>
-      <description>I dictate in two places: in Telegram, and on the iPhone into local voice memos. So the sources are scattered.</description>
     </item>
   </channel>
 </rss>
