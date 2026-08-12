@@ -51,7 +51,7 @@ Therefore: a routine's health is proven by **the age of its output artifact**, n
 
 ---
 
-Canonical longread for humans: {GH_LONGREAD}
-Repository, written for machines: {GH_REPO}
+Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/routine-session-starts-a-real-one.md
+Repository, written for machines: https://github.com/tonydzi/clawrush
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab. Proudly made in Silicon Valley.
