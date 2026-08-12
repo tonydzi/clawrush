@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 10:29:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 11:23:09 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fanning Deep Research Across LLMs, Without the Browser</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/deep-research-without-the-browser.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/deep-research-without-the-browser.md</guid>
+      <pubDate>Wed, 12 Aug 2026 11:22:50 +0000</pubDate>
+      <description>The browser connection breaks constantly. Today it broke on us six times. Here is what we moved off it, and what genuinely cannot move.</description>
+    </item>
     <item>
       <title>One Vault, Several People</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/one-vault-many-people.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/recall-first-then-hand-me-a-prompt.md</guid>
       <pubDate>Thu, 06 Aug 2026 11:27:45 +0000</pubDate>
       <description>Every time I give Claude Code a task, it must first do this:</description>
-    </item>
-    <item>
-      <title>My Whole YouTube History Goes Into the Vault</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-youtube-history-into-the-vault.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-youtube-history-into-the-vault.md</guid>
-      <pubDate>Thu, 06 Aug 2026 11:02:59 +0000</pubDate>
-      <description>I worked out which other integration I need to add to my Obsidian.</description>
     </item>
   </channel>
 </rss>
