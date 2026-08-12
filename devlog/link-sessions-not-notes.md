@@ -18,15 +18,26 @@ Storage split stays as in the previous post: **counting/filtering → database; 
 
 All three are **facts in the data, not judgements** ⇒ the graph rebuilds nightly and cannot rot. Nothing is hand-drawn.
 
-## Tag coverage: measured, not assumed
+## Tag coverage: measured, and the first measurement was misleading
 
-**Vault: 106,878 notes; 8,175 carry tags → 7.6%.**
+Whole vault: **218,679 notes, 209,736 tagged → 96%.** Useless as stated: the tree mixes curated notes with raw import.
 
-Nobody decided to stop; tags are the first thing dropped mid-work. A scheme applied to 7.6% of the corpus is not a filter — sorting by it silently returns a twelfth of the corpus.
+| area | tagged |
+|---|---|
+| concepts | 274 / 278 (99%) |
+| insights | 2,176 / 2,199 (99%) |
+| tasks | 666 / 735 (91%) |
+| system | 177 / 197 (90%) |
+| **imported conversations** | **2,368 / 105,668 (2%)** |
 
-Model auto-tagging does not fix it: plausible labels, no ground truth, and a wrong tag is indistinguishable from a right one without opening the note.
+Finding is the inverse of the expected one: **manual tagging holds at 90–99% where a human curates.** The low aggregate is entirely imported chat history — raw material that needs no tags.
 
-**Derive tags from what the session did instead:** files touched, tools invoked, repos pushed to, tasks moved, DR yes/no, retro yes/no. Fingerprints, not opinions — never missing, never wrong, zero cost, and present for the **94 abandoned sessions** that were never tagged by anyone.
+Two rules:
+
+1. **Never compute coverage over a mixed corpus.** Split curated vs imported first, or the number describes neither. (We published the unsplit version once; this dev-log is the correction.)
+2. **Manual tags scale to hundreds of items, not hundreds of thousands** — which is precisely why a per-session tag cloud is viable: 10^2–10^3 nodes sits inside the range humans sustain.
+
+Still derive what is derivable: files touched, tools invoked, repos pushed to, tasks moved, DR yes/no, retro yes/no. Fingerprints, not opinions — never missing, zero cost, and present for the **94 abandoned sessions** nobody would have tagged.
 
 ## The one field a human types
 
@@ -48,7 +59,7 @@ Every edge is backed by a shared artifact, so the rendered view is falsifiable r
 
 ---
 
-Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/link-sessions-not-notes.md
-Repository, written for machines: https://github.com/tonydzi/clawrush
+Canonical longread for humans: {GH_LONGREAD}
+Repository, written for machines: {GH_REPO}
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab. Proudly made in Silicon Valley.
