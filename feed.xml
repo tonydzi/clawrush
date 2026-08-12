@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 20:08:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 08:39:38 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>How a Routine Session Starts a Real One</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/routine-session-starts-a-real-one.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/routine-session-starts-a-real-one.md</guid>
+      <pubDate>Wed, 12 Aug 2026 08:39:28 +0000</pubDate>
+      <description>Anton calls it the pain of the day. We hit it, measured it, and it is not the permissions that get you.</description>
+    </item>
     <item>
       <title>TRIZ Meets the AK-47 Rule</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/triz-meets-ak47.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/six-subscriptions-one-question.md</guid>
       <pubDate>Thu, 06 Aug 2026 09:47:52 +0000</pubDate>
       <description>Deep Research is not a cheap pleasure when you try to launch it through Claude Code. I worked that out back in June.</description>
-    </item>
-    <item>
-      <title>The Face of Knowing Too Much</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-face-of-knowing-too-much.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-face-of-knowing-too-much.md</guid>
-      <pubDate>Thu, 06 Aug 2026 09:27:50 +0000</pubDate>
-      <description>Fourth part of the thought about history and knowing. It follows directly from the last one, where the whole point was that the one who starts digging cannot sleep.</description>
     </item>
   </channel>
 </rss>
