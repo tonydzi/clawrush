@@ -57,7 +57,7 @@ Caveat: plain files a non-engineer can open and repair in a text editor have rea
 
 ---
 
-Canonical longread for humans: {GH_LONGREAD}
-Repository, written for machines: {GH_REPO}
+Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/one-vault-many-people.md
+Repository, written for machines: https://github.com/tonydzi/clawrush
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab. Proudly made in Silicon Valley.
