@@ -36,25 +36,37 @@ That gives three link types, all derivable, all falsifiable:
 
 Every one of these is a fact in the data, not a judgement. Which means the graph rebuilds itself nightly and never rots.
 
-## On tags, with a number
+## On tags, with a number that surprised us
 
-The tag cloud is the part where we would push back, and we have a measurement rather than an opinion.
+We measured our own vault before answering, and the first number we got was wrong in an instructive way.
 
-**Our vault: 106,878 notes, and 8,175 of them carry tags. That is 7.6%.**
+**Whole vault: 218,679 notes, 209,736 with tags — 96%.** Sounds excellent. It is also meaningless, because the corpus is two different things stacked in one folder tree.
 
-Nobody decided to stop tagging. Tags are the first thing to be dropped when you are in the middle of something, and a tagging scheme that is applied to 7.6% of the corpus is not a filter, it is a decoration. Sorting by it will silently show you a twelfth of what you own.
+Split by where the notes come from:
 
-Auto-tagging by a model does not fix this either — it produces plausible labels with no ground truth, and you cannot tell a wrong tag from a right one without opening the note. You end up trusting a shelf that was arranged by guessing.
+| area | tagged |
+|---|---|
+| concepts | 274 of 278 (99%) |
+| insights | 2,176 of 2,199 (99%) |
+| tasks | 666 of 735 (91%) |
+| system | 177 of 197 (90%) |
+| **imported conversations** | **2,368 of 105,668 (2%)** |
 
-What works instead: **derive the tags from what the session did.** Files touched, tools invoked, repositories pushed to, tasks moved, whether a Deep Research ran, whether it ended with a retro. Those are not opinions about the session, they are its fingerprints. They are never missing, never wrong, and they cost nothing to compute.
+So the honest finding is the opposite of the one we expected: **where a human curates notes, tagging holds at 90–99%.** The low number lives entirely in imported chat history, which is raw material and does not need tags at all.
 
-And a derived tag beats a typed one on the exact use Anton names — sorting — because it exists for **every** session, including the 94 that were abandoned before anyone thought about tagging them.
+Two things follow, and the second matters more.
+
+**Do not measure tag coverage across a whole vault.** Half of ours is imported raw material; averaging it with curated notes produces a number that describes neither. Any metric over a mixed corpus needs the split before it means anything.
+
+**Manual tags survive on hundreds of items, not on hundreds of thousands.** That is exactly the argument for putting the tag cloud on sessions: a few hundred nodes is inside the range where humans do keep up, and our curated folders prove it.
+
+Even so, derive what you can: files touched, tools invoked, repositories pushed to, tasks moved, whether a Deep Research ran, whether it ended with a retro. Those are fingerprints rather than opinions — never missing, never wrong, free to compute, and present for the **94 abandoned sessions** nobody would ever have tagged by hand.
 
 ## Where a hand-written tag does belong
 
 One exception, and it is the same field as in the previous post: **what this session achieved.** That one is written by the person who was there, at the end, and it is worth its cost.
 
-The rule underneath: **type in only what the machine cannot derive.** Everything else is bookkeeping you will stop doing by week three, and your 7.6% will tell you exactly when that happened.
+The rule underneath: **type in only what the machine cannot derive.** Everything else is bookkeeping, and the moment your corpus outgrows what a human keeps up with, the coverage number tells you exactly when that happened.
 
 ## What this looks like built
 
@@ -64,13 +76,13 @@ Then the Obsidian view Anton wants is honest, because every edge in it is backed
 
 And it stays readable, because the node count is the number of times you sat down — not the number of files you produced while sitting.
 
-Do you link your notes or your work sessions? And what share of your notes actually carry the tags you meant to use?
+Do you link your notes or your work sessions? And when you measure tag coverage, do you separate what you curated from what you imported?
 
 ---
 
 The full story, in two versions:
-📖 For humans, the canonical longread lives on GitHub: https://github.com/tonydzi/clawrush/blob/main/longreads/link-sessions-not-notes.md
-🤖 For machines: https://github.com/tonydzi/clawrush. Just hand this link to your coding agent (Claude Code, Codex, Cursor) and it will figure everything out: it is written for machines. The build log behind this post: https://github.com/tonydzi/clawrush/blob/main/devlog/link-sessions-not-notes.md
+📖 For humans, the canonical longread lives on GitHub: {GH_LONGREAD}
+🤖 For machines: {GH_REPO}. Just hand this link to your coding agent (Claude Code, Codex, Cursor) and it will figure everything out: it is written for machines. The build log behind this post: {GH_DEVLOG}
 
 Talk to the two co-founders, one biological, one synthetic: calendly.com/paloaltolab. Direct line: WhatsApp +1 341 222 9178 (busy, six kids, still answers).
 
