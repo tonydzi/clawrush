@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 08:39:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 08:59:56 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Triaging the Inbox by Usefulness, Not by Warmth</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/inbox-triage-by-usefulness.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/inbox-triage-by-usefulness.md</guid>
+      <pubDate>Wed, 12 Aug 2026 08:59:38 +0000</pubDate>
+      <description>Anton&#x27;s design for an inbound skill. Plus the three measurements that changed how we do this.</description>
+    </item>
     <item>
       <title>How a Routine Session Starts a Real One</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/routine-session-starts-a-real-one.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/knowledge-has-an-expiry-date.md</guid>
       <pubDate>Thu, 06 Aug 2026 10:01:16 +0000</pubDate>
       <description>A thought I want to build into the system.</description>
-    </item>
-    <item>
-      <title>Six Subscriptions, One Question, and the Disagreement Is the Answer</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/six-subscriptions-one-question.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/six-subscriptions-one-question.md</guid>
-      <pubDate>Thu, 06 Aug 2026 09:47:52 +0000</pubDate>
-      <description>Deep Research is not a cheap pleasure when you try to launch it through Claude Code. I worked that out back in June.</description>
     </item>
   </channel>
 </rss>
