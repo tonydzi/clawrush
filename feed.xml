@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 09:22:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 09:39:17 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AK-47 Builds, TRIZ Repairs — and the Door Between Them</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ak47-builds-triz-repairs.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ak47-builds-triz-repairs.md</guid>
+      <pubDate>Thu, 13 Aug 2026 09:39:00 +0000</pubDate>
+      <description>A split between building and fixing is right, and incomplete. The measurement: 19 breakage classes, 17 of them never came back.</description>
+    </item>
     <item>
       <title>Which Development Metrics Are Free, and Which Will Quietly Die</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/daily-stats-as-a-pulse.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-live-show-pipeline.md</guid>
       <pubDate>Fri, 07 Aug 2026 10:35:45 +0000</pubDate>
       <description>Americans know how to do show business. Out of any thing where something is happening, they make a show: series, documentaries, music, the heat of it.</description>
-    </item>
-    <item>
-      <title>Finding What Actually Happens Around You</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/finding-what-happens-around-you.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/finding-what-happens-around-you.md</guid>
-      <pubDate>Fri, 07 Aug 2026 07:19:59 +0000</pubDate>
-      <description>Two tasks I gave my AI about not missing the interesting things around me.</description>
     </item>
   </channel>
 </rss>
