@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 06:59:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 09:22:44 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Which Development Metrics Are Free, and Which Will Quietly Die</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/daily-stats-as-a-pulse.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/daily-stats-as-a-pulse.md</guid>
+      <pubDate>Thu, 13 Aug 2026 09:22:26 +0000</pubDate>
+      <description>We took a wishlist of fifteen indicators and priced each one against a live system. Eight are free, four have no counter at all, and the one everybody wants most is the only broken one.</description>
+    </item>
     <item>
       <title>More Repair Than Forward Motion</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/am-i-going-the-right-way.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/finding-what-happens-around-you.md</guid>
       <pubDate>Fri, 07 Aug 2026 07:19:59 +0000</pubDate>
       <description>Two tasks I gave my AI about not missing the interesting things around me.</description>
-    </item>
-    <item>
-      <title>The Bot That Remembers So People Do Not Have To</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-bot-that-remembers.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-bot-that-remembers.md</guid>
-      <pubDate>Fri, 07 Aug 2026 07:11:04 +0000</pubDate>
-      <description>One of my bots is connected to the chat with my assistants. And the first thing it needs is to understand how the work is actually structured and how it can be maximally, proactively useful to me.</description>
     </item>
   </channel>
 </rss>
