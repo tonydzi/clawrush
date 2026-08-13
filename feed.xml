@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 05:07:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 05:17:32 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Two Days to Burn a Subscription</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/session-map-and-burning-limits.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/session-map-and-burning-limits.md</guid>
+      <pubDate>Thu, 13 Aug 2026 05:17:17 +0000</pubDate>
+      <description>The session map matters. But the sentence buried in the middle of this post is the expensive one, and we have the audit that explains it.</description>
+    </item>
     <item>
       <title>A Recipe Beats a Prohibition</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/superpowers-measured-their-rules.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/humans-versus-tokens.md</guid>
       <pubDate>Fri, 07 Aug 2026 06:22:05 +0000</pubDate>
       <description>About people. And replaceability.</description>
-    </item>
-    <item>
-      <title>Wake on Event, Not on Schedule</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/wake-on-event-not-on-schedule.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/wake-on-event-not-on-schedule.md</guid>
-      <pubDate>Fri, 07 Aug 2026 05:49:03 +0000</pubDate>
-      <description>Robots are usually launched on a schedule: once an hour it goes in, checks, leaves. Or maybe that is not usual, but those are the cases I keep running into.</description>
     </item>
   </channel>
 </rss>
