@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 05:17:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 06:08:55 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Restarting Telegram Outreach</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/telegram-outreach-restarted.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/telegram-outreach-restarted.md</guid>
+      <pubDate>Thu, 13 Aug 2026 06:08:37 +0000</pubDate>
+      <description>One message a day per account is the right instinct. Here is the part the rate limit does not protect you from, with the case that converted in 30 hours.</description>
+    </item>
     <item>
       <title>Two Days to Burn a Subscription</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/session-map-and-burning-limits.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/who-wakes-your-agent.md</guid>
       <pubDate>Fri, 07 Aug 2026 06:59:21 +0000</pubDate>
       <description>I think I need to redeploy Invoiceman on the desktop, so that my desktop is all in one place for it.</description>
-    </item>
-    <item>
-      <title>Wild Thoughts in My Head</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/humans-versus-tokens.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/humans-versus-tokens.md</guid>
-      <pubDate>Fri, 07 Aug 2026 06:22:05 +0000</pubDate>
-      <description>About people. And replaceability.</description>
     </item>
   </channel>
 </rss>
