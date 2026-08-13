@@ -50,7 +50,7 @@ Same fix shape: **make the cheap action mandatory at the decision point** — tw
 
 ---
 
-Canonical longread for humans: {GH_LONGREAD}
-Repository, written for machines: {GH_REPO}
+Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/session-map-and-burning-limits.md
+Repository, written for machines: https://github.com/tonydzi/clawrush
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab. Proudly made in Silicon Valley.
