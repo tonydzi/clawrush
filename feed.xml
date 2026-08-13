@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 09:39:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 10:15:27 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Alpha Equals Deep Research</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/alpha-equals-deep-research.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/alpha-equals-deep-research.md</guid>
+      <pubDate>Thu, 13 Aug 2026 10:15:07 +0000</pubDate>
+      <description>The plan is five posts a day from five researches. We ran the counters: research is not the bottleneck, and the queue proves it.</description>
+    </item>
     <item>
       <title>AK-47 Builds, TRIZ Repairs — and the Door Between Them</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ak47-builds-triz-repairs.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/letting-someone-elses-agent-in.md</guid>
       <pubDate>Fri, 07 Aug 2026 11:28:36 +0000</pubDate>
       <description>There is this thing called MCP. Through it one AI befriends another, and they talk to each other directly.</description>
-    </item>
-    <item>
-      <title>The Live Show Pipeline</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-live-show-pipeline.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-live-show-pipeline.md</guid>
-      <pubDate>Fri, 07 Aug 2026 10:35:45 +0000</pubDate>
-      <description>Americans know how to do show business. Out of any thing where something is happening, they make a show: series, documentaries, music, the heat of it.</description>
     </item>
   </channel>
 </rss>
