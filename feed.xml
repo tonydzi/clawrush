@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 10:15:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 10:21:03 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cover Everything With Tests, on Subscriptions That Are Idle Anyway</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/tests-on-idle-subscriptions.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/tests-on-idle-subscriptions.md</guid>
+      <pubDate>Thu, 13 Aug 2026 10:20:45 +0000</pubDate>
+      <description>We ran the coverage map before starting. 1,260 parts, 194 tested, 1,106 documented. The gap between those two numbers is the whole story.</description>
+    </item>
     <item>
       <title>Alpha Equals Deep Research</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/alpha-equals-deep-research.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/make-your-ai-admit-it-failed.md</guid>
       <pubDate>Fri, 07 Aug 2026 11:39:13 +0000</pubDate>
       <description>I dictate tasks to my AI and realise I am repeating myself. Again I am saying that if it stumbles on something, for example it searches for files on drive C when everything is on drive E and C only holds scripts and skills, we need some way to debug that.</description>
-    </item>
-    <item>
-      <title>Letting Someone Else&#x27;s Agent Into Your Database</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/letting-someone-elses-agent-in.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/letting-someone-elses-agent-in.md</guid>
-      <pubDate>Fri, 07 Aug 2026 11:28:36 +0000</pubDate>
-      <description>There is this thing called MCP. Through it one AI befriends another, and they talk to each other directly.</description>
     </item>
   </channel>
 </rss>
