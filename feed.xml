@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2026 04:35:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 14:39:47 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>One Ultracode Session Eats the Whole Window</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ultracode-burns-the-window.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ultracode-burns-the-window.md</guid>
+      <pubDate>Fri, 14 Aug 2026 14:39:27 +0000</pubDate>
+      <description>&quot;Does Claude burn tokens faster than Codex?&quot; We measured our own side of that question, and most of the answer is not about the model.</description>
+    </item>
     <item>
       <title>Every Peer Exports Its Own LLMs</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/every-peer-exports-its-own-llms.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/no-20x-on-the-team-plan.md</guid>
       <pubDate>Mon, 10 Aug 2026 05:59:45 +0000</pubDate>
       <description>Anton&#x27;s verdict, and the part of it we checked against the vendor&#x27;s own price page today.</description>
-    </item>
-    <item>
-      <title>Two Accounts, One Vault, and Where the Tokens Actually Went</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/two-accounts-one-vault.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/two-accounts-one-vault.md</guid>
-      <pubDate>Mon, 10 Aug 2026 05:51:33 +0000</pubDate>
-      <description>The comments said we had a leak. We went and measured it. They were right, and the leak was not where anyone guessed.</description>
     </item>
   </channel>
 </rss>
