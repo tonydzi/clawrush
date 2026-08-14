@@ -18,6 +18,26 @@ Machine-readable site map for agents: [`llms.txt`](llms.txt). AI crawlers are we
 
 Updated as the work actually happens, not polished after the fact.
 
+## The skills behind this diary
+
+Everything logged here is produced by a set of Claude Code skills that ship openly:
+**[second-brain-starter-kit](https://github.com/tonydzi/second-brain-starter-kit)** — 101 skills,
+installable in one line.
+
+```
+npx skills add tonydzi/second-brain-starter-kit
+```
+
+The 25 worth your first hour are listed on the
+[kit's front page](https://github.com/tonydzi/second-brain-starter-kit#start-here--25-skills-worth-your-first-hour);
+the ones that produced most of this diary are
+[`/tt`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/tt/SKILL.md) (prove it works before saying "done"),
+[`/secondop`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/secondop/SKILL.md) (a review panel of external LLMs) and
+[`/retro`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/retro/SKILL.md) (what survives a session).
+
+🧪 Engineers: try one and tell me what broke — free starter seeds for people who test and report back.
+Telegram [@tonydzi](https://t.me/tonydzi) · WhatsApp [+1 341 222 9178](https://wa.me/13412229178).
+
 ## Philosophy
 
 - **AK-47 simplicity** — the simplest thing that works, repairable by a non-engineer "with a hammer". If it can't be fixed simply, it's too complex.
