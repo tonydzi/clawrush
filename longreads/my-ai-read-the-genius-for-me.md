@@ -32,7 +32,7 @@ We've already made several token-spend optimizations based on this, and it's jus
 
 The real shift isn't about tokens. The nature of access to expertise changed.
 
-The old chain looked like this: an expert writes в†’ an expert reads в†’ an expert implements. There was no room in it for a regular person. Now it's: an expert writes в†’ my AI reads в†’ it runs at my place. Claude became a translator from expert to human, and it doesn't translate words, it translates straight into action.
+The old chain looked like this: an expert writes → an expert reads → an expert implements. There was no room in it for a regular person. Now it's: an expert writes → my AI reads → it runs at my place. Claude became a translator from expert to human, and it doesn't translate words, it translates straight into action.
 
 For authors like Arthur this is great news, by the way: their audience is no longer limited to people capable of understanding them. Their articles are now read by AIs too, and through AIs, by people like me. Write deep; the machines will parse it, the humans will ship it.
 

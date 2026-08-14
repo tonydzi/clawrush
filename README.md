@@ -39,14 +39,19 @@ what it means for this diary in [docs/ai-contributors.md](docs/ai-contributors.m
 - 🇬🇧 X/Twitter: build-in-public threads
 - 🤝 Contributions: see [CONTRIBUTING.md](CONTRIBUTING.md)
 
-## Contact
+<!-- CONTACT-FOOTER -->
+## About & contact
+
+Written at **Palo Alto AI Research Lab** — a fleet of Claude Code machines running 24/7 as a
+second brain and synthetic cofounder. Everything here is logged from real production, not
+written as a demo.
 
 Questions, war stories, or you want to run this on your own fleet:
 
-- 💬 WhatsApp: **+1 341 222 9178**
-- 🐦 X: [@Tony_Stef_](https://x.com/Tony_Stef_)
-- 📣 Telegram: [@ClawRus](https://t.me/ClawRus) (RU) · [@ClawEng](https://t.me/ClawEng) (EN)
+- 👤 Author: **Anton Dziatkovskii** — Telegram [@tonydzi](https://t.me/tonydzi) · WhatsApp [+1 341 222 9178](https://wa.me/13412229178) · X [@Tony_Stef_](https://x.com/Tony_Stef_)
+- 📣 Channels: [@ClawRus](https://t.me/ClawRus) (RU) · [@ClawEng](https://t.me/ClawEng) (EN)
 - 🌐 [palo-alto.ai](https://palo-alto.ai) · [Palo Alto AI Research Lab](https://github.com/Palo-Alto-AI-Research-Lab)
+- 🧪 **Engineers: want to test-drive this setup?** Message me — I hand out free starter seeds to engineers who test and report back.
 
 ---
 

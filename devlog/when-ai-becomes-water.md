@@ -13,7 +13,7 @@ Dry build log for episode 9 of the content factory. Human-readable narrative ver
 - Historical anchor: ancient cities prioritized aqueducts before other construction because water bundled drinking, food, livestock, sanitation and waste removal; urban viability depended on it.
 - Transition mechanics: while carried in buckets, water was a store of value; once piped, it became invisible infrastructure. The analogous curve is claimed for machine intelligence: stage trick (≈3 years ago) → prompt-skill advantage (≈1 year ago) → tap (now).
 - Value-migration corollary: when a resource commoditizes, margin moves to (a) infrastructure builders (aqueducts; for AI: pipes, routing, deployment, integration) and (b) downstream transformers (brewers/smiths; for AI: products and outcomes built on cheap intelligence). Selling the raw resource loses.
-- Open language question from the memo, inherited by all tiers as the audience prompt: no single precise Russian/Ukrainian word for "commodity" ("товар" misses, "сырьё" is close but implies extraction).
+- Open language question from the memo, inherited by all tiers as the audience prompt: no single precise Russian/Ukrainian word for "commodity" ("tovar", goods, misses; "syrio", raw material, is close but implies extraction).
 
 ## Positioning note
 
