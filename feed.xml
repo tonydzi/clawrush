@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 11:20:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 04:35:56 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Every Peer Exports Its Own LLMs</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/every-peer-exports-its-own-llms.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/every-peer-exports-its-own-llms.md</guid>
+      <pubDate>Fri, 14 Aug 2026 04:35:30 +0000</pubDate>
+      <description>Because accounts are per-person, the export has to be per-machine. We counted what actually arrived, and the gaps are the interesting part.</description>
+    </item>
     <item>
       <title>&quot;Did You Book the Call?&quot; — the Automation, and the Five Ways It Lied</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/did-you-book-the-call.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/two-accounts-one-vault.md</guid>
       <pubDate>Mon, 10 Aug 2026 05:51:33 +0000</pubDate>
       <description>The comments said we had a leak. We went and measured it. They were right, and the leak was not where anyone guessed.</description>
-    </item>
-    <item>
-      <title>Six Blocks of My CRM</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/six-blocks-of-my-crm.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/six-blocks-of-my-crm.md</guid>
-      <pubDate>Mon, 10 Aug 2026 05:37:51 +0000</pubDate>
-      <description>A working outreach system, described by the person who runs it, plus the blocks we found missing.</description>
     </item>
   </channel>
 </rss>
