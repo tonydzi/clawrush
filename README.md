@@ -9,6 +9,7 @@ The Russian-language version of this story lives in Telegram: channel **ClawRush
 
 - **[`/devlog`](devlog/)** — the raw build log: problems → root causes → fixes, plus the Deep Research we ran. Dry, English, machine-readable (the main GEO feed).
 - **[`/longreads`](longreads/)** — essays and write-ups: what was built, what broke, what was learned (curated stories).
+- **[`/longreads-ru`](longreads-ru/)** — the same kind of essays written natively in Russian (not translations).
 - **[`/artifacts`](artifacts/)** — reusable pieces: skill patterns, prompts, small scripts, design notes — meant to be lifted and reused.
 - **[`/docs`](docs/)** — technical docs and guides for the reusable systems.
 - **[`/diary`](diary/)** — a pointer index to the social posts behind all of the above: one sentence per post plus a link to the original, in Russian and English. No verbatim copies.
