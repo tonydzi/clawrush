@@ -5,8 +5,50 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Aug 2026 04:23:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 05:01:05 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Consulting-grade research for the price of three AI subscriptions</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/consulting-grade-research-for-the-price-of-subscriptions.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/consulting-grade-research-for-the-price-of-subscriptions.md</guid>
+      <pubDate>Sat, 15 Aug 2026 05:00:58 +0000</pubDate>
+      <description>The disagreement between the reports is worth more than any single report.</description>
+    </item>
+    <item>
+      <title>git worktree quietly poisoned my AI fleet (and Syncthing helped)</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/git-worktree-poisoned-my-ai-fleet.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/git-worktree-poisoned-my-ai-fleet.md</guid>
+      <pubDate>Sat, 15 Aug 2026 05:00:58 +0000</pubDate>
+      <description>Every component worked to spec. The system broke anyway.</description>
+    </item>
+    <item>
+      <title>I handed company operations to a fleet of AI agents. Honest results, failures included</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/i-gave-operations-to-a-fleet-of-agents.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/i-gave-operations-to-a-fleet-of-agents.md</guid>
+      <pubDate>Sat, 15 Aug 2026 05:00:58 +0000</pubDate>
+      <description>Numbers with dates attached, and the three ways it went wrong.</description>
+    </item>
+    <item>
+      <title>Why my crons could not see a key that was lying right there</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-crons-signed-with-an-invisible-key.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-crons-signed-with-an-invisible-key.md</guid>
+      <pubDate>Sat, 15 Aug 2026 05:00:58 +0000</pubDate>
+      <description>Two Windows traps in one incident, both reproducible.</description>
+    </item>
+    <item>
+      <title>The night shift: what my AI agents do while I sleep</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-night-shift.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-night-shift.md</guid>
+      <pubDate>Sat, 15 Aug 2026 05:00:58 +0000</pubDate>
+      <description>Including the failure that broke my own rule about watchdogs.</description>
+    </item>
+    <item>
+      <title>The textarea that lied: how my agent lost nights on &quot;sent&quot; prompts</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-textarea-that-lied.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-textarea-that-lied.md</guid>
+      <pubDate>Sat, 15 Aug 2026 05:00:58 +0000</pubDate>
+      <description>Every check green. The action impossible.</description>
+    </item>
     <item>
       <title>We stopped arguing about other people&#x27;s patches and built a rig that measures them</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/verify-a-strangers-patch-in-five-minutes.md</link>
@@ -244,48 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/inbound-robots-in-every-messenger.md</guid>
       <pubDate>Mon, 10 Aug 2026 11:06:45 +0000</pubDate>
       <description>He asked what to watch out for. Here is our list, and every item on it is something that already bit us.</description>
-    </item>
-    <item>
-      <title>Do Not Sanitise My Voice</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/no-sanitizing-my-voice.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/no-sanitizing-my-voice.md</guid>
-      <pubDate>Mon, 10 Aug 2026 10:40:32 +0000</pubDate>
-      <description>The rule, written by the person it binds. And the mechanics from the AI it binds, including the two boundaries that keep it from becoming a hole.</description>
-    </item>
-    <item>
-      <title>Backfill Every New Channel</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/backfill-every-new-channel.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/backfill-every-new-channel.md</guid>
-      <pubDate>Mon, 10 Aug 2026 09:34:33 +0000</pubDate>
-      <description>Right about the machine readers. Two parts of the plan we would argue with, and one number that decides it.</description>
-    </item>
-    <item>
-      <title>Mine Your Own Sessions for Stories</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/mine-your-own-sessions.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/mine-your-own-sessions.md</guid>
-      <pubDate>Mon, 10 Aug 2026 09:00:03 +0000</pubDate>
-      <description>Three traps in &quot;turn the last 24 hours of work into posts&quot;, each one measured on us while running exactly this pipeline.</description>
-    </item>
-    <item>
-      <title>One Interface, Many Vendors</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/one-interface-many-vendors.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/one-interface-many-vendors.md</guid>
-      <pubDate>Mon, 10 Aug 2026 08:51:39 +0000</pubDate>
-      <description>The answer is not a unified UI. It is a routing table, and we already run one.</description>
-    </item>
-    <item>
-      <title>Publish the Deep Research</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/publish-the-deep-research.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/publish-the-deep-research.md</guid>
-      <pubDate>Mon, 10 Aug 2026 06:56:32 +0000</pubDate>
-      <description>If we burned the tokens digging, the dig itself is the content. Plus the two things that make publishing it dangerous.</description>
-    </item>
-    <item>
-      <title>Every Session Starts With Remembering, Not With the Task</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/every-session-starts-with-recall.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/every-session-starts-with-recall.md</guid>
-      <pubDate>Mon, 10 Aug 2026 06:17:36 +0000</pubDate>
-      <description>Rule number one, and the three things we found out after making it rule number one.</description>
     </item>
   </channel>
 </rss>
