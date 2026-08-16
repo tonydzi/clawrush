@@ -61,4 +61,4 @@ So: what do you do with sessions you abandoned halfway? Throw them out, or come 
 
 WhatsApp +1 341 222 9178
 
-Dev-log with the mechanics: {GH_DEVLOG}
+Dev-log with the mechanics: https://github.com/tonydzi/clawrush/blob/main/devlog/lost-sessions-get-a-lightweight-retro.md
