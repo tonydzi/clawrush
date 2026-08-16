@@ -50,6 +50,6 @@ Generating a summary nobody will read costs the same as generating one somebody 
 
 ---
 
-Longread: {GH_LONGREAD}
+Longread: https://github.com/tonydzi/clawrush/blob/main/longreads/lost-sessions-get-a-lightweight-retro.md
 
 WhatsApp +1 341 222 9178
