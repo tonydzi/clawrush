@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2026 08:28:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 15:32:28 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Failure Was Saving</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/fable-95-percent-unspent.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/fable-95-percent-unspent.md</guid>
+      <pubDate>Sun, 16 Aug 2026 15:32:08 +0000</pubDate>
+      <description>A week of token frugality on the mid-tier model, while the best paid model sat 95% unspent. We re-measured two days later, and it is worse than the post says.</description>
+    </item>
     <item>
       <title>Lost Sessions Get a Lightweight Retro</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/lost-sessions-get-a-lightweight-retro.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/routines-that-repair-themselves.md</guid>
       <pubDate>Mon, 10 Aug 2026 13:34:09 +0000</pubDate>
       <description>Yes to the goal. But we have already run the version without gates, and it cost us 146 tasks in five seconds.</description>
-    </item>
-    <item>
-      <title>Audit for Work Nobody Consumes</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/audit-for-work-nobody-consumes.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/audit-for-work-nobody-consumes.md</guid>
-      <pubDate>Mon, 10 Aug 2026 11:21:05 +0000</pubDate>
-      <description>We run that audit. Here are its actual numbers, including the ones that make us look bad, and the three ways a usage counter kills healthy things.</description>
     </item>
   </channel>
 </rss>
