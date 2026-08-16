@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Aug 2026 05:01:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 08:28:30 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Lost Sessions Get a Lightweight Retro</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/lost-sessions-get-a-lightweight-retro.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/lost-sessions-get-a-lightweight-retro.md</guid>
+      <pubDate>Sun, 16 Aug 2026 08:28:09 +0000</pubDate>
+      <description>Work that leaves no trace did not happen. The interesting part is not the retro, it is which machine runs it.</description>
+    </item>
     <item>
       <title>Consulting-grade research for the price of three AI subscriptions</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/consulting-grade-research-for-the-price-of-subscriptions.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/audit-for-work-nobody-consumes.md</guid>
       <pubDate>Mon, 10 Aug 2026 11:21:05 +0000</pubDate>
       <description>We run that audit. Here are its actual numbers, including the ones that make us look bad, and the three ways a usage counter kills healthy things.</description>
-    </item>
-    <item>
-      <title>Inbound Robots in Every Messenger</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/inbound-robots-in-every-messenger.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/inbound-robots-in-every-messenger.md</guid>
-      <pubDate>Mon, 10 Aug 2026 11:06:45 +0000</pubDate>
-      <description>He asked what to watch out for. Here is our list, and every item on it is something that already bit us.</description>
     </item>
   </channel>
 </rss>
