@@ -35,7 +35,7 @@ Switching to high-spend mode near reset is the same error inverted: the bucket g
 
 ---
 
-Canonical longread for humans: {GH_LONGREAD}
-Repository, written for machines: {GH_REPO}
+Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/fable-95-percent-unspent.md
+Repository, written for machines: https://github.com/tonydzi/clawrush
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab. Proudly made in Silicon Valley.
