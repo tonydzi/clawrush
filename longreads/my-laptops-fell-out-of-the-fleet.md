@@ -52,4 +52,4 @@ Telegram [@tonydzi](https://t.me/tonydzi) · WhatsApp +1 341 222 9178 · X [@Ton
 
 *Engineer who wants to test this: write to me, I will hand you a seed for free.*
 
-Dev-log for this one: {GH_DEVLOG}
+Dev-log for this one: https://github.com/tonydzi/clawrush/blob/main/devlog/my-laptops-fell-out-of-the-fleet.md
