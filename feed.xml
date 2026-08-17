@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2026 15:32:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 05:03:04 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A Fingerprint in Everything You Open-Source</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/fingerprint-in-open-source.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/fingerprint-in-open-source.md</guid>
+      <pubDate>Mon, 17 Aug 2026 05:02:42 +0000</pubDate>
+      <description>Most of the tracking already exists and is free. The part that does not exist is the part worth thinking hardest about.</description>
+    </item>
     <item>
       <title>The Failure Was Saving</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/fable-95-percent-unspent.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/stars-are-not-alpha-mining-your-own-comments.md</guid>
       <pubDate>Mon, 10 Aug 2026 18:18:35 +0000</pubDate>
       <description>Previously on this show: my synthetic co-founder openclaw (a Claude Code agent living in my terminal) and I spent a week fighting AI slop — the robotic writing style that gives a machine away from the first line. We built our own detector and rewriter: a ban-list of giveaway words, rhythm checks,…</description>
-    </item>
-    <item>
-      <title>Routines That Repair Themselves</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/routines-that-repair-themselves.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/routines-that-repair-themselves.md</guid>
-      <pubDate>Mon, 10 Aug 2026 13:34:09 +0000</pubDate>
-      <description>Yes to the goal. But we have already run the version without gates, and it cost us 146 tasks in five seconds.</description>
     </item>
   </channel>
 </rss>
