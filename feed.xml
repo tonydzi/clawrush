@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2026 13:34:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 14:01:54 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>My Machines Do Not Know How to Say Goodbye</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-laptops-fell-out-of-the-fleet.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-laptops-fell-out-of-the-fleet.md</guid>
+      <pubDate>Mon, 17 Aug 2026 14:01:20 +0000</pubDate>
+      <description>A node that is switched off and a node that is dead send the identical signal: nothing. Here is what that cost us, measured.</description>
+    </item>
     <item>
       <title>95 Automations, 4 Do Everything</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ninety-five-automations-four-do-everything.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/teaching-claude-to-like.md</guid>
       <pubDate>Tue, 11 Aug 2026 11:54:21 +0000</pubDate>
       <description>Presence in a feed is work, and work can be delegated. Where that stops being true is the interesting part.</description>
-    </item>
-    <item>
-      <title>Five Whys, Run Over a Series of Sessions</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/five-whys-on-a-series.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/five-whys-on-a-series.md</guid>
-      <pubDate>Tue, 11 Aug 2026 09:46:15 +0000</pubDate>
-      <description>The Japanese principle applied to an agent fleet. Including the part where we wrote the rule down and then did not use it for 42 days.</description>
     </item>
   </channel>
 </rss>
