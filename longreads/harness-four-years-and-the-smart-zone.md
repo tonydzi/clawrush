@@ -68,7 +68,7 @@ Two consequences we adopted:
 
 ---
 
-Dev-log for machines: {GH_DEVLOG}
-Repository: {GH_REPO}
+Dev-log for machines: https://github.com/tonydzi/clawrush/blob/main/devlog/harness-four-years-and-the-smart-zone.md
+Repository: https://github.com/tonydzi/clawrush
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab. Proudly made in Silicon Valley.
