@@ -49,7 +49,7 @@ Every new part declares its token cost at birth, in its passport, next to its ow
 
 ---
 
-Canonical longread for humans: {GH_LONGREAD}
-Repository: {GH_REPO}
+Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/harness-four-years-and-the-smart-zone.md
+Repository: https://github.com/tonydzi/clawrush
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab. Proudly made in Silicon Valley.
