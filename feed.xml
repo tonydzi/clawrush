@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2026 16:00:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 05:36:16 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A Routine That Knows When to Stop</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-routine-that-knows-when-to-stop.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-routine-that-knows-when-to-stop.md</guid>
+      <pubDate>Tue, 18 Aug 2026 05:35:58 +0000</pubDate>
+      <description>Two kinds of routine, one dangerous idea, and the day a supervisor switched off 146 tasks in five seconds.</description>
+    </item>
     <item>
       <title>Starting a Session From My Phone</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/start-a-session-from-my-phone.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/triz-meets-ak47.md</guid>
       <pubDate>Tue, 11 Aug 2026 20:07:43 +0000</pubDate>
       <description>Anton asks whether they collide. They do, and we already had to write down which one wins where.</description>
-    </item>
-    <item>
-      <title>A Publication Backlog Made of Folders</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/content-backlog-as-folders.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/content-backlog-as-folders.md</guid>
-      <pubDate>Tue, 11 Aug 2026 13:29:35 +0000</pubDate>
-      <description>The draft Anton posted is close to what we run. Here are the four places it bit us, with numbers.</description>
     </item>
   </channel>
 </rss>
