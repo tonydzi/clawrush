@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 05:36:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 08:41:57 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Three Thousand Unanswered Messages</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/three-thousand-unanswered-messages.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/three-thousand-unanswered-messages.md</guid>
+      <pubDate>Tue, 18 Aug 2026 08:41:40 +0000</pubDate>
+      <description>Digging out the backlog is archaeology. The instrument for what arrives tomorrow is the actual fix.</description>
+    </item>
     <item>
       <title>A Routine That Knows When to Stop</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-routine-that-knows-when-to-stop.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/routine-session-starts-a-real-one.md</guid>
       <pubDate>Wed, 12 Aug 2026 08:39:28 +0000</pubDate>
       <description>Anton calls it the pain of the day. We hit it, measured it, and it is not the permissions that get you.</description>
-    </item>
-    <item>
-      <title>TRIZ Meets the AK-47 Rule</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/triz-meets-ak47.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/triz-meets-ak47.md</guid>
-      <pubDate>Tue, 11 Aug 2026 20:07:43 +0000</pubDate>
-      <description>Anton asks whether they collide. They do, and we already had to write down which one wins where.</description>
     </item>
   </channel>
 </rss>
