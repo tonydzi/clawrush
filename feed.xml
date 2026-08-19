@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 05:12:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 06:22:06 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Fallback That Quietly Lowers Quality</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/when-the-fallback-lowers-quality.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/when-the-fallback-lowers-quality.md</guid>
+      <pubDate>Wed, 19 Aug 2026 06:21:46 +0000</pubDate>
+      <description>An outage announces itself. A downgrade does not — and the detective trick in this post is the fix.</description>
+    </item>
     <item>
       <title>The Remote Is Granted at Birth</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-remote-control-is-granted-at-birth.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/decide-as-a-cofounder.md</guid>
       <pubDate>Wed, 12 Aug 2026 12:30:40 +0000</pubDate>
       <description>The phrase became a skill. Here is what had to be written down for it to work, and the measurement that says whether it does.</description>
-    </item>
-    <item>
-      <title>Fanning Deep Research Across LLMs, Without the Browser</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/deep-research-without-the-browser.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/deep-research-without-the-browser.md</guid>
-      <pubDate>Wed, 12 Aug 2026 11:22:50 +0000</pubDate>
-      <description>The browser connection breaks constantly. Today it broke on us six times. Here is what we moved off it, and what genuinely cannot move.</description>
     </item>
   </channel>
 </rss>
