@@ -47,7 +47,7 @@ Illustrates the same class: the artifact outlived its producer and nothing repor
 
 ---
 
-Canonical longread for humans: {GH_LONGREAD}
-Repository, written for machines: {GH_REPO}
+Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/where-the-cofounder-personality-lives.md
+Repository, written for machines: https://github.com/tonydzi/clawrush
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab. Proudly made in Silicon Valley.
