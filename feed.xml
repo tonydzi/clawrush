@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 08:32:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 10:06:15 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Human Is the Bottleneck</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-human-is-the-bottleneck.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-human-is-the-bottleneck.md</guid>
+      <pubDate>Wed, 19 Aug 2026 10:05:56 +0000</pubDate>
+      <description>True, and the useful part starts after you accept it: the bottleneck does not disappear, it moves — and we can show exactly where ours went.</description>
+    </item>
     <item>
       <title>Cheaper Software Means More of It</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/cheaper-software-means-more-of-it.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/link-sessions-not-notes.md</guid>
       <pubDate>Wed, 12 Aug 2026 19:02:32 +0000</pubDate>
       <description>Obsidian is a great tool for a human. That is exactly the argument for linking sessions instead of notes — and for deriving the tags rather than typing them.</description>
-    </item>
-    <item>
-      <title>Where My Sessions Went</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/where-my-sessions-went.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/where-my-sessions-went.md</guid>
-      <pubDate>Wed, 12 Aug 2026 18:30:49 +0000</pubDate>
-      <description>816 transcripts on one machine, 94 of them abandoned mid-build. The registry Anton wants, and why Obsidian stops being the answer at scale.</description>
     </item>
   </channel>
 </rss>
