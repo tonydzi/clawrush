@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 12:23:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 13:23:35 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Where the Co-founder&#x27;s Personality Should Live</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/where-the-cofounder-personality-lives.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/where-the-cofounder-personality-lives.md</guid>
+      <pubDate>Wed, 19 Aug 2026 13:23:20 +0000</pubDate>
+      <description>One file is elegant. Ours is split in four, for reasons that cost us a measurable amount of context every session.</description>
+    </item>
     <item>
       <title>Why the Mail Routine Works and the Messenger One Does Not</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/why-mail-works-and-messengers-do-not.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/telegram-outreach-restarted.md</guid>
       <pubDate>Thu, 13 Aug 2026 06:08:37 +0000</pubDate>
       <description>One message a day per account is the right instinct. Here is the part the rate limit does not protect you from, with the case that converted in 30 hours.</description>
-    </item>
-    <item>
-      <title>Two Days to Burn a Subscription</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/session-map-and-burning-limits.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/session-map-and-burning-limits.md</guid>
-      <pubDate>Thu, 13 Aug 2026 05:17:17 +0000</pubDate>
-      <description>The session map matters. But the sentence buried in the middle of this post is the expensive one, and we have the audit that explains it.</description>
     </item>
   </channel>
 </rss>
