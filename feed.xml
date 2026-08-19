@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 10:22:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 12:21:07 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A skill with your data inside it is the agent&#x27;s memory — and it beats RAG on one specific point</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/skill-with-data-is-agent-memory.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/skill-with-data-is-agent-memory.md</guid>
+      <pubDate>Wed, 19 Aug 2026 12:20:54 +0000</pubDate>
+      <description>Retrieval decides what matters before the model starts thinking. A skill lets the model decide for itself. That difference is the whole argument.</description>
+    </item>
     <item>
       <title>Voice In, Text Out</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/voice-in-text-out.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/superpowers-measured-their-rules.md</guid>
       <pubDate>Thu, 13 Aug 2026 05:07:04 +0000</pubDate>
       <description>A reader pointed us at superpowers. Here is what we changed the same week, and the measurement that made the third idea land.</description>
-    </item>
-    <item>
-      <title>n8n or a Session: Where the Line Actually Falls</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/n8n-or-a-session.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/n8n-or-a-session.md</guid>
-      <pubDate>Thu, 13 Aug 2026 04:46:49 +0000</pubDate>
-      <description>We already run 89 workflows and audited 10,004 executions. The split is clear, and so is the failure mode nobody warns you about.</description>
     </item>
   </channel>
 </rss>
