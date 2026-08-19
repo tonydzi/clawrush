@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 10:06:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 10:22:15 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Voice In, Text Out</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/voice-in-text-out.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/voice-in-text-out.md</guid>
+      <pubDate>Wed, 19 Aug 2026 10:22:03 +0000</pubDate>
+      <description>The asymmetry in this hypothesis is the right one. We have run it for months, and the cost sits in a place nobody budgets for.</description>
+    </item>
     <item>
       <title>The Human Is the Bottleneck</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-human-is-the-bottleneck.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/n8n-or-a-session.md</guid>
       <pubDate>Thu, 13 Aug 2026 04:46:49 +0000</pubDate>
       <description>We already run 89 workflows and audited 10,004 executions. The split is clear, and so is the failure mode nobody warns you about.</description>
-    </item>
-    <item>
-      <title>Link the Sessions, Not the Notes</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/link-sessions-not-notes.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/link-sessions-not-notes.md</guid>
-      <pubDate>Wed, 12 Aug 2026 19:02:32 +0000</pubDate>
-      <description>Obsidian is a great tool for a human. That is exactly the argument for linking sessions instead of notes — and for deriving the tags rather than typing them.</description>
     </item>
   </channel>
 </rss>
