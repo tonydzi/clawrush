@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 06:22:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 07:14:17 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>If I Cannot See the Session, There Is No Point Running the Routine</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/if-i-cannot-see-the-session.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/if-i-cannot-see-the-session.md</guid>
+      <pubDate>Wed, 19 Aug 2026 07:14:05 +0000</pubDate>
+      <description>552 alerts and approval requests did not reach a human for 16 days. Nothing was broken. That is the problem.</description>
+    </item>
     <item>
       <title>The Fallback That Quietly Lowers Quality</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/when-the-fallback-lowers-quality.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/credit-the-idea-author.md</guid>
       <pubDate>Wed, 12 Aug 2026 17:54:53 +0000</pubDate>
       <description>We built the ledger for this. Twelve entries in, here is what it changed and the one place the pipeline is broken.</description>
-    </item>
-    <item>
-      <title>&quot;Just Decide, as a Co-Founder&quot;</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/decide-as-a-cofounder.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/decide-as-a-cofounder.md</guid>
-      <pubDate>Wed, 12 Aug 2026 12:30:40 +0000</pubDate>
-      <description>The phrase became a skill. Here is what had to be written down for it to work, and the measurement that says whether it does.</description>
     </item>
   </channel>
 </rss>
