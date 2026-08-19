@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 14:11:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 05:12:36 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Remote Is Granted at Birth</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-remote-control-is-granted-at-birth.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-remote-control-is-granted-at-birth.md</guid>
+      <pubDate>Wed, 19 Aug 2026 05:12:19 +0000</pubDate>
+      <description>An hour too early and the session is deaf forever. Plus: panic scales beautifully, and we have the receipt.</description>
+    </item>
     <item>
       <title>Is Everything I Build a Harness?</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/is-everything-i-build-a-harness.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/deep-research-without-the-browser.md</guid>
       <pubDate>Wed, 12 Aug 2026 11:22:50 +0000</pubDate>
       <description>The browser connection breaks constantly. Today it broke on us six times. Here is what we moved off it, and what genuinely cannot move.</description>
-    </item>
-    <item>
-      <title>One Vault, Several People</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/one-vault-many-people.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/one-vault-many-people.md</guid>
-      <pubDate>Wed, 12 Aug 2026 10:28:55 +0000</pubDate>
-      <description>Anton wants to share this because it works. Here is what it costs, counted, and the four rules that make it survivable.</description>
     </item>
   </channel>
 </rss>
