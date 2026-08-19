@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 15:03:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 16:51:40 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Write Content on the Smartest Model</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/content-on-the-smartest-model.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/content-on-the-smartest-model.md</guid>
+      <pubDate>Wed, 19 Aug 2026 16:51:23 +0000</pubDate>
+      <description>The rule is right. It is also unenforceable as written, and we can show exactly why.</description>
+    </item>
     <item>
       <title>To Make the Rule True, Take the Tool Away</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/take-the-tool-away.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ak47-builds-triz-repairs.md</guid>
       <pubDate>Thu, 13 Aug 2026 09:39:00 +0000</pubDate>
       <description>A split between building and fixing is right, and incomplete. The measurement: 19 breakage classes, 17 of them never came back.</description>
-    </item>
-    <item>
-      <title>Which Development Metrics Are Free, and Which Will Quietly Die</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/daily-stats-as-a-pulse.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/daily-stats-as-a-pulse.md</guid>
-      <pubDate>Thu, 13 Aug 2026 09:22:26 +0000</pubDate>
-      <description>We took a wishlist of fifteen indicators and priced each one against a live system. Eight are free, four have no counter at all, and the one everybody wants most is the only broken one.</description>
     </item>
   </channel>
 </rss>
