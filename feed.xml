@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 07:14:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 08:32:16 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cheaper Software Means More of It</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/cheaper-software-means-more-of-it.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/cheaper-software-means-more-of-it.md</guid>
+      <pubDate>Wed, 19 Aug 2026 08:32:04 +0000</pubDate>
+      <description>The paradox has a name and a two-hundred-year-old track record. We also ran it on ourselves, and the numbers are not flattering.</description>
+    </item>
     <item>
       <title>If I Cannot See the Session, There Is No Point Running the Routine</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/if-i-cannot-see-the-session.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/where-my-sessions-went.md</guid>
       <pubDate>Wed, 12 Aug 2026 18:30:49 +0000</pubDate>
       <description>816 transcripts on one machine, 94 of them abandoned mid-build. The registry Anton wants, and why Obsidian stops being the answer at scale.</description>
-    </item>
-    <item>
-      <title>Credit the Person Who Gave You the Idea</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/credit-the-idea-author.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/credit-the-idea-author.md</guid>
-      <pubDate>Wed, 12 Aug 2026 17:54:53 +0000</pubDate>
-      <description>We built the ledger for this. Twelve entries in, here is what it changed and the one place the pipeline is broken.</description>
     </item>
   </channel>
 </rss>
