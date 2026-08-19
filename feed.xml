@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 14:52:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 15:03:43 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>To Make the Rule True, Take the Tool Away</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/take-the-tool-away.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/take-the-tool-away.md</guid>
+      <pubDate>Wed, 19 Aug 2026 15:03:30 +0000</pubDate>
+      <description>&quot;I need to check whether this logic already works&quot; is the honest line in the post. Here is how you check it, and the check pays for itself.</description>
+    </item>
     <item>
       <title>Agents in Other People&#x27;s Group Chats</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/agents-in-other-peoples-groups.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/daily-stats-as-a-pulse.md</guid>
       <pubDate>Thu, 13 Aug 2026 09:22:26 +0000</pubDate>
       <description>We took a wishlist of fifteen indicators and priced each one against a live system. Eight are free, four have no counter at all, and the one everybody wants most is the only broken one.</description>
-    </item>
-    <item>
-      <title>More Repair Than Forward Motion</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/am-i-going-the-right-way.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/am-i-going-the-right-way.md</guid>
-      <pubDate>Thu, 13 Aug 2026 06:59:18 +0000</pubDate>
-      <description>That is not a feeling. We measured it, found the root, and it was not a discipline problem.</description>
     </item>
   </channel>
 </rss>
