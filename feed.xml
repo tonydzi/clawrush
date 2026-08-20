@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 11:42:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 13:34:41 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Session Drift Creates Lost Branches</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/session-drift-lost-branches.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/session-drift-lost-branches.md</guid>
+      <pubDate>Thu, 20 Aug 2026 13:34:26 +0000</pubDate>
+      <description>A conversation starts with a pizza shop and ends with a spacecraft. The new task may be valuable, but if its branch is invisible, the work is already half-lost.</description>
+    </item>
     <item>
       <title>One Model Writes. Three Models Try to Break It.</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/multi-llm-council-as-qa.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/tests-on-idle-subscriptions.md</guid>
       <pubDate>Thu, 13 Aug 2026 10:20:45 +0000</pubDate>
       <description>We ran the coverage map before starting. 1,260 parts, 194 tested, 1,106 documented. The gap between those two numbers is the whole story.</description>
-    </item>
-    <item>
-      <title>Alpha Equals Deep Research</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/alpha-equals-deep-research.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/alpha-equals-deep-research.md</guid>
-      <pubDate>Thu, 13 Aug 2026 10:15:07 +0000</pubDate>
-      <description>The plan is five posts a day from five researches. We ran the counters: research is not the bottleneck, and the queue proves it.</description>
     </item>
   </channel>
 </rss>
