@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 14:43:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 14:59:44 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Can a Community Swarm Match an AI Data Center?</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/community-swarm-vs-ai-datacenter.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/community-swarm-vs-ai-datacenter.md</guid>
+      <pubDate>Thu, 20 Aug 2026 14:59:30 +0000</pubDate>
+      <description>A million devices sound larger than one laboratory. For some research workloads, they are. For frontier-model training, the network between them matters as much as the chips.</description>
+    </item>
     <item>
       <title>What If I Am the NPC?</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/what-if-i-am-the-npc.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/did-you-book-the-call.md</guid>
       <pubDate>Thu, 13 Aug 2026 11:20:03 +0000</pubDate>
       <description>The skill exists. The interesting part is not the happy path, it is every place it quietly returned a wrong answer.</description>
-    </item>
-    <item>
-      <title>Backlog Versus Roadmap: One Field Separates Them</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/backlog-versus-roadmap.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/backlog-versus-roadmap.md</guid>
-      <pubDate>Thu, 13 Aug 2026 10:28:55 +0000</pubDate>
-      <description>454 open tasks, 46 roadmap items. The difference is not size or importance — it is whether a date and an owner are attached.</description>
     </item>
   </channel>
 </rss>
