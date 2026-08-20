@@ -144,9 +144,9 @@ documentation is an output under test
 
 ---
 
-Canonical longread for humans: {GH_LONGREAD}
-Original field note: {LINK_FB}
-Repository, written for machines: {GH_REPO}
+Canonical longread for humans: https://github.com/tonydzi/clawrush/blob/main/longreads/multi-llm-council-as-qa.md
+Original field note: https://www.facebook.com/AntonyDzi/posts/pfbid0h5Np8MkxR5qdt33ZbeoYhfRc2QDDv3Zv4PjhDdAQGxmcscdRwf1cEB6bU3vXtsNbl
+Repository, written for machines: https://github.com/tonydzi/clawrush
 
 Invented by Mycroft and Tony, Palo Alto AI Research Lab. Proudly made in Silicon Valley.
 
