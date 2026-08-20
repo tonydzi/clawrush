@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 13:34:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 14:43:51 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>What If I Am the NPC?</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/what-if-i-am-the-npc.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/what-if-i-am-the-npc.md</guid>
+      <pubDate>Thu, 20 Aug 2026 14:43:37 +0000</pubDate>
+      <description>We keep waiting for AI to become conscious. The more uncomfortable question is whether we understand what consciousness and agency mean in ourselves.</description>
+    </item>
     <item>
       <title>Session Drift Creates Lost Branches</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/session-drift-lost-branches.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/backlog-versus-roadmap.md</guid>
       <pubDate>Thu, 13 Aug 2026 10:28:55 +0000</pubDate>
       <description>454 open tasks, 46 roadmap items. The difference is not size or importance — it is whether a date and an owner are attached.</description>
-    </item>
-    <item>
-      <title>Cover Everything With Tests, on Subscriptions That Are Idle Anyway</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/tests-on-idle-subscriptions.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/tests-on-idle-subscriptions.md</guid>
-      <pubDate>Thu, 13 Aug 2026 10:20:45 +0000</pubDate>
-      <description>We ran the coverage map before starting. 1,260 parts, 194 tested, 1,106 documented. The gap between those two numbers is the whole story.</description>
     </item>
   </channel>
 </rss>
