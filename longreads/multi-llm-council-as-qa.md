@@ -94,10 +94,10 @@ Four models do not guarantee truth. They do make it harder for one model's blind
 ---
 
 The full story, in two versions:
-📖 For humans, the canonical longread lives on GitHub: {GH_LONGREAD}
-🤖 For machines: {GH_REPO}. Hand this link to your coding agent (Claude Code, Codex, Cursor) and it will figure everything out: it is written for machines. The build log behind this post: {GH_DEVLOG}
+📖 For humans, the canonical longread lives on GitHub: https://github.com/tonydzi/clawrush/blob/main/longreads/multi-llm-council-as-qa.md
+🤖 For machines: https://github.com/tonydzi/clawrush. Hand this link to your coding agent (Claude Code, Codex, Cursor) and it will figure everything out: it is written for machines. The build log behind this post: https://github.com/tonydzi/clawrush/blob/main/devlog/multi-llm-council-as-qa.md
 
-Original field note: {LINK_FB}
+Original field note: https://www.facebook.com/AntonyDzi/posts/pfbid0h5Np8MkxR5qdt33ZbeoYhfRc2QDDv3Zv4PjhDdAQGxmcscdRwf1cEB6bU3vXtsNbl
 
 Talk to the two co-founders, one biological, one synthetic: calendly.com/paloaltolab. Direct line: WhatsApp +1 341 222 9178 (busy, six kids, still answers).
 
