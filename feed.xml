@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 12:51:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 12:52:14 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>August 22, 2026</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260822.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260822.md</guid>
+      <pubDate>Fri, 21 Aug 2026 12:51:42 +0000</pubDate>
+      <description>&lt;!-- STUB: longread not written yet --&gt;</description>
+    </item>
     <item>
       <title>August 21, 2026</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260821.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-crons-signed-with-an-invisible-key.md</guid>
       <pubDate>Sat, 15 Aug 2026 05:00:58 +0000</pubDate>
       <description>Two Windows traps in one incident, both reproducible.</description>
-    </item>
-    <item>
-      <title>The night shift: what my AI agents do while I sleep</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-night-shift.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-night-shift.md</guid>
-      <pubDate>Sat, 15 Aug 2026 05:00:58 +0000</pubDate>
-      <description>Including the failure that broke my own rule about watchdogs.</description>
     </item>
   </channel>
 </rss>
