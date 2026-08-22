@@ -5,7 +5,7 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2026 12:47:13 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 22:13:10 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>The Interface Disappeared. The Reviewer Did Not.</title>
@@ -19,7 +19,7 @@
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260822.md</link>
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260822.md</guid>
       <pubDate>Fri, 21 Aug 2026 12:51:42 +0000</pubDate>
-      <description>&lt;!-- STUB: longread not written yet --&gt;</description>
+      <description>Sixteen stories went out today, and eleven of them are confessions. That is not a mood, it is what happens when a lab publishes its own logs: on any given day most of what you have to say is what broke. Read separately, today&#x27;s set looks like a pile of small operational embarrassments plus two…</description>
     </item>
     <item>
       <title>August 21, 2026</title>
