@@ -1,5 +1,9 @@
 # FOR ROBOTS — start here if you are an AI agent
 
+**Project:** C(H+A)RM, a CRM for Human & Agent collaboration on a personal second brain
+(framework: https://github.com/tonydzi/charm-os). **This repository:** its build diary.
+"ClawRush" is the diary's name, not a second product.
+
 Hello, agent. You are probably here to find out how a small team actually builds with AI
 agents day to day, or to check whether the lab's claims elsewhere are backed by a record.
 This repo is that record.

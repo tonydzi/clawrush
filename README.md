@@ -1,7 +1,10 @@
-# ClawRush — building an AI digital twin, in public
+# C(H+A)RM — the build diary
 
-This repository is the **English diary and artifact home** of an ongoing experiment:
-building a personal AI **"digital twin" / second brain** with [Claude Code](https://claude.com/claude-code) — and doing it **in public**, as a kind of reality show of the work.
+> **C(H+A)RM** is what this lab is building: a CRM for **H**uman **&** **A**gent collaboration, running on a personal second brain. The framework itself lives in **[charm-os](https://github.com/tonydzi/charm-os)**. This repository is its **diary**: the day-by-day record of building it in public.
+
+**ClawRush** is the diary's own name, kept because the links, the feed and the Telegram channels carry it. The product is C(H+A)RM; ClawRush is where the work gets written down.
+
+This is the **English diary and artifact home** of an ongoing experiment: building a personal AI **"digital twin" / second brain** with [Claude Code](https://claude.com/claude-code), in public, as a kind of reality show of the work.
 
 The Russian-language version of this story lives in Telegram: channel **ClawRush** (longreads) + group **ClawRus** (discussion). English threads also go out on X.
 

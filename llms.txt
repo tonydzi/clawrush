@@ -1,5 +1,5 @@
-# Palo Alto AI Research Lab — ClawRush
-> Independent research lab building an AI digital twin with Claude Code, in public. Longreads, a raw dev-log, and reusable artifacts.
+# Palo Alto AI Research Lab — C(H+A)RM build diary (ClawRush)
+> C(H+A)RM is a CRM for Human & Agent collaboration on a personal second brain; the framework lives at github.com/tonydzi/charm-os. This repository is its build diary, published in public: longreads, a raw dev-log, and reusable artifacts. "ClawRush" is the diary's own name.
 
 <!-- Site map for coding agents (Cursor / Claude Code / Copilot). Full URLs only.
      Links point at GitHub paths; they move to a Pages domain when one goes live. -->
