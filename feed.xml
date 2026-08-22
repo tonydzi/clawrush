@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 12:52:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 12:47:13 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Interface Disappeared. The Reviewer Did Not.</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-interface-disappeared.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-interface-disappeared.md</guid>
+      <pubDate>Sat, 22 Aug 2026 12:46:55 +0000</pubDate>
+      <description>The saving is real and we can show where it lands. So is the bill that replaces it — and ours is measured.</description>
+    </item>
     <item>
       <title>August 22, 2026</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260822.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/i-gave-operations-to-a-fleet-of-agents.md</guid>
       <pubDate>Sat, 15 Aug 2026 05:00:58 +0000</pubDate>
       <description>Numbers with dates attached, and the three ways it went wrong.</description>
-    </item>
-    <item>
-      <title>Why my crons could not see a key that was lying right there</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-crons-signed-with-an-invisible-key.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-crons-signed-with-an-invisible-key.md</guid>
-      <pubDate>Sat, 15 Aug 2026 05:00:58 +0000</pubDate>
-      <description>Two Windows traps in one incident, both reproducible.</description>
     </item>
   </channel>
 </rss>
