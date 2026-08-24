@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 06:43:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 15:21:34 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A skill is born by a counter and dies by a calendar — and nobody uses the ones you did not write</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/who-cleans-a-thousand-skills.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/who-cleans-a-thousand-skills.md</guid>
+      <pubDate>Mon, 24 Aug 2026 15:21:21 +0000</pubDate>
+      <description>Two arithmetic rules run the whole library. The interesting part is what they reveal about where a skill&#x27;s value actually sits.</description>
+    </item>
     <item>
       <title>August 24, 2026</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260824.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/consulting-grade-research-for-the-price-of-subscriptions.md</guid>
       <pubDate>Sat, 15 Aug 2026 05:00:58 +0000</pubDate>
       <description>The disagreement between the reports is worth more than any single report.</description>
-    </item>
-    <item>
-      <title>git worktree quietly poisoned my AI fleet (and Syncthing helped)</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/git-worktree-poisoned-my-ai-fleet.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/git-worktree-poisoned-my-ai-fleet.md</guid>
-      <pubDate>Sat, 15 Aug 2026 05:00:58 +0000</pubDate>
-      <description>Every component worked to spec. The system broke anyway.</description>
     </item>
   </channel>
 </rss>
