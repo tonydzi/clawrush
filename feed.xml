@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 15:21:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 12:12:10 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>25 August 2026: Thirty Sessions, Half of Them Dead</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260825.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260825.md</guid>
+      <pubDate>Tue, 25 Aug 2026 12:11:55 +0000</pubDate>
+      <description>One post today, and it is about the cost of opening things. Measured on our own hub, not theorised.</description>
+    </item>
     <item>
       <title>A skill is born by a counter and dies by a calendar — and nobody uses the ones you did not write</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/who-cleans-a-thousand-skills.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/lost-sessions-get-a-lightweight-retro.md</guid>
       <pubDate>Sun, 16 Aug 2026 08:28:09 +0000</pubDate>
       <description>Work that leaves no trace did not happen. The interesting part is not the retro, it is which machine runs it.</description>
-    </item>
-    <item>
-      <title>Consulting-grade research for the price of three AI subscriptions</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/consulting-grade-research-for-the-price-of-subscriptions.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/consulting-grade-research-for-the-price-of-subscriptions.md</guid>
-      <pubDate>Sat, 15 Aug 2026 05:00:58 +0000</pubDate>
-      <description>The disagreement between the reports is worth more than any single report.</description>
     </item>
   </channel>
 </rss>
