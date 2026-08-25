@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 12:48:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 13:14:53 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The RALPH loop: restart the agent instead of compressing its history — and put a leash on it</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ralph-loop-and-backpressure.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ralph-loop-and-backpressure.md</guid>
+      <pubDate>Tue, 25 Aug 2026 13:14:38 +0000</pubDate>
+      <description>An infinite outer loop is not about stamina. It is about never leaving the part of the context window where the model is sharp.</description>
+    </item>
     <item>
       <title>August 23, 2026</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260823.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/fingerprint-in-open-source.md</guid>
       <pubDate>Mon, 17 Aug 2026 05:02:42 +0000</pubDate>
       <description>Most of the tracking already exists and is free. The part that does not exist is the part worth thinking hardest about.</description>
-    </item>
-    <item>
-      <title>The Failure Was Saving</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/fable-95-percent-unspent.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/fable-95-percent-unspent.md</guid>
-      <pubDate>Sun, 16 Aug 2026 15:32:08 +0000</pubDate>
-      <description>A week of token frugality on the mid-tier model, while the best paid model sat 95% unspent. We re-measured two days later, and it is worse than the post says.</description>
     </item>
   </channel>
 </rss>
