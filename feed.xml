@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 12:12:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 12:48:51 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>August 23, 2026</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260823.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260823.md</guid>
+      <pubDate>Tue, 25 Aug 2026 12:48:34 +0000</pubDate>
+      <description>&lt;!-- STUB: longread not written yet --&gt;</description>
+    </item>
     <item>
       <title>25 August 2026: Thirty Sessions, Half of Them Dead</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260825.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/fable-95-percent-unspent.md</guid>
       <pubDate>Sun, 16 Aug 2026 15:32:08 +0000</pubDate>
       <description>A week of token frugality on the mid-tier model, while the best paid model sat 95% unspent. We re-measured two days later, and it is worse than the post says.</description>
-    </item>
-    <item>
-      <title>Lost Sessions Get a Lightweight Retro</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/lost-sessions-get-a-lightweight-retro.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/lost-sessions-get-a-lightweight-retro.md</guid>
-      <pubDate>Sun, 16 Aug 2026 08:28:09 +0000</pubDate>
-      <description>Work that leaves no trace did not happen. The interesting part is not the retro, it is which machine runs it.</description>
     </item>
   </channel>
 </rss>
