@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 03:54:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 06:35:48 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>26 August 2026</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260826.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260826.md</guid>
+      <pubDate>Wed, 26 Aug 2026 06:35:35 +0000</pubDate>
+      <description>Today&#x27;s summary is being written. It lands at the end of the day, in one piece: every post of the day, how they connect, and what we actually learned.</description>
+    </item>
     <item>
       <title>The RALPH loop: restart the agent instead of compressing its history — and put a leash on it</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ralph-loop-and-backpressure.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/top-problems-across-sessions.md</guid>
       <pubDate>Mon, 17 Aug 2026 05:33:19 +0000</pubDate>
       <description>We ran it. There are not ten. Two classes account for more than half of everything that broke.</description>
-    </item>
-    <item>
-      <title>A Fingerprint in Everything You Open-Source</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/fingerprint-in-open-source.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/fingerprint-in-open-source.md</guid>
-      <pubDate>Mon, 17 Aug 2026 05:02:42 +0000</pubDate>
-      <description>Most of the tracking already exists and is free. The part that does not exist is the part worth thinking hardest about.</description>
     </item>
   </channel>
 </rss>
