@@ -5,7 +5,7 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 13:14:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 03:54:50 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>The RALPH loop: restart the agent instead of compressing its history — and put a leash on it</title>
@@ -15,11 +15,11 @@
       <description>An infinite outer loop is not about stamina. It is about never leaving the part of the context window where the model is sharp.</description>
     </item>
     <item>
-      <title>August 23, 2026</title>
+      <title>23 August 2026: The Day Every Instrument Reported Success</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260823.md</link>
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260823.md</guid>
       <pubDate>Tue, 25 Aug 2026 12:48:34 +0000</pubDate>
-      <description>&lt;!-- STUB: longread not written yet --&gt;</description>
+      <description>Thirteen posts went out today. Eleven of them are the same story told from a different machine: a tool that reported success while doing nothing. Collected here because the pattern only becomes visible when you put them side by side.</description>
     </item>
     <item>
       <title>25 August 2026: Thirty Sessions, Half of Them Dead</title>
@@ -36,11 +36,11 @@
       <description>Two arithmetic rules run the whole library. The interesting part is what they reveal about where a skill&#x27;s value actually sits.</description>
     </item>
     <item>
-      <title>August 24, 2026</title>
+      <title>24 August 2026: Someone Else&#x27;s Skill Is a Well-Made Empty Box</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260824.md</link>
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260824.md</guid>
       <pubDate>Mon, 24 Aug 2026 06:42:49 +0000</pubDate>
-      <description>&lt;!-- STUB: longread not written yet --&gt;</description>
+      <description>Nine posts and twelve research summaries went out today. The engineering ones converge on one question: what is actually transferable between people, and what only works because of the data you accumulated yourself.</description>
     </item>
     <item>
       <title>The Interface Disappeared. The Reviewer Did Not.</title>
