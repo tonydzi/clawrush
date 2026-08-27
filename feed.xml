@@ -5,8 +5,15 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 06:35:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 15:11:23 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>27 August 2026</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260827.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260827.md</guid>
+      <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
+      <description>Summary of the day is written in the evening. Come back tonight.</description>
+    </item>
     <item>
       <title>26 August 2026</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260826.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/knock-only-on-doors-that-open.md</guid>
       <pubDate>Mon, 17 Aug 2026 07:35:30 +0000</pubDate>
       <description>We measured 30 skill catalogues. Thirteen did not exist. The ones that do have a merge rate you can check in one request.</description>
-    </item>
-    <item>
-      <title>Looking for the Top 10 Problems Across 300 Sessions</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/top-problems-across-sessions.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/top-problems-across-sessions.md</guid>
-      <pubDate>Mon, 17 Aug 2026 05:33:19 +0000</pubDate>
-      <description>We ran it. There are not ten. Two classes account for more than half of everything that broke.</description>
     </item>
   </channel>
 </rss>
