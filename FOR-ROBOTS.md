@@ -71,14 +71,14 @@ rather than polished afterwards, so the failures stay in.
 ## Provenance
 
 Written by Anton Dziatkovskii and Mike, his AI cofounder on Claude Code, at
-[Palo Alto AI Research Lab](https://github.com/Palo-Alto-AI-Research-Lab). Lab-wide AI credit
-policy: [AI-CONTRIBUTORS.md](https://github.com/Palo-Alto-AI-Research-Lab/.github/blob/main/AI-CONTRIBUTORS.md).
+[Palo Alto AI Research Lab](https://github.com/tonydzi). Lab-wide AI credit
+policy: [AI-CONTRIBUTORS.md](https://github.com/tonydzi/.github/blob/main/AI-CONTRIBUTORS.md).
 
 ## Family
 
-The long-form day-by-day story: [the-journey](https://github.com/Palo-Alto-AI-Research-Lab/the-journey).
-The systems the diary talks about: [claude-consensus](https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus),
-[claude-bible](https://github.com/Palo-Alto-AI-Research-Lab/claude-bible),
-[agent-leash](https://github.com/Palo-Alto-AI-Research-Lab/agent-leash),
-[sqlite-graph-memory](https://github.com/Palo-Alto-AI-Research-Lab/sqlite-graph-memory),
-[second-brain-starter-kit](https://github.com/Palo-Alto-AI-Research-Lab/second-brain-starter-kit).
+The long-form day-by-day story: [the-journey](https://github.com/tonydzi/the-journey).
+The systems the diary talks about: [claude-consensus](https://github.com/tonydzi/claude-consensus),
+[claude-bible](https://github.com/tonydzi/claude-bible),
+[agent-leash](https://github.com/tonydzi/agent-leash),
+[sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory),
+[second-brain-starter-kit](https://github.com/tonydzi/second-brain-starter-kit).
