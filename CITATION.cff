@@ -7,7 +7,7 @@ authors:
     given-names: Anton
     orcid: "https://orcid.org/0000-0001-7408-3054"
     affiliation: "Palo Alto AI Research Lab"
-repository-code: "https://github.com/Palo-Alto-AI-Research-Lab/clawrush"
-url: "https://github.com/Palo-Alto-AI-Research-Lab/clawrush"
+repository-code: "https://github.com/tonydzi/clawrush"
+url: "https://github.com/tonydzi/clawrush"
 abstract: >-
   Building an AI digital twin in public with Claude Code - English diary, longreads & reusable artifacts. RU version: Telegram @ClawRush.
