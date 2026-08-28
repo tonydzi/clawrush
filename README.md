@@ -54,7 +54,7 @@ The model avatars you may see among contributors are not decoration — Claude
 writes the code, Codex and Grok review it, Gemini feeds the research. Each
 gets a `Co-authored-by` credit only on commits its output actually shaped —
 lab-wide policy in
-[AI-CONTRIBUTORS.md](https://github.com/Palo-Alto-AI-Research-Lab/.github/blob/main/AI-CONTRIBUTORS.md),
+[AI-CONTRIBUTORS.md](https://github.com/tonydzi/.github/blob/main/AI-CONTRIBUTORS.md),
 what it means for this diary in [docs/ai-contributors.md](docs/ai-contributors.md).
 
 ## Links
@@ -74,7 +74,7 @@ Questions, war stories, or you want to run this on your own fleet:
 
 - 👤 Author: **Anton Dziatkovskii** — Telegram [@tonydzi](https://t.me/tonydzi) · WhatsApp [+1 341 222 9178](https://wa.me/13412229178) · X [@Tony_Stef_](https://x.com/Tony_Stef_)
 - 📣 Channels: [@ClawRus](https://t.me/ClawRus) (RU) · [@ClawEng](https://t.me/ClawEng) (EN)
-- 🌐 [palo-alto.ai](https://palo-alto.ai) · [Palo Alto AI Research Lab](https://github.com/Palo-Alto-AI-Research-Lab)
+- 🌐 [palo-alto.ai](https://palo-alto.ai) · [Palo Alto AI Research Lab](https://github.com/tonydzi)
 - 🧪 **Engineers: want to test-drive this setup?** Message me — I hand out free starter seeds to engineers who test and report back.
 
 ---
