@@ -4,7 +4,7 @@
   python tools/build_feed.py           # rewrite feed.xml
   python tools/build_feed.py --check   # verify only, change nothing (exit 1 if stale)
 
-Why it exists: the profile README on github.com/Palo-Alto-AI-Research-Lab pulls
+Why it exists: the profile README on github.com/tonydzi pulls
 the latest essays automatically (blog-post-workflow), and any feed reader can
 subscribe. The essays live here, so the feed is generated here — one owner, no
 copies.
@@ -30,7 +30,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC_DIR = "longreads"
 OUT = os.path.join(ROOT, "feed.xml")
 
-REPO_URL = "https://github.com/Palo-Alto-AI-Research-Lab/clawrush"
+REPO_URL = "https://github.com/tonydzi/clawrush"
 BLOB = REPO_URL + "/blob/main/"
 FEED_TITLE = "ClawRush — building an AI digital twin in public"
 FEED_DESC = ("English essays from running a fleet of Claude machines as one organism: "
