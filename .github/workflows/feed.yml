@@ -1,7 +1,7 @@
 name: Rebuild feed.xml
 
 # The essays live here, so the RSS feed is generated here (one owner, no copies).
-# Consumers: the profile README at github.com/Palo-Alto-AI-Research-Lab, and any
+# Consumers: the profile README at github.com/tonydzi, and any
 # feed reader pointed at .../clawrush/raw/main/feed.xml
 on:
   push:
@@ -46,14 +46,24 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add feed.xml
           git commit -m "feed: rebuild from longreads/ [skip ci]"
-          # A human push landing between checkout and push makes this a
-          # non-fast-forward. Rebase and retry instead of failing the night.
+          # A push landing between checkout and push makes this a non-fast-forward.
+          # Do NOT rebase: feed.xml is generated, so a rebase asks git to merge two
+          # machine-written versions of the same file line by line, which conflicts
+          # on contact and leaves the job stopped mid-rebase (measured 2026-08-28,
+          # run 33187417395). The feed is a pure function of longreads/ plus the
+          # generator, so the correct move is to throw our copy away, take theirs,
+          # and regenerate on top of it.
           for attempt in 1 2 3; do
             git push && exit 0
-            echo "push rejected (attempt $attempt) — rebasing onto origin/main"
-            git pull --rebase origin main || exit 1
+            echo "push rejected (attempt $attempt) — resetting onto origin/main and regenerating"
+            git fetch origin main || exit 1
+            git reset --hard FETCH_HEAD || exit 1
             python3 tools/build_feed.py
+            if git diff --quiet -- feed.xml; then
+              echo "feed.xml already current on origin/main — nothing left to push"
+              exit 0
+            fi
             git add feed.xml
-            git diff --cached --quiet || git commit --amend --no-edit
+            git commit -m "feed: rebuild from longreads/ [skip ci]"
           done
           echo "could not push after 3 attempts"; exit 1
