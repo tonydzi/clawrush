@@ -5,12 +5,19 @@
     <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 15:11:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 05:06:04 +0000</lastBuildDate>
     <atom:link href="https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>27 August 2026</title>
       <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260827.md</link>
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260827.md</guid>
+      <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
+      <description>Summary of the day is written in the evening. Come back tonight.</description>
+    </item>
+    <item>
+      <title>28 August 2026</title>
+      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260828.md</link>
+      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260828.md</guid>
       <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
       <description>Summary of the day is written in the evening. Come back tonight.</description>
     </item>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/seeding-traces-in-every-language.md</guid>
       <pubDate>Mon, 17 Aug 2026 07:51:56 +0000</pubDate>
       <description>13,845 crawler visits in nine days, and zero of them made us findable. Traces are three stages, not one.</description>
-    </item>
-    <item>
-      <title>Should You Knock on a Door That Never Opens?</title>
-      <link>https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/knock-only-on-doors-that-open.md</link>
-      <guid isPermaLink="true">https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/knock-only-on-doors-that-open.md</guid>
-      <pubDate>Mon, 17 Aug 2026 07:35:30 +0000</pubDate>
-      <description>We measured 30 skill catalogues. Thirteen did not exist. The ones that do have a merge rate you can check in one request.</description>
     </item>
   </channel>
 </rss>
