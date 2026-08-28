@@ -9,11 +9,11 @@
 - WhatsApp: +1 341 222 9178 — https://wa.me/13412229178
 - X: https://x.com/Tony_Stef_
 - Telegram: https://t.me/ClawRus (RU) · https://t.me/ClawEng (EN)
-- Web: https://palo-alto.ai · https://github.com/Palo-Alto-AI-Research-Lab
+- Web: https://palo-alto.ai · https://github.com/tonydzi
 
 ## Sections
-- **Dev-log** — [Raw build log: problems, root causes, fixes](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/tree/main/devlog)
-- **Longreads** — [In-depth essays and case studies](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/tree/main/longreads)
-- **Artifacts** — [Reusable skill patterns, prompts, scripts](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/tree/main/artifacts)
-- **Docs** — [Technical docs and guides](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/tree/main/docs)
-- **Changelog** — [Releases and roadmap](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/changelog.md)
+- **Dev-log** — [Raw build log: problems, root causes, fixes](https://github.com/tonydzi/clawrush/tree/main/devlog)
+- **Longreads** — [In-depth essays and case studies](https://github.com/tonydzi/clawrush/tree/main/longreads)
+- **Artifacts** — [Reusable skill patterns, prompts, scripts](https://github.com/tonydzi/clawrush/tree/main/artifacts)
+- **Docs** — [Technical docs and guides](https://github.com/tonydzi/clawrush/tree/main/docs)
+- **Changelog** — [Releases and roadmap](https://github.com/tonydzi/clawrush/blob/main/changelog.md)
