@@ -77,7 +77,7 @@ policy: [AI-CONTRIBUTORS.md](https://github.com/tonydzi/.github/blob/main/AI-CON
 ## Family
 
 The long-form day-by-day story: [the-journey](https://github.com/tonydzi/the-journey).
-The systems the diary talks about: [claude-consensus](https://github.com/tonydzi/claude-consensus),
+The systems the diary talks about: [claude-consensus](https://github.com/tonydzi/claw-consensus),
 [claude-bible](https://github.com/tonydzi/claude-bible),
 [agent-leash](https://github.com/tonydzi/agent-leash),
 [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory),
