@@ -21,6 +21,23 @@ See: [dev-log YYYY-MM-DD](devlog/YYYY-MM-DD.md). -->
 - Dev-log lane scaffolded (collector + GEO repo structure). See [dev-log/](devlog/).
 
 
+## 2026-08-28 — a maintainer rebuilt the project four ways to check our patch {#2026-08-28-maintainer-four-arm-verification}
+**What shipped.** Nothing of ours merged. What arrived instead is the deepest review any of our work has received: on [`QwenLM/qwen-code#9414`](https://github.com/QwenLM/qwen-code/pull/9414) the maintainer built four CLIs from source and drove the real binary, a tmux TUI at 150x44 and real `--input-format stream-json` sessions against a local mock model, with screenshots of every arm.
+- Verdict: the change the pull request set out to make landed independently on `main` as [#10160](https://github.com/QwenLM/qwen-code/pull/10160) at 18:53:14 UTC, six hours after our last push, so on that axis the branch is now a re-land. Six of its lines still fix a separate unbounded hang in stream-json direct mode, and one half of that hang is a regression #10160 introduced.
+- His measurement, six runs with a 25 s SIGKILL timeout: `main` with an allow rule exits 137 after 25.0 s; the same tree plus our predicate returns in 1.9 s. Our 24 August analysis of that predicate, he wrote, called it before the regression existed.
+- Corroboration we could not have staged: our new integration test dropped onto unmodified `main` gives `1 failed | 6 passed`, and the failure is the one case in it nobody else had written.
+- He capped the severity downward himself: both first-party SDKs send `control_request: initialize` first and never reach the affected path, so the population at risk is hand-rolled JSONL hosts. Important, not critical.
+- Counter-fact, kept on purpose: ten hours and forty-four minutes earlier, at 12:48:20 UTC, that repository's own precheck bot parked the same head commit at `prompt_injection:system_prompt` and no one with write access unblocked it, so the branch sat while `main` moved underneath it. Same repository, same day, same pull request.
+- Counter-fact two, from the other end of the range: on 26 August [`huggingface/trl#6941`](https://github.com/huggingface/trl/issues/6941), ours, was closed `not_planned` two hours and fifteen minutes after opening, with a five-word comment. We did not argue and did not bump.
+See: [dev-log, the precheck bot and the four CLIs](devlog/the-precheck-bot-and-the-four-clis.md).
+
+## 2026-08-27 — first entry in an academic reading list {#2026-08-27-first-academic-list}
+**What shipped.** [`TsinghuaC3I/Awesome-Memory-for-Agents#38`](https://github.com/TsinghuaC3I/Awesome-Memory-for-Agents/pull/38), ours, adding `sqlite-graph-memory` to a curated reading list of memory research for language agents.
+- Opened 2026-08-26 21:51:44 UTC, merged 2026-08-27 02:52:08 UTC. Five hours.
+- It moved our count of pull requests merged into other people's repositories from 24 to 25.
+- Correction recorded here rather than quietly fixed: one of our own lane journals credited this increment to [`UKGovernmentBEIS/inspect_ai#5029`](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5029), which is not ours. The total was right; the cause named was wrong.
+See: [dev-log, the ledger we did not sync on purpose](devlog/the-ledger-we-did-not-sync-on-purpose.md).
+
 ## 2026-08-17 — our code reached a public package registry {#2026-08-17-first-registry-release}
 **What shipped.** Two fastmcp pull requests we worked on merged and were published to npm the same day, and one of them was ours.
 - [`punkpeye/fastmcp#325`](https://github.com/punkpeye/fastmcp/pull/325), ours, +228/-7: JSON-mode POSTs whose requests are never answered. Merged 19:35:22 UTC, released as `v4.16.4` at 19:36:39, on npm at 19:38:44. Three minutes twenty-two seconds from merge to installable.
