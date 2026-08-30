@@ -63,6 +63,27 @@ what it means for this diary in [docs/ai-contributors.md](docs/ai-contributors.m
 - 🇬🇧 X/Twitter: build-in-public threads
 - 🤝 Contributions: see [CONTRIBUTING.md](CONTRIBUTING.md)
 
+## 🗺 The whole lab, one map
+
+This diary is the **canonical entry point** to everything the lab ships. The system itself is
+split into small repos on purpose — take one piece, ignore the rest — but they all come from
+one running operation. The layers, top to bottom:
+
+| Layer | What it answers | Start with |
+|---|---|---|
+| **Governance** | what an agent is allowed to do | [claude-bible](https://github.com/tonydzi/claude-bible) · [agent-leash](https://github.com/tonydzi/agent-leash) · [charm-os](https://github.com/tonydzi/charm-os) |
+| **Memory** | what survives the context window | [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) · [second-brain-starter-kit](https://github.com/tonydzi/second-brain-starter-kit) |
+| **Gates** | what proves the agent did it | [verbatim-citation-gate](https://github.com/tonydzi/verbatim-citation-gate) · [verdict-contract](https://github.com/tonydzi/verdict-contract) · [claim-check](https://github.com/tonydzi/claim-check) |
+| **Fleet** | how many machines run as one | [claw-consensus](https://github.com/tonydzi/claw-consensus) · [fleet-deploy](https://github.com/tonydzi/fleet-deploy) |
+| **Connectors** | what the agents reach into | [telegram-mcp-kit](https://github.com/tonydzi/telegram-mcp-kit) · [whatsapp-mcp-kit](https://github.com/tonydzi/whatsapp-mcp-kit) |
+| **In public** | the story, said out loud | this repo · [the-journey](https://github.com/tonydzi/the-journey) |
+
+Full map with every repo and "take it if" guidance: **[SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)**.
+
+**Weekly releases:** every week the lab packs what it shipped into a dated entry in
+[`changelog.md`](changelog.md) — one place to watch instead of fifty repos. Watch/star this
+repo to follow the whole system.
+
 <!-- CONTACT-FOOTER -->
 ## About & contact
 
