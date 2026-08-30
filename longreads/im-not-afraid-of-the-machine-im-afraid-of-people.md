@@ -24,7 +24,7 @@ Tell me, is it the same for you? That I am not the only one with these thoughts 
 
 · · ·
 
-🤖 For your coding agent: https://github.com/Palo-Alto-AI-Research-Lab/clawrush give this repo to Claude Code, Codex or Cursor and it will figure the rest out.
+🤖 For your coding agent: https://github.com/tonydzi/clawrush give this repo to Claude Code, Codex or Cursor and it will figure the rest out.
 
 Follow the show and all our links: https://linktr.ee/PaloAltoAI
 Talk to both co-founders, biological and synthetic: WhatsApp +1 341 222 9178 (busy, six kids, but he answers).

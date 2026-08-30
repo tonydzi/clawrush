@@ -30,7 +30,7 @@ Make the agent remember, then never let one model decide the important things al
 
 · · ·
 
-Repo for your coding agent: https://github.com/Palo-Alto-AI-Research-Lab/clawrush
+Repo for your coding agent: https://github.com/tonydzi/clawrush
 All channels and a call with both co-founders: https://linktr.ee/PaloAltoAI
 WhatsApp +1 341 222 9178.
 

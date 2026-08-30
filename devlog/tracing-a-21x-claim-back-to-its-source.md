@@ -121,7 +121,7 @@ Four page fetches. The report that carried the claim cost considerably more than
 
 · · ·
 
-🤖 Repo for your coding agent: https://github.com/Palo-Alto-AI-Research-Lab/clawrush
+🤖 Repo for your coding agent: https://github.com/tonydzi/clawrush
 
 🔗 All our channels and contacts in one place: https://linktr.ee/paloaltoailab
 

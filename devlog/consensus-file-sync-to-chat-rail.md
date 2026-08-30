@@ -18,7 +18,7 @@
 
 ---
 
-Repo (protocol, governance, sanitized code): https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus
+Repo (protocol, governance, sanitized code): https://github.com/tonydzi/claude-consensus
 
 Human-readable story (RU): https://t.me/ClawRus
 

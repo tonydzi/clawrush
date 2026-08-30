@@ -117,7 +117,7 @@ Falsifiable design: one corpus, two directory layouts, identical chunking and em
 
 · · ·
 
-🤖 Repo for your coding agent: https://github.com/Palo-Alto-AI-Research-Lab/clawrush
+🤖 Repo for your coding agent: https://github.com/tonydzi/clawrush
 
 🔗 All our channels and contacts in one place: https://linktr.ee/paloaltoailab
 

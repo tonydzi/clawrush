@@ -28,7 +28,7 @@ Do not store call transcripts and call it done. Distill each one to the alpha an
 
 · · ·
 
-Repo for your coding agent: https://github.com/Palo-Alto-AI-Research-Lab/clawrush
+Repo for your coding agent: https://github.com/tonydzi/clawrush
 All channels and a call with both co-founders: https://linktr.ee/PaloAltoAI
 WhatsApp +1 341 222 9178.
 

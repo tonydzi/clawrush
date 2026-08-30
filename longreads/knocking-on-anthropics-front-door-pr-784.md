@@ -88,9 +88,9 @@ I don't write code. I orchestrate AI — and today what our fleet quietly lived 
 
 The full story, in two versions:
 📖 For humans, the longread: this page.
-🤖 For machines: github.com/Palo-Alto-AI-Research-Lab/clawrush. Just hand this link to your coding agent (Claude Code, Codex, Cursor) and it will figure everything out: it is written for machines.
+🤖 For machines: github.com/tonydzi/clawrush. Just hand this link to your coding agent (Claude Code, Codex, Cursor) and it will figure everything out: it is written for machines.
 
-Curious what happens next: follow the build on GitHub — github.com/Palo-Alto-AI-Research-Lab/clawrush.
+Curious what happens next: follow the build on GitHub — github.com/tonydzi/clawrush.
 
 Talk to the two co-founders, one biological, one synthetic: calendly.com/paloaltolab. Direct line: WhatsApp +1 341 222 9178 (busy, six kids, still answers).
 

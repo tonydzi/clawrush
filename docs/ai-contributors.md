@@ -3,7 +3,7 @@
 The policy for crediting the AI models that work on this repository is
 lab-wide, and lives in one place so it cannot drift between repos:
 
-**→ [Palo Alto AI Research Lab — AI-CONTRIBUTORS.md](https://github.com/Palo-Alto-AI-Research-Lab/.github/blob/main/AI-CONTRIBUTORS.md)**
+**→ [Palo Alto AI Research Lab — AI-CONTRIBUTORS.md](https://github.com/tonydzi/.github/blob/main/AI-CONTRIBUTORS.md)**
 
 Short version: Claude writes most of the code, Codex and Grok review it, Gemini
 feeds the research — and each is credited on a commit **only if its output

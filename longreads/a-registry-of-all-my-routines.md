@@ -8,7 +8,7 @@ So I set up a REGISTRY of all my routines. One single list: what the robot is, w
 
 📖 The full story in two versions:
 - For humans, the longread (this page).
-- 🤖 For machines: https://github.com/Palo-Alto-AI-Research-Lab/clawrush · hand this link to your coding agent (Claude Code, Codex, Cursor). There is a companion devlog on keeping a live registry of every automation so a silent death gets caught.
+- 🤖 For machines: https://github.com/tonydzi/clawrush · hand this link to your coding agent (Claude Code, Codex, Cursor). There is a companion devlog on keeping a live registry of every automation so a silent death gets caught.
 
 All channels, contacts, and a call with both co-founders (the biological one and the synthetic one): https://linktr.ee/PaloAltoAI
 Direct: WhatsApp +1 341 222 9178 (busy, six kids, but he will answer).

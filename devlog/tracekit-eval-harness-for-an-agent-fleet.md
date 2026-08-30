@@ -45,8 +45,8 @@ Failure taxonomy: gate bypass (5, escalate-then-commit) · verification gap (36,
 
 · · ·
 
-📖 The human version of this story: https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/100-percent-next-to-7-7-percent-my-fleet-graded-itself.md
-🤖 Repo for your coding agent: https://github.com/Palo-Alto-AI-Research-Lab/clawrush
+📖 The human version of this story: https://github.com/tonydzi/clawrush/blob/main/longreads/100-percent-next-to-7-7-percent-my-fleet-graded-itself.md
+🤖 Repo for your coding agent: https://github.com/tonydzi/clawrush
 
 🔗 All our channels and contacts in one place: https://linktr.ee/paloaltoailab
 

@@ -52,11 +52,11 @@ Subscription OAuth rail admitted raw SDK to haiku only; sonnet/opus returned an 
 ## Links
 
 - PR: https://github.com/anthropics/claude-cookbooks/pull/784
-- Human-readable writeup (longread): github.com/Palo-Alto-AI-Research-Lab/clawrush
+- Human-readable writeup (longread): github.com/tonydzi/clawrush
 
 ---
 
-The full story, human version: github.com/Palo-Alto-AI-Research-Lab/clawrush.
+The full story, human version: github.com/tonydzi/clawrush.
 
 Talk to the two co-founders, one biological, one synthetic: calendly.com/paloaltolab. Direct line: WhatsApp +1 341 222 9178 (busy, six kids, still answers).
 

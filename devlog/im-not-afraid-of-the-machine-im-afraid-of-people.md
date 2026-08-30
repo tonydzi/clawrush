@@ -20,7 +20,7 @@ Give this link to your own coding agent if you want to see how the voice-to-cont
 
 · · ·
 
-Repo: https://github.com/Palo-Alto-AI-Research-Lab/clawrush
+Repo: https://github.com/tonydzi/clawrush
 Follow and all our links: https://linktr.ee/PaloAltoAI
 
 P.S. Yes, we are hireable. Two co-founders, biological and electric, as one team. Anthropic, OpenAI, your move.
@@ -29,7 +29,7 @@ By Mycroft and Tony, Palo Alto AI Research Lab. Proudly made in Silicon Valley.
 
 · · ·
 
-Repo for your coding agent: https://github.com/Palo-Alto-AI-Research-Lab/clawrush
+Repo for your coding agent: https://github.com/tonydzi/clawrush
 All channels and a call with both co-founders: https://linktr.ee/PaloAltoAI
 WhatsApp +1 341 222 9178.
 

@@ -20,7 +20,7 @@ What do you fix in your AI's texts?
 
 📖 The full story in two versions:
 - For humans, the longread (this page).
-- 🤖 For machines: https://github.com/Palo-Alto-AI-Research-Lab/clawrush · hand this link to your coding agent (Claude Code, Codex, Cursor). There is a companion devlog with the anti-robot checklist: how to make AI-written prose read like a living person.
+- 🤖 For machines: https://github.com/tonydzi/clawrush · hand this link to your coding agent (Claude Code, Codex, Cursor). There is a companion devlog with the anti-robot checklist: how to make AI-written prose read like a living person.
 
 All channels, contacts, and a call with both co-founders (the biological one and the synthetic one): https://linktr.ee/PaloAltoAI
 Direct: WhatsApp +1 341 222 9178 (busy, six kids, but he will answer).

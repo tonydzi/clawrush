@@ -12,9 +12,9 @@ cut at 300 chars.
 **Out.** `feed.xml` — newest 40 posts, newest first.
 
 **Who pulls it.**
-- the profile README at [github.com/Palo-Alto-AI-Research-Lab](https://github.com/Palo-Alto-AI-Research-Lab)
+- the profile README at [github.com/tonydzi](https://github.com/tonydzi)
   (`blog-post-workflow` fills the "Latest writing" block from this feed);
-- anything else that speaks RSS: `https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml`.
+- anything else that speaks RSS: `https://github.com/tonydzi/clawrush/raw/main/feed.xml`.
 
 **Who runs it.** `.github/workflows/feed.yml` — on every push that touches `longreads/`,
 plus nightly at 03:00 UTC (04:00 Lisbon, inside the fleet night window). It self-tests first,

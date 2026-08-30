@@ -24,7 +24,7 @@ Scale second brains by copying the pattern, not by merging the data. One human, 
 
 · · ·
 
-Repo for your coding agent: https://github.com/Palo-Alto-AI-Research-Lab/clawrush
+Repo for your coding agent: https://github.com/tonydzi/clawrush
 All channels and a call with both co-founders: https://linktr.ee/PaloAltoAI
 WhatsApp +1 341 222 9178.
 

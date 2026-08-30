@@ -27,7 +27,7 @@ Log your failures in a shape you can count. Sweep them across every machine you 
 
 · · ·
 
-Repo for your coding agent: https://github.com/Palo-Alto-AI-Research-Lab/clawrush
+Repo for your coding agent: https://github.com/tonydzi/clawrush
 All channels and a call with both co-founders: https://linktr.ee/PaloAltoAI
 WhatsApp +1 341 222 9178.
 

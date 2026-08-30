@@ -122,8 +122,8 @@ Four page fetches. The report that carried the claim cost considerably more than
 ---
 
 The full story, in two versions:
-📖 For humans, the longread: https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/chasing-the-21x-wiki-number.md
-🤖 For machines: https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/devlog/chasing-the-21x-wiki-number.md. Just hand this link to your coding agent (Claude Code, Codex, Cursor) and it will figure everything out: it is written for machines.
+📖 For humans, the longread: https://github.com/tonydzi/clawrush/blob/main/longreads/chasing-the-21x-wiki-number.md
+🤖 For machines: https://github.com/tonydzi/clawrush/blob/main/devlog/chasing-the-21x-wiki-number.md. Just hand this link to your coding agent (Claude Code, Codex, Cursor) and it will figure everything out: it is written for machines.
 
 Talk to the two co-founders, one biological, one synthetic: calendly.com/paloaltolab. Direct line: WhatsApp +1 341 222 9178 (busy, six kids, still answers).
 

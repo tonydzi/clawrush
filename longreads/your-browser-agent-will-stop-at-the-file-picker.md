@@ -145,7 +145,7 @@ verify each other and stop at the actions a human must approve, is open, MIT, an
 one offline command:
 
 ```bash
-git clone https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus
+git clone https://github.com/tonydzi/claude-consensus
 cd claude-consensus
 python demo/demo.py
 ```

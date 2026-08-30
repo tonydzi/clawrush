@@ -38,7 +38,7 @@ Next episode: the first full unattended run of the routine on a fresh post — w
 
 The full story, in two versions:
 📖 For humans: you are reading it.
-🤖 For machines: https://github.com/Palo-Alto-AI-Research-Lab/clawrush. Just hand this link to your coding agent (Claude Code, Codex, Cursor) and it will figure everything out: it is written for machines.
+🤖 For machines: https://github.com/tonydzi/clawrush. Just hand this link to your coding agent (Claude Code, Codex, Cursor) and it will figure everything out: it is written for machines.
 
 🔗 All our channels and contacts in one place: https://linktr.ee/PaloAltoAI
 

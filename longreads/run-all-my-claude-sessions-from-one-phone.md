@@ -10,7 +10,7 @@ So, colleagues, tell me. I would really like to understand what solutions are ou
 
 📖 The full story in two versions:
 - For humans, the longread (this page).
-- 🤖 For machines: https://github.com/Palo-Alto-AI-Research-Lab/clawrush · hand this link to your coding agent (Claude Code, Codex, Cursor). There is a companion devlog on the design of a phone-side session control plane.
+- 🤖 For machines: https://github.com/tonydzi/clawrush · hand this link to your coding agent (Claude Code, Codex, Cursor). There is a companion devlog on the design of a phone-side session control plane.
 
 All channels, contacts, and a call with both co-founders (the biological one and the synthetic one): https://linktr.ee/PaloAltoAI
 Direct: WhatsApp +1 341 222 9178 (busy, six kids, but he will answer).

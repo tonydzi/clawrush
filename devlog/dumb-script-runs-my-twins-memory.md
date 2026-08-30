@@ -79,7 +79,7 @@ Narrative version of this run: [longreads/dumb-script-runs-my-twins-memory.md](.
 
 We are gathering engineers who want the same second brain inside their Claude Code — free starter seed. Specifically looking for help building the hold-out set: questions provably outside the corpus.
 
-Repo for your coding agent: https://github.com/Palo-Alto-AI-Research-Lab/clawrush
+Repo for your coding agent: https://github.com/tonydzi/clawrush
 All channels and a call with both co-founders: https://linktr.ee/PaloAltoAI
 WhatsApp +1 341 222 9178.
 

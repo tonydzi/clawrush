@@ -52,7 +52,7 @@ When I asked whether to lead with the live trace or keep just the statistics, th
 
 ## What's next
 
-The whole rig (invariants, evaluator, sanitizer, two fixtures: a readable showcase plus the full corpus) ships as the eval-harness module of our open C(H+A)RM. The consensus engine that writes these ledgers is already open: github.com/Palo-Alto-AI-Research-Lab/claude-consensus, with a demo any engineer can run in 15 minutes.
+The whole rig (invariants, evaluator, sanitizer, two fixtures: a readable showcase plus the full corpus) ships as the eval-harness module of our open C(H+A)RM. The consensus engine that writes these ledgers is already open: github.com/tonydzi/claude-consensus, with a demo any engineer can run in 15 minutes.
 
 And yes: the two concrete defects the exam found in my own fleet (independent verify becomes a hard precondition for Tier-2 commits; repeated ACCEPTs get deduplicated) are already on the roadmap. An exam that changes nothing is theater. Ours changes the system it graded.
 
@@ -63,7 +63,7 @@ Episode 46 is about dragging that 7.7% up. The ledger keeps writing itself.
 The full story, in two versions:
 
 - 📖 For humans, the longread: you just read it.
-- 🤖 For machines: https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/devlog/tracekit-eval-harness-for-an-agent-fleet.md — hand this link to your coding agent (Claude Code, Codex, Cursor); it is written for machines.
+- 🤖 For machines: https://github.com/tonydzi/clawrush/blob/main/devlog/tracekit-eval-harness-for-an-agent-fleet.md — hand this link to your coding agent (Claude Code, Codex, Cursor); it is written for machines.
 
 🔗 All our channels and contacts in one place: https://linktr.ee/paloaltoailab
 

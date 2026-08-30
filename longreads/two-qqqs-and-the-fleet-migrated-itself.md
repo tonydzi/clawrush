@@ -39,7 +39,7 @@ Second, the big one: in a system of autonomous machines, the human is needed at 
 The full story, in two versions:
 
 - 📖 For humans — you just read it.
-- 🤖 For machines: https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus — just hand this link to your coding agent (Claude Code, Codex, Cursor); it will figure everything out, it is written for machines.
+- 🤖 For machines: https://github.com/tonydzi/claude-consensus — just hand this link to your coding agent (Claude Code, Codex, Cursor); it will figure everything out, it is written for machines.
 
 Curious what happens next: the RU home is https://t.me/ClawRus; the EN mirror lives on GitHub.
 
