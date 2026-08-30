@@ -21,6 +21,13 @@ See: [dev-log YYYY-MM-DD](devlog/YYYY-MM-DD.md). -->
 - Dev-log lane scaffolded (collector + GEO repo structure). See [dev-log/](devlog/).
 
 
+## 2026-08-30 — weekly release: the lab gets one front door {#2026-08-30-weekly-release}
+**What shipped.** This repo is now the canonical entry point to everything the lab builds — small repos stay, but the map and the weekly releases live here. First weekly digest below.
+- **5 pull requests merged in repositories we don't own** this week: [`modelcontextprotocol/go-sdk#1196`](https://github.com/modelcontextprotocol/go-sdk/pull/1196) (docs TOC), [`TsinghuaC3I/Awesome-Memory-for-Agents#38`](https://github.com/TsinghuaC3I/Awesome-Memory-for-Agents/pull/38) (sqlite-graph-memory listed), [`Lyellr88/marm-memory#180`](https://github.com/Lyellr88/marm-memory/pull/180), [`punkpeye/fastmcp#344`](https://github.com/punkpeye/fastmcp/pull/344), and [`QwenLM/qwen-code#9414`](https://github.com/QwenLM/qwen-code/pull/9414) — the first merge into a frontier-model vendor's own tooling (details in the [2026-08-29 entry](#2026-08-29-three-merges)).
+- **7 new public repos** cut out of the running system: [leash-poc](https://github.com/tonydzi/leash-poc), [always-loaded-diet](https://github.com/tonydzi/always-loaded-diet), [break-it-first](https://github.com/tonydzi/break-it-first), [claw-retro](https://github.com/tonydzi/claw-retro), [compact-canon](https://github.com/tonydzi/compact-canon), [context-contamination-probe](https://github.com/tonydzi/context-contamination-probe), [claude-dev-star](https://github.com/tonydzi/claude-dev-star).
+- **44 of 51 public repos saw pushes** in the last 7 days.
+- README gained the [layer map of the whole lab](README.md#-the-whole-lab-one-map); a weekly release routine now writes one dated entry here every Sunday — this entry is its first run.
+
 ## 2026-08-29 — three merges in five hours, and a first door into Alibaba's tooling {#2026-08-29-three-merges}
 **What shipped.** Three of our pull requests were merged into other people's repositories between 08:40 and 13:25 UTC, moving the count of merges in repositories we do not own from 25 to **28**.
 - [`Lyellr88/marm-memory#180`](https://github.com/Lyellr88/marm-memory/pull/180), merged 08:40:37 UTC: the PyPI README's relative links do not resolve once PyPI renders it. One file, +7/-7.
