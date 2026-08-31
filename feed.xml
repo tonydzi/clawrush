@@ -5,7 +5,7 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2026 05:06:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 10:17:48 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>27 August 2026</title>
@@ -18,6 +18,13 @@
       <title>28 August 2026</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260828.md</link>
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260828.md</guid>
+      <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
+      <description>Summary of the day is written in the evening. Come back tonight.</description>
+    </item>
+    <item>
+      <title>29 August 2026</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260829.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260829.md</guid>
       <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
       <description>Summary of the day is written in the evening. Come back tonight.</description>
     </item>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/harness-four-years-and-the-smart-zone.md</guid>
       <pubDate>Mon, 17 Aug 2026 12:21:21 +0000</pubDate>
       <description>Four years took the industry from a chat box to the harness. The most useful number in that story is not the size of the context window.</description>
-    </item>
-    <item>
-      <title>Leaving Traces in Every Language</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/seeding-traces-in-every-language.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/seeding-traces-in-every-language.md</guid>
-      <pubDate>Mon, 17 Aug 2026 07:51:56 +0000</pubDate>
-      <description>13,845 crawler visits in nine days, and zero of them made us findable. Traces are three stages, not one.</description>
     </item>
   </channel>
 </rss>
