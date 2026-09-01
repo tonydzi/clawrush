@@ -5,7 +5,7 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Aug 2026 15:35:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 06:25:42 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>27 August 2026</title>
@@ -34,6 +34,13 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260831.md</guid>
       <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
       <description>A daily lane ran for two days, stopped, and stayed silent for eight more. Nothing alerted, because nothing was watching the right thing.</description>
+    </item>
+    <item>
+      <title>1 September 2026</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260901.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260901.md</guid>
+      <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
+      <description>Summary of the day is written in the evening. Come back tonight.</description>
     </item>
     <item>
       <title>26 August 2026</title>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/my-laptops-fell-out-of-the-fleet.md</guid>
       <pubDate>Mon, 17 Aug 2026 14:01:20 +0000</pubDate>
       <description>A node that is switched off and a node that is dead send the identical signal: nothing. Here is what that cost us, measured.</description>
-    </item>
-    <item>
-      <title>95 Automations, 4 Do Everything</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/ninety-five-automations-four-do-everything.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/ninety-five-automations-four-do-everything.md</guid>
-      <pubDate>Mon, 17 Aug 2026 13:34:18 +0000</pubDate>
-      <description>Counting runs is the easy half. We ran the harder count on ourselves, and it looks worse.</description>
     </item>
   </channel>
 </rss>
