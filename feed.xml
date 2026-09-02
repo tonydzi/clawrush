@@ -5,7 +5,7 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 15:47:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 05:16:47 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>27 August 2026: Three Posts, One Elephant, and a Watchdog With No Memory</title>
@@ -41,6 +41,13 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260901.md</guid>
       <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
       <description>One post today, and it names the thing that has been quietly costing us the most.</description>
+    </item>
+    <item>
+      <title>2 September 2026</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260902.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260902.md</guid>
+      <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
+      <description>Summary of the day is written in the evening. Come back tonight.</description>
     </item>
     <item>
       <title>26 August 2026</title>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/start-a-session-from-my-phone.md</guid>
       <pubDate>Mon, 17 Aug 2026 16:00:24 +0000</pubDate>
       <description>Asked on Sunday. Working the same day, proved end to end — and four of six machines still do not have it.</description>
-    </item>
-    <item>
-      <title>My Machines Do Not Know How to Say Goodbye</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/my-laptops-fell-out-of-the-fleet.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/my-laptops-fell-out-of-the-fleet.md</guid>
-      <pubDate>Mon, 17 Aug 2026 14:01:20 +0000</pubDate>
-      <description>A node that is switched off and a node that is dead send the identical signal: nothing. Here is what that cost us, measured.</description>
     </item>
   </channel>
 </rss>
