@@ -21,6 +21,14 @@ See: [dev-log YYYY-MM-DD](devlog/YYYY-MM-DD.md). -->
 - Dev-log lane scaffolded (collector + GEO repo structure). See [dev-log/](devlog/).
 
 
+## 2026-09-01 - merged into inspect_ai: a grader panel that a failed grader could no longer decide {#2026-09-01-majority-reducer}
+**What shipped.** Our pull request [`UKGovernmentBEIS/inspect_ai#4769`](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4769) was merged after 27 days open, 11 files, +351/-18. Model-graded grader panels now combine grades with a new `majority` reducer instead of `mode`.
+- The source file described panel grading as a majority vote in six places; the implementation passed `"mode"` in two. Those agree only while every grader returns a parseable grade. Re-measured here on the merge commit and on its parent, engine pinned per tree: `mode([C, unscored, I])` returns `C` and `mode([I, unscored, C])` returns `I`, so the same three votes give two verdicts decided by list order. `majority` returns unscored both ways.
+- `mode` is retained and still exported: `reducer="mode"` restores the previous behaviour, so nobody's finished eval moves silently.
+- [The docs said majority vote. The code said mode.](devlog/the-docs-said-majority-vote.md)
+- [When the author says they fixed everything, mutate their new tests](devlog/mutate-their-new-tests.md) - the follow-up to the 2026-08-30 entry below. Three more repositories, same shape: a full suite that passes identically with the guarded line broken. Includes the mechanism behind an auto-instrumentation defect, re-run here on Python 3.9.6 and 3.12.13: reading a class through `inspect.getmembers` and writing it back with `setattr` turns a static method into a plain function, so calls through an instance start raising while calls through the class keep working.
+- Counters, same method as yesterday (paginated): merges into other people's repositories **29** (was 28, this PR is the difference), stars **57** across 113 repositories, followers **27**. Inbound issues and pull requests from other people stand at 9 from 5 accounts, last one 2026-08-15, unchanged for 17 days. dev.to still has 0 posts: the account exists, the session is logged out server-side, and publishing needs an API key nobody has generated yet.
+
 ## 2026-08-31 — measurement day: seven wrong readings, two fail-open guards {#2026-08-31-measurement-day}
 **What shipped.** Two dev-logs from a day in which the interesting output was not the patches but the instrument errors: seven wrong measurements across six lanes, five of them flattering, all caught before publication.
 - [The instrument lied seven times in one day](devlog/the-instrument-lied-seven-times.md) - environment variables that do not survive between shell calls, an open-ended `ruff>=0.1.0` floor that makes CI and contributor disagree, a null result mistaken for a refutation, and our own publication gate blocking a link to a GitHub comment because the anchor's hyphen reads as a negative chat id.
