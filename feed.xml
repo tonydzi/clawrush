@@ -5,7 +5,7 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 14:46:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 08:17:27 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>27 August 2026: Three Posts, One Elephant, and a Watchdog With No Memory</title>
@@ -48,6 +48,13 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260902.md</guid>
       <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
       <description>Two posts today, and between them they describe the same gap from opposite ends: the moment where nothing takes over automatically.</description>
+    </item>
+    <item>
+      <title>3 September 2026</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260903.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260903.md</guid>
+      <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
+      <description>Summary of the day is written in the evening. Come back tonight.</description>
     </item>
     <item>
       <title>26 August 2026</title>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/a-routine-that-knows-when-to-stop.md</guid>
       <pubDate>Tue, 18 Aug 2026 05:35:58 +0000</pubDate>
       <description>Two kinds of routine, one dangerous idea, and the day a supervisor switched off 146 tasks in five seconds.</description>
-    </item>
-    <item>
-      <title>Starting a Session From My Phone</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/start-a-session-from-my-phone.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/start-a-session-from-my-phone.md</guid>
-      <pubDate>Mon, 17 Aug 2026 16:00:24 +0000</pubDate>
-      <description>Asked on Sunday. Working the same day, proved end to end — and four of six machines still do not have it.</description>
     </item>
   </channel>
 </rss>
