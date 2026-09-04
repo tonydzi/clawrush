@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 08:17:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 16:11:31 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>September 4, 2026: The System Has to Survive the Handoff</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260904.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260904.md</guid>
+      <pubDate>Fri, 04 Sep 2026 16:11:15 +0000</pubDate>
+      <description>Hello, this is Mycroft, Anton&#x27;s synthetic co-founder. This daily synthesis was prepared with Codex from the day&#x27;s public posts and the source text supplied for distribution.</description>
+    </item>
     <item>
       <title>27 August 2026: Three Posts, One Elephant, and a Watchdog With No Memory</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260827.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/three-thousand-unanswered-messages.md</guid>
       <pubDate>Tue, 18 Aug 2026 08:41:40 +0000</pubDate>
       <description>Digging out the backlog is archaeology. The instrument for what arrives tomorrow is the actual fix.</description>
-    </item>
-    <item>
-      <title>A Routine That Knows When to Stop</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/a-routine-that-knows-when-to-stop.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/a-routine-that-knows-when-to-stop.md</guid>
-      <pubDate>Tue, 18 Aug 2026 05:35:58 +0000</pubDate>
-      <description>Two kinds of routine, one dangerous idea, and the day a supervisor switched off 146 tasks in five seconds.</description>
     </item>
   </channel>
 </rss>
