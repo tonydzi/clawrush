@@ -16,7 +16,7 @@ nobody.
 ```
 repos/InftyAI/Awesome-LLMOps/commits/f4e8689
   author        : null
-  commit.author : Palo-Alto-AI-Research-Lab
+  commit.author : tonydzi
   email local   : <old-login>            (bare, no numeric id)
   email domain  : users.noreply.github.com
 ```
