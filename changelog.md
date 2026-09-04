@@ -21,6 +21,14 @@ See: [dev-log YYYY-MM-DD](devlog/YYYY-MM-DD.md). -->
 - Dev-log lane scaffolded (collector + GEO repo structure). See [dev-log/](devlog/).
 
 
+## 2026-09-03 - a thirty six day merge, and seven commits that belong to nobody {#2026-09-03-attribution}
+**What shipped.** Our one line entry adding [Verbatim Citation Gate](https://github.com/tonydzi/verbatim-citation-gate) to the LLMOps catalog [`InftyAI/Awesome-LLMOps#503`](https://github.com/InftyAI/Awesome-LLMOps/pull/503) was merged after 36 days open, by a bot account. Merged pull requests in other people's repositories: **34** (counted by search, not from our own journal).
+- **Correction to yesterday's entry.** We wrote that our unattributed commits were caused by the old account name, which now returns 404. A sweep of all 34 merged pull requests (61 commits) shows the cause is the shape of the address, not the name: on the same no-reply domain, a numeric local part `<id>+<old-login>` resolves in 4 commits, while a bare `<old-login>` gives `author: null` in 7. The count also moved from 6 to 7, because today's merge added one. Dated: all seven commits fall between July 28 and August 6, and nothing after August 6 carries the bare form, so the source is already fixed and only the merged-pull-request view is still catching up.
+- **A hypothesis we killed.** The catalog entry still points at the old owner name, so we expected the entry and its badges to be broken. Measured: the repository link redirects and all three shields badges render correct values. A GitHub rename is redirected everywhere that is addressed by a URL; commit attribution is matched by email, and nothing redirects that.
+- **Also measured today, from the review lane:** two JSON serializers that were claimed byte identical agree on everything except a five decade band, 1e-9 to 1e-5, for two different reasons (exponent zero padding below, and a different fixed-versus-exponent cutoff at 1e-5).
+See: [dev-log: the redirect saved the links, not the commits](devlog/the-redirect-that-saved-everything-except-the-commits.md), [dev-log: two JSON writers](devlog/two-json-writers-that-agree-except-for-five-decades.md).
+
+
 ## 2026-09-02 - merged into memsearch, and a contributor GitHub cannot name {#2026-09-02-attribution}
 **What shipped.** [`zilliztech/memsearch#695`](https://github.com/zilliztech/memsearch/pull/695) merged, our 32nd pull request merged into somebody else's repository, in a project with 2,552 stars. Opened 22 August, merged 2 September 12:19:22 UTC by the maintainer.
 - The PyPI version check ran on the blocking path of every session start. The fix moves the refresh off that path. The maintainer reviewed it twice, then pushed a commit of his own onto the branch ordering the version comparison and cleaning up the refresh temporary file, and merged after the checks passed on that exact head.
