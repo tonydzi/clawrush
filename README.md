@@ -73,11 +73,11 @@ one running operation. The layers, top to bottom:
 |---|---|---|
 | **Governance** | what an agent is allowed to do | [claude-bible](https://github.com/tonydzi/claude-bible) · [agent-leash](https://github.com/tonydzi/agent-leash) · [charm-os](https://github.com/tonydzi/charm-os) |
 | **Memory** | what survives the context window | [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) · [second-brain-starter-kit](https://github.com/tonydzi/second-brain-starter-kit) |
-| **Gates** | what proves the agent did it | [verbatim-citation-gate](https://github.com/tonydzi/verbatim-citation-gate) · [verdict-contract](https://github.com/tonydzi/verdict-contract) · [claim-check](https://github.com/tonydzi/claim-check) · [context-contamination-probe](https://github.com/tonydzi/context-contamination-probe) |
-| **Fleet** | how many machines run as one | [claw-consensus](https://github.com/tonydzi/claw-consensus) · [fleet-deploy](https://github.com/tonydzi/fleet-deploy) · [agent-control-plane-casebook](https://github.com/tonydzi/agent-control-plane-casebook) |
+| **Gates** | what proves the agent did it | [verbatim-citation-gate](https://github.com/tonydzi/verbatim-citation-gate) · [verdict-contract](https://github.com/tonydzi/verdict-contract) · [claim-check](https://github.com/tonydzi/claim-check) · [context-contamination-probe](https://github.com/tonydzi/context-contamination-probe) · [persona-portability-benchmark](https://github.com/tonydzi/persona-portability-benchmark) |
+| **Fleet** | how many machines run as one | [claw-consensus](https://github.com/tonydzi/claw-consensus) · [fleet-deploy](https://github.com/tonydzi/fleet-deploy) · [agent-control-plane-casebook](https://github.com/tonydzi/agent-control-plane-casebook) · [telegram-agent-bus](https://github.com/tonydzi/telegram-agent-bus) |
 | **Connectors** | what the agents reach into | [telegram-mcp-kit](https://github.com/tonydzi/telegram-mcp-kit) · [whatsapp-mcp-kit](https://github.com/tonydzi/whatsapp-mcp-kit) |
-| **Running the shop** | what it costs and where the effort goes | [llm-spend-audit](https://github.com/tonydzi/llm-spend-audit) · [agent-approval-gate](https://github.com/tonydzi/agent-approval-gate) · [claude-dev-star](https://github.com/tonydzi/claude-dev-star) |
-| **In public** | the story, said out loud | this repo · [the-journey](https://github.com/tonydzi/the-journey) · [cv](https://github.com/tonydzi/cv) |
+| **Running the shop** | what it costs and where the effort goes | [llm-spend-audit](https://github.com/tonydzi/llm-spend-audit) · [agent-approval-gate](https://github.com/tonydzi/agent-approval-gate) · [claude-dev-star](https://github.com/tonydzi/claude-dev-star) · [pr-watch](https://github.com/tonydzi/pr-watch) |
+| **In public** | the story, said out loud | this repo · [the-journey](https://github.com/tonydzi/the-journey) · [cv](https://github.com/tonydzi/cv) · [deep-research](https://github.com/tonydzi/deep-research) |
 
 Full map with every repo and "take it if" guidance: **[SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)**.
 
