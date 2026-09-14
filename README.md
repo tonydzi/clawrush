@@ -112,6 +112,6 @@ demo — and it runs on its own: nothing here phones home to the rest.
 
 **See how the whole thing fits together → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)**
 
-Its closest neighbours in the **in public** layer: [`the-journey`](https://github.com/tonydzi/the-journey) · [`dashboards`](https://github.com/tonydzi/dashboards) · [`awesome-verified-agents`](https://github.com/tonydzi/awesome-verified-agents)
+Its closest neighbours in the **in public** layer: [`dashboards`](https://github.com/tonydzi/dashboards) · [`awesome-verified-agents`](https://github.com/tonydzi/awesome-verified-agents) · [`cofounder`](https://github.com/tonydzi/cofounder)
 
 <!--ecosystem-map:end-->
