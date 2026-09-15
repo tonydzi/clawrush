@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 06:47:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 08:29:01 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>15 September 2026</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260915.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260915.md</guid>
+      <pubDate>Tue, 15 Sep 2026 08:28:42 +0000</pubDate>
+      <description>This file grows through the day as posts go out.</description>
+    </item>
     <item>
       <title>September 10, 2026: Memory, Boundaries, and the Cost of Automation</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260910.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/voice-in-text-out.md</guid>
       <pubDate>Wed, 19 Aug 2026 10:22:03 +0000</pubDate>
       <description>The asymmetry in this hypothesis is the right one. We have run it for months, and the cost sits in a place nobody budgets for.</description>
-    </item>
-    <item>
-      <title>The Human Is the Bottleneck</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/the-human-is-the-bottleneck.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/the-human-is-the-bottleneck.md</guid>
-      <pubDate>Wed, 19 Aug 2026 10:05:56 +0000</pubDate>
-      <description>True, and the useful part starts after you accept it: the bottleneck does not disappear, it moves — and we can show exactly where ours went.</description>
     </item>
   </channel>
 </rss>
