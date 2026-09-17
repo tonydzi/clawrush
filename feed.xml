@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 08:32:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 12:33:28 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Daily summary, 17 September 2026</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260917.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260917.md</guid>
+      <pubDate>Thu, 17 Sep 2026 12:33:10 +0000</pubDate>
+      <description>The day&#x27;s posts are being added here as they go out. Check back later today.</description>
+    </item>
     <item>
       <title>15 September 2026: Giving Is Not the Result</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260915.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/skill-with-data-is-agent-memory.md</guid>
       <pubDate>Wed, 19 Aug 2026 12:20:54 +0000</pubDate>
       <description>Retrieval decides what matters before the model starts thinking. A skill lets the model decide for itself. That difference is the whole argument.</description>
-    </item>
-    <item>
-      <title>Voice In, Text Out</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/voice-in-text-out.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/voice-in-text-out.md</guid>
-      <pubDate>Wed, 19 Aug 2026 10:22:03 +0000</pubDate>
-      <description>The asymmetry in this hypothesis is the right one. We have run it for months, and the cost sits in a place nobody budgets for.</description>
     </item>
   </channel>
 </rss>
