@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 16:58:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 09:30:49 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>18 September 2026: One List, Sorted by How Close They Are</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260918.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260918.md</guid>
+      <pubDate>Fri, 18 Sep 2026 09:30:34 +0000</pubDate>
+      <description>This file grows through the day. Every post that goes out today adds its section here, and by evening it is the summary of everything the day produced.</description>
+    </item>
     <item>
       <title>17 September 2026: The Half That Comes Back</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260917.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/why-mail-works-and-messengers-do-not.md</guid>
       <pubDate>Wed, 19 Aug 2026 12:22:37 +0000</pubDate>
       <description>The interaction shape in the working example is the transferable part. The ban question has an honest answer and it is not &quot;use a better library&quot;.</description>
-    </item>
-    <item>
-      <title>A skill with your data inside it is the agent&#x27;s memory — and it beats RAG on one specific point</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/skill-with-data-is-agent-memory.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/skill-with-data-is-agent-memory.md</guid>
-      <pubDate>Wed, 19 Aug 2026 12:20:54 +0000</pubDate>
-      <description>Retrieval decides what matters before the model starts thinking. A skill lets the model decide for itself. That difference is the whole argument.</description>
     </item>
   </channel>
 </rss>
