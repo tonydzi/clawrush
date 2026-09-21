@@ -144,6 +144,8 @@ with a well-cited justification.
 And the part that stings: the ruler took one day to build, out of labels I had been
 producing by hand for years without noticing. I waited six months for it.
 
+The ruler itself is in this repo: [`artifacts/brain_gold_eval.py`](../artifacts/brain_gold_eval.py) ([what it is and how to reuse it](../artifacts/gold-set-from-your-wikilinks.md)). `--selftest` runs on a bare Python, no dependencies.
+
 ---
 
 The full story, in two versions:
