@@ -120,6 +120,8 @@ benchmarks. Two lost on our data. The third was replaced by a duller mechanism t
 None of that was knowable without a ruler, and the ruler took one day to build out of
 labels we had already produced by hand, over years, for free.
 
+The ruler itself is in this repo: [`artifacts/brain_gold_eval.py`](../artifacts/brain_gold_eval.py) ([what it is and how to reuse it](../artifacts/gold-set-from-your-wikilinks.md)). `--selftest` runs on a bare Python, no dependencies.
+
 ---
 
 For humans, the longread: https://github.com/tonydzi/clawrush/blob/main/longreads/a-benchmark-is-not-your-corpus.md
