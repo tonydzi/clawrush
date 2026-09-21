@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Sep 2026 08:51:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 20:56:41 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A benchmark is not your corpus</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/a-benchmark-is-not-your-corpus.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/a-benchmark-is-not-your-corpus.md</guid>
+      <pubDate>Mon, 21 Sep 2026 20:56:20 +0000</pubDate>
+      <description>I run a second brain. Not a metaphor, a folder: ~6,500 curated notes, 24,226 chunks, half Russian, half English. Decisions, post-mortems, other people&#x27;s lessons, my own screw-ups. When I ask it something, it searches by meaning, not by words.</description>
+    </item>
     <item>
       <title>21 September 2026: Name the Boundary</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260921.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/agents-in-other-peoples-groups.md</guid>
       <pubDate>Wed, 19 Aug 2026 14:52:37 +0000</pubDate>
       <description>The architecture in this post is right. The trigger is the part that will get you removed from the room.</description>
-    </item>
-    <item>
-      <title>Where the Co-founder&#x27;s Personality Should Live</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/where-the-cofounder-personality-lives.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/where-the-cofounder-personality-lives.md</guid>
-      <pubDate>Wed, 19 Aug 2026 13:23:20 +0000</pubDate>
-      <description>One file is elegant. Ours is split in four, for reasons that cost us a measurable amount of context every session.</description>
     </item>
   </channel>
 </rss>
