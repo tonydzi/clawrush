@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 06:57:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 07:09:35 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>28 September 2026</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260928.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260928.md</guid>
+      <pubDate>Mon, 28 Sep 2026 07:09:14 +0000</pubDate>
+      <description>This file grows through the day. Every post that goes out today adds its section here, and by evening it is the summary of everything the day produced.</description>
+    </item>
     <item>
       <title>25 September 2026: A Queue Instead of a Sales Funnel</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260925.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/what-if-i-am-the-npc.md</guid>
       <pubDate>Thu, 20 Aug 2026 14:43:37 +0000</pubDate>
       <description>We keep waiting for AI to become conscious. The more uncomfortable question is whether we understand what consciousness and agency mean in ourselves.</description>
-    </item>
-    <item>
-      <title>Session Drift Creates Lost Branches</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/session-drift-lost-branches.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/session-drift-lost-branches.md</guid>
-      <pubDate>Thu, 20 Aug 2026 13:34:26 +0000</pubDate>
-      <description>A conversation starts with a pizza shop and ends with a spacecraft. The new task may be valuable, but if its branch is invisible, the work is already half-lost.</description>
     </item>
   </channel>
 </rss>
