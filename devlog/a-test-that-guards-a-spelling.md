@@ -79,7 +79,7 @@ So a broken guard does not merely fail to object. It answers for it. A hook that
 
 ## The rule we keep re-deriving
 
-A test that proves a guarantee must defeat the guarantee, not the line implementing it. Text moves. Properties don't.
+A test that proves a guarantee must defeat the guarantee, not the line implementing it. Text moves. Properties don't. Pin the property.
 
 Practically, that is two habits. Defeat it twice, differently. And keep one mutation that dies, so a survival means something other than a misfire.
 
