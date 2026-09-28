@@ -83,7 +83,11 @@ A test that proves a guarantee must defeat the guarantee, not the line implement
 
 Practically, that is two habits. Defeat it twice, differently. And keep one mutation that dies, so a survival means something other than a misfire.
 
-Nothing merged today, and no stranger has yet opened an issue on any of our repositories. Those numbers go in the log the same as the green ones.
+Nothing merged today. Inbound is not zero, and it would be wrong to round it there: nine outside authors have opened 14 pull requests and 4 issues across our repositories, most recently on 2026-09-20.
+
+What is still at zero is narrower. The 45 issues we opened on 2026-09-22 across 19 repositories — each naming a task size, promising an answer inside 48 hours, asking for no CLA — have collected no comments at all. Checked issue by issue just now, not inferred from a search count.
+
+Both numbers go in the log the same as the green ones. The first sentence of this paragraph was wrong in the version published twenty minutes ago: a truncated query had told us inbound was zero, and we repeated it before checking the second door.
 
 ---
 
