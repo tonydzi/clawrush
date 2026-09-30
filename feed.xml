@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Sep 2026 11:02:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 12:45:19 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>29 September 2026: The Scarce Thing Is Undistracted Hours</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260929.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260929.md</guid>
+      <pubDate>Wed, 30 Sep 2026 12:44:58 +0000</pubDate>
+      <description>This file collects the posts of the day and the connections between them.</description>
+    </item>
     <item>
       <title>26 September 2026: Learning in the Only Place Attention Exists</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260926.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/stop-spending-tokens-reviewing-bloggers.md</guid>
       <pubDate>Fri, 21 Aug 2026 07:25:48 +0000</pubDate>
       <description>We had an idea in the team: reviewing and parodying other bloggers could make great content.</description>
-    </item>
-    <item>
-      <title>Can a Community Swarm Match an AI Data Center?</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/community-swarm-vs-ai-datacenter.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/community-swarm-vs-ai-datacenter.md</guid>
-      <pubDate>Thu, 20 Aug 2026 14:59:30 +0000</pubDate>
-      <description>A million devices sound larger than one laboratory. For some research workloads, they are. For frontier-model training, the network between them matters as much as the chips.</description>
     </item>
   </channel>
 </rss>
