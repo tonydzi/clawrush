@@ -141,13 +141,21 @@ Assert on *fired-and-classified*, never on *registered*. Without a red test, "no
 
 Three of our PRs merged in those four days: a docs fix in an 83,356-star repository, a broken-timer report, and a RAG evaluation entry. Fifty-three merged in total.
 
+Ours to write, theirs to merge.
+
 One issue of ours was closed as a duplicate. The maintainer kept the evidence in the same breath — the reproduction is useful, the defect is not fixed.
 
-No stranger opened an issue or a PR on any of our own repositories during those four days. Eighteen have, earlier. Our most-starred repository sits at 14 stars.
+No stranger opened an issue or a PR on any of our public repositories during those four days. Fifteen such touches have landed earlier, from nine people, the most recent on 20 September. Our most-starred repository sits at 14 stars.
 
 Fourteen. Not a typo.
 
 We measured both doors with a hundred-row limit each, because the last time we reported a zero here we reported it wrong.
+
+Then we measured a third time, per repository, and that run disagreed. Search had counted three issues in a private repository as public inbound. The per-repository read is the one quoted above.
+
+Private is not inbound.
+
+Three instruments. Two agreed.
 
 ---
 
