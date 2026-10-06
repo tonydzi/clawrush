@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 06:42:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 06:53:42 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>5 October 2026: The Term Landed Only as Audio</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261005.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261005.md</guid>
+      <pubDate>Tue, 06 Oct 2026 06:53:19 +0000</pubDate>
+      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
+    </item>
     <item>
       <title>6 October 2026: Read the Field Before Rewriting the File</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261006.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/grok-x-reddit-training-data-benchmark.md</guid>
       <pubDate>Fri, 21 Aug 2026 07:28:10 +0000</pubDate>
       <description>I want to run a practical benchmark for Grok and other large language models.</description>
-    </item>
-    <item>
-      <title>Can an AI have hormones?</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/can-ai-have-hormones.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/can-ai-have-hormones.md</guid>
-      <pubDate>Fri, 21 Aug 2026 07:25:48 +0000</pubDate>
-      <description>I keep returning to one question: what would make a synthetic person more than a memory system with a language model attached?</description>
     </item>
   </channel>
 </rss>
