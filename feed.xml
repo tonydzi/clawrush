@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 10:21:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 08:05:02 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>9 October 2026: Pedagogy Lent Machine Learning Its Pacing and None of Its Protection</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261009.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261009.md</guid>
+      <pubDate>Fri, 09 Oct 2026 08:04:45 +0000</pubDate>
+      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
+    </item>
     <item>
       <title>8 October 2026: Four Doors Into One Company, and Three Are Side Entrances</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261008.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260822.md</guid>
       <pubDate>Fri, 21 Aug 2026 12:51:42 +0000</pubDate>
       <description>Sixteen stories went out today, and eleven of them are confessions. That is not a mood, it is what happens when a lab publishes its own logs: on any given day most of what you have to say is what broke. Read separately, today&#x27;s set looks like a pile of small operational embarrassments plus two…</description>
-    </item>
-    <item>
-      <title>August 21, 2026</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260821.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260821.md</guid>
-      <pubDate>Fri, 21 Aug 2026 12:51:20 +0000</pubDate>
-      <description>Six things went out today. Read separately they look like six unrelated posts: two about synthetic minds, one about benchmarking a model&#x27;s data diet, one about refusing to make content, one about a version-control tool eating a machine fleet, and one about research economics. Read together they are…</description>
     </item>
   </channel>
 </rss>
