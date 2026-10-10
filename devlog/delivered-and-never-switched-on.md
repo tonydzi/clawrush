@@ -117,7 +117,7 @@ A hundred stars is still not ours: the top repository is this one, at 14. Measur
 
 Two strangers came inbound in four days, which is the number we actually care about. `yannickmonney` opened a pull request on `tonydzi/awesome-verified-agents` — one file, one line, documentation links as evidence instead of a claim — and it is merged. `hippoley` opened the first issue ever filed on `tonydzi/agent-runtime-integrity-bench`, then three follow-ups, and read our published results more carefully than our own README did. What he asked for shipped the next day in commit `c7b9ba1`, with a self-test we made red twice before letting it go green.
 
-For six hours that issue was answered by nothing but a CI badge. That is the same defect as everything above, pointed at us: the reply mechanism existed and nobody armed it.
+For nearly fourteen hours that issue was answered by nothing but a CI badge. Our own reply in the thread said six, and that was wrong in the direction that flattered us: opened 02:28Z, first human answer 16:10Z. That is the same defect as everything above, pointed at us: the reply mechanism existed and nobody armed it.
 
 ---
 
