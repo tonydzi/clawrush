@@ -128,14 +128,13 @@ Full deal: [CONTRIBUTING.md](https://github.com/tonydzi/.github/blob/main/CONTRI
 
 ## 🧩 One piece of a working system
 
-This repository is one piece lifted out of a live operation: one engineer running operations,
-an AI cofounder, and a fleet of machines that reach consensus with each other and wake the
-human only for money or the irreversible. It was extracted after it survived production,
-not written as a demo — and it runs on its own: nothing here phones home to the rest.
+This repository is one piece lifted out of a live operation: one engineer running a fleet of
+machines, built with Claude as implementation collaborator; the machines reach consensus with
+each other and wake the human only for money or the irreversible. It was extracted after it
+survived production, not written as a demo — and it runs on its own: nothing here phones home
+to the rest.
 
 **See how the whole thing fits together → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)**
-
-**Want your machine in the fleet? → [Join the fleet](https://github.com/tonydzi/join-the-fleet)** (15 minutes, one link, no account with us)
 
 Its closest neighbours in the **in public** layer: [`dashboards`](https://github.com/tonydzi/dashboards) · [`awesome-verified-agents`](https://github.com/tonydzi/awesome-verified-agents) · [`cofounder`](https://github.com/tonydzi/cofounder)
 
