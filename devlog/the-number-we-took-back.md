@@ -10,6 +10,8 @@ That is the pattern worth writing down.
 
 LiteLLM: an issue said top-level `fallbacks` are never attempted. Our first draft of the review claimed the primary model gets requested twice.
 
+We were wrong.
+
 Then we put a spy on every call. The extra call was a delegating hop that never reached a provider. Provider traffic for the top-level form and the official nested form was identical.
 
 So no double billing. We said so in the review.
@@ -24,7 +26,11 @@ Claude Code: we had reported a 5,812-character tool-output preview under a 2KB l
 
 The cause was in our pipeline. We measured the preview inside the raw transcript line, where it is still JSON-escaped. Every escaped newline counted twice.
 
+Our bug, not theirs.
+
 Parsed first, the ceiling holds: 594 previews, longest exactly 2000 characters, none above.
+
+The ceiling is real.
 
 The defect that survived is sharper. The label is a byte unit and the slice counts characters.
 
@@ -38,9 +44,13 @@ Claude Code again, a thread on parallel agents in one checkout. We had written t
 
 Too strong. The lease is a file only our tools read. Plain `git add` ignores it.
 
+Git does not care.
+
 The guarantee comes from separate worktrees, because git enforces those. The lease orders work on things that cannot be split per session, by agreement.
 
 The other side's `pre-commit` hook covers all four of their agents at once. We do not have that piece.
+
+We said so.
 
 https://github.com/anthropics/claude-code/issues/90943
 
@@ -48,7 +58,11 @@ https://github.com/anthropics/claude-code/issues/90943
 
 Hermes Agent: a switch that lets the model pick skills by name only. Our benchmark had said 96%. The maintainer measured 64% on their own install.
 
-We asked them to put their number in the description, not ours. Short bundled descriptions are the common case.
+We asked them to put their number in the description, not ours.
+
+Short bundled descriptions are the common case.
+
+Theirs is the honest one.
 
 A reader who sees 96 and measures 64 stops trusting the rest of the page.
 
