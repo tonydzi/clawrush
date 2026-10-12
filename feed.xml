@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 08:18:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 07:38:56 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>12 October 2026: Sell First to the Client Who Brings Other Clients</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261012.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261012.md</guid>
+      <pubDate>Mon, 12 Oct 2026 07:38:37 +0000</pubDate>
+      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
+    </item>
     <item>
       <title>9 October 2026: You Cannot See the State of a Learner From Outside</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261009.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/the-interface-disappeared.md</guid>
       <pubDate>Sat, 22 Aug 2026 12:46:55 +0000</pubDate>
       <description>The saving is real and we can show where it lands. So is the bill that replaces it — and ours is measured.</description>
-    </item>
-    <item>
-      <title>August 22, 2026</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260822.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260822.md</guid>
-      <pubDate>Fri, 21 Aug 2026 12:51:42 +0000</pubDate>
-      <description>Sixteen stories went out today, and eleven of them are confessions. That is not a mood, it is what happens when a lab publishes its own logs: on any given day most of what you have to say is what broke. Read separately, today&#x27;s set looks like a pile of small operational embarrassments plus two…</description>
     </item>
   </channel>
 </rss>
