@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 11:22:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 07:02:30 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>13 October 2026: Reading the Field Is Not Hearing the Field</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261013.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261013.md</guid>
+      <pubDate>Tue, 13 Oct 2026 07:02:11 +0000</pubDate>
+      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
+    </item>
     <item>
       <title>12 October 2026: The Deciding Constraint Is Never the Technical One</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261012.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260824.md</guid>
       <pubDate>Mon, 24 Aug 2026 06:42:49 +0000</pubDate>
       <description>Nine posts and twelve research summaries went out today. The engineering ones converge on one question: what is actually transferable between people, and what only works because of the data you accumulated yourself.</description>
-    </item>
-    <item>
-      <title>The Interface Disappeared. The Reviewer Did Not.</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/the-interface-disappeared.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/the-interface-disappeared.md</guid>
-      <pubDate>Sat, 22 Aug 2026 12:46:55 +0000</pubDate>
-      <description>The saving is real and we can show where it lands. So is the bill that replaces it — and ours is measured.</description>
     </item>
   </channel>
 </rss>
