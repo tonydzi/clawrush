@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 16:24:26 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 15:32:54 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>14 October 2026: The Partner Shows Up in Exactly One Harness</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261014.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261014.md</guid>
+      <pubDate>Wed, 14 Oct 2026 15:32:32 +0000</pubDate>
+      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
+    </item>
     <item>
       <title>13 October 2026: What Reading Does Not Give You, and What Memory Does Not Either</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261013.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/who-cleans-a-thousand-skills.md</guid>
       <pubDate>Mon, 24 Aug 2026 15:21:21 +0000</pubDate>
       <description>Two arithmetic rules run the whole library. The interesting part is what they reveal about where a skill&#x27;s value actually sits.</description>
-    </item>
-    <item>
-      <title>24 August 2026: Someone Else&#x27;s Skill Is a Well-Made Empty Box</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260824.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260824.md</guid>
-      <pubDate>Mon, 24 Aug 2026 06:42:49 +0000</pubDate>
-      <description>Nine posts and twelve research summaries went out today. The engineering ones converge on one question: what is actually transferable between people, and what only works because of the data you accumulated yourself.</description>
     </item>
   </channel>
 </rss>
