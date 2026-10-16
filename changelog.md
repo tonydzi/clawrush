@@ -43,6 +43,32 @@ See: [dev-log YYYY-MM-DD](devlog/YYYY-MM-DD.md). -->
 - **Dev-logs and longreads since the cut.** Two standalone dev-logs, both about mechanisms that say yes: [the gate that reported success](devlog/the-gate-that-reported-success.md) — four days, seven repositories, one shape, starting with our own shared-file guard that was registered on `Bash|PowerShell` while its body returned 0 for anything that was not `Edit`/`Write`/`MultiEdit`, held three weeks, and let a heredoc truncate a file another live session was editing with no sync-conflict copy to recover from; and [delegation unhooks your guards](devlog/delegation-unhooks-your-guards.md) — a guard that is reached and starved, and a child process that lies by exiting politely. That first dev-log also corrected its own inbound figure mid-week: search had counted three issues in a *private* repository as public inbound, so eighteen became fifteen, which is the number below. New daily days since the cut: [26](devlog/20260926.md), [28](devlog/20260928.md) and [29](devlog/20260929.md) September, with [Learning in the Only Place Attention Exists](longreads/20260926.md), [Read the Parameter Before You Plan Against It](longreads/20260928.md) and [The Scarce Thing Is Undistracted Hours](longreads/20260929.md). The [22 September](devlog/20260922.md) day was already named in last week's entry and only gained a follow-up-quality post after the cut, [in its longread](longreads/20260922.md) — the day belongs to that entry, the post to this one.
 - **Counters, measured today by two independent methods that agree** (`gh repo list --json stargazerCount` summed, and `/users/tonydzi/repos` paginated — both return 54 non-fork public repositories and 95 stars): merges into repositories we do not own **49** (was 45), **53** merged in total; **54** non-fork public repositories, one more than last week, carrying **95** stars (was 93); followers **48** (was 44). Inbound issues and pull requests from other people: **15 items from 9 accounts**, unchanged, counted per repository rather than by search — the most recent is still `b7n0de`'s on 20 September, so **14 days with none**.
 
+## v2026.09 - 2026-10-16 {#v2026-09}
+
+September, closed on the month rather than on a feature (tag cut late, on 2026-10-16; the weekly entries above and below it cover October). Forty-nine devlog files and twenty-two
+longreads were added in September (counted from git history on 2026-10-16), written daily and tagged once, which is this repo's whole scheme: the tag says which
+month you are reading, not which feature shipped.
+
+What the month was actually about, in the pieces that kept coming back:
+
+- **Instruments that lie while staying green.** A watchdog over a set of channels that measured the
+  aggregate and missed the one channel that mattered; a health endpoint reporting the age of the
+  last restart as liveness; a coverage guard armed against a 50% failure and blind to a 100% one;
+  a search tool calling a truncated count a total. The recurring lesson is that the frame around a
+  number lies more often than the number does.
+- **Gates that read less than the operation they guard.** The publication scanner that was blind to
+  staged files, after being fixed for untracked ones, and the sample gate whose own fixtures were
+  the leak and whose cleaning broke it.
+- **Benchmarks against your own corpus.** `longreads/a-benchmark-is-not-your-corpus.md` and the new
+  `artifacts/brain_gold_eval.py` plus `artifacts/gold-set-from-your-wikilinks.md`: how to build a
+  retrieval gold set out of links you already wrote by hand, instead of trusting a public benchmark
+  to describe your own data.
+- **Four artifacts promoted out of the prose** into `artifacts/`, so the code a reader wants is a
+  file rather than a fenced block inside an essay: the eval above, a desktop-gate probe, the gold-set
+  recipe, and a guide skill.
+- Plumbing: a feed workflow, `CITATION.cff`, and `FOR-ROBOTS.md` plus `llms.txt` kept current so
+  agents reading this repo are given a map instead of guessing.
+
 ## 2026-09-27 — weekly release: two documentation merges, five still open, one closed on purpose, and a map with nothing missing {#2026-09-27-weekly-release}
 **What shipped.** Two pull requests merged into repositories we do not own — both documentation corrections, three lines of code between them — five more opened and still open, one closed by a maintainer who said plainly he was not taking community patches for that issue, one contributed row merged into ours, a gold-set ruler that argued us out of two of our own upgrades, and a title Anton never held removed from everything public.
 - **The window.** From the [2026-09-20 entry](#2026-09-20-weekly-release), committed 2026-09-20 at 11:44Z, to today. Nothing before that cut is repeated here.

@@ -1,4 +1,4 @@
-<!-- built for Anton's fleet — adapt paths/names (/Users/anton/Obsidian/Anton-Knowledge etc.) to your setup -->
+<!-- built for one specific fleet; adapt paths and names (e.g. ~/Obsidian/<your-vault>) to your own setup -->
 ---
 name: guide
 description: Вечнозелёный ГАЙД по «формуле Юницкого» — обучающий лонгформ для не-технарей (Дзен-урок-сшивка, GitHub гайд-хаб, LJ), собранный из НАШЕЙ живой фактуры (флот, второй мозг, CRM, факапы с датами). Триггеры: "/guide", "сделай гайд", "собери урок", "дзен-урок", "гайд-хаб", "оформи как Юницкий", "evergreen guide". НЕ путать с /vibe-teach (ежедневный пост 60-120 слов — тот зовёт сюда, когда 3-5 постов созрели в сшивку). Источник формулы: разбор tochkicamp.ru — волт resource-tochkicamp-second-brain-guide-yunitsky.md. Канон: §3.2 (гейт снят), §9.4 (объём задаёт мысль), §9.7 (без купюр), everything-becomes-content.
