@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 05:25:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 07:21:50 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>16 October 2026: Learning Only the Part You Are Weak At</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261016.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261016.md</guid>
+      <pubDate>Fri, 16 Oct 2026 07:21:28 +0000</pubDate>
+      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
+    </item>
     <item>
       <title>14 October 2026: The Thing Around the Content Does the Work</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261014.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260825.md</guid>
       <pubDate>Tue, 25 Aug 2026 12:11:55 +0000</pubDate>
       <description>One post today, and it is about the cost of opening things. Measured on our own hub, not theorised.</description>
-    </item>
-    <item>
-      <title>A skill is born by a counter and dies by a calendar — and nobody uses the ones you did not write</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/who-cleans-a-thousand-skills.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/who-cleans-a-thousand-skills.md</guid>
-      <pubDate>Mon, 24 Aug 2026 15:21:21 +0000</pubDate>
-      <description>Two arithmetic rules run the whole library. The interesting part is what they reveal about where a skill&#x27;s value actually sits.</description>
     </item>
   </channel>
 </rss>
