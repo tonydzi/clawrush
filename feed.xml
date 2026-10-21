@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 15:53:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 10:56:04 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>21 October 2026: Free Setup, Paid in Use Cases</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261021.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261021.md</guid>
+      <pubDate>Wed, 21 Oct 2026 10:55:42 +0000</pubDate>
+      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
+    </item>
     <item>
       <title>20 October 2026: Silence to Do the Work, Rooms to Find It</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261020.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260826.md</guid>
       <pubDate>Wed, 26 Aug 2026 06:35:35 +0000</pubDate>
       <description>Today&#x27;s summary is being written. It lands at the end of the day, in one piece: every post of the day, how they connect, and what we actually learned.</description>
-    </item>
-    <item>
-      <title>The RALPH loop: restart the agent instead of compressing its history — and put a leash on it</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/ralph-loop-and-backpressure.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/ralph-loop-and-backpressure.md</guid>
-      <pubDate>Tue, 25 Aug 2026 13:14:38 +0000</pubDate>
-      <description>An infinite outer loop is not about stamina. It is about never leaving the part of the context window where the model is sharp.</description>
     </item>
   </channel>
 </rss>
