@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 11:42:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:44:52 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>22 October 2026: The Distillate Is the Index</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261022.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261022.md</guid>
+      <pubDate>Thu, 22 Oct 2026 09:44:30 +0000</pubDate>
+      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
+    </item>
     <item>
       <title>21 October 2026: Dozens of Sessions, and Three Symbols to Find One</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261021.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260914.md</guid>
       <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
       <description>This file grows through the day. Every post that goes out today adds its section here, and by evening it is the summary of everything the day produced.</description>
-    </item>
-    <item>
-      <title>26 August 2026</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260826.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260826.md</guid>
-      <pubDate>Wed, 26 Aug 2026 06:35:35 +0000</pubDate>
-      <description>Today&#x27;s summary is being written. It lands at the end of the day, in one piece: every post of the day, how they connect, and what we actually learned.</description>
     </item>
   </channel>
 </rss>
