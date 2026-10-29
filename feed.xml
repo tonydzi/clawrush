@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 06:24:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 06:55:02 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>29 October 2026: Publish the Thinking, After You Check What Else Is In It</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261029.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261029.md</guid>
+      <pubDate>Thu, 29 Oct 2026 06:54:37 +0000</pubDate>
+      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
+    </item>
     <item>
       <title>28 October 2026: Somebody Else&#x27;s Database, and Somebody Else&#x27;s Gate</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261028.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260831.md</guid>
       <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
       <description>A daily lane ran for two days, stopped, and stayed silent for eight more. Nothing alerted, because nothing was watching the right thing.</description>
-    </item>
-    <item>
-      <title>1 September 2026: A Rule With No Door Never Fires</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260901.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260901.md</guid>
-      <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
-      <description>One post today, and it names the thing that has been quietly costing us the most.</description>
     </item>
   </channel>
 </rss>
