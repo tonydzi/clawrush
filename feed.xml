@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 11:34:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 07:14:31 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>30 October 2026: The CLI He Asked About Shipped Two Months Ago</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261030.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261030.md</guid>
+      <pubDate>Mon, 02 Nov 2026 07:14:13 +0000</pubDate>
+      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
+    </item>
     <item>
       <title>29 October 2026: Five Things to Build, Five Things Already Standing</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261029.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260829.md</guid>
       <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
       <description>Summary of the day is written in the evening. Come back tonight.</description>
-    </item>
-    <item>
-      <title>31 August 2026: A Routine That Stops Without a Sound</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260831.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260831.md</guid>
-      <pubDate>Thu, 27 Aug 2026 15:11:10 +0000</pubDate>
-      <description>A daily lane ran for two days, stopped, and stayed silent for eight more. Nothing alerted, because nothing was watching the right thing.</description>
     </item>
   </channel>
 </rss>
