@@ -1,0 +1,1738 @@
+{
+  "schema": "temporal-memory-smoke-audit/v1",
+  "scope": "Arithmetic audit of saved heuristic decisions; not a product/model leaderboard or semantic regrade.",
+  "sample": {
+    "subjects": 15,
+    "changes": 15,
+    "questions": 30,
+    "change_field_families": [
+      14,
+      1
+    ],
+    "questions_per_change": 2
+  },
+  "limitations": [
+    "Typed SQL baseline supplies its own gold answers",
+    "Text input requires Graphiti extraction; asymmetric stages",
+    "Search and edge heuristics use different grading rules",
+    "Search evidence truncated after grading",
+    "hash-bow256 smoke embedder; NoRerank",
+    "Provider model identities not independently attested",
+    "Single recorded runs; route adapters/schema handling differ",
+    "Private underlying dataset not released; cannot reproduce semantic grading from this packet"
+  ],
+  "sql_self_consistency": {
+    "source_sha256": "9662463a4e72f0a8d3bbc738ab0c487d094a594ab2ac36a78ed9752d80973eb0",
+    "questions": 30,
+    "saved_pass": 30,
+    "scope": "Deterministic consistency with same SQLhistory used for gold"
+  },
+  "runs": [
+    {
+      "run_id": "graphiti_claude_haiku_5_5_asof",
+      "reported_route_label": "claude-haiku-5-5",
+      "source_sha256": "d78e0479dd9ed73937d14c0df6b706c9a5b950ea7a29be04c955dc04374f4876",
+      "source_mtime_utc": "2026-11-06T00:41:20.018582+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 0,
+      "measurement_status": "unavailable",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": null,
+      "saved_edge_heuristic_pass": null,
+      "items": []
+    },
+    {
+      "run_id": "graphiti_claude_opus_5_5_asof",
+      "reported_route_label": "claude-opus-5-5",
+      "source_sha256": "8d3db53649ef6fa51a57620a146052668f90abf2b82c6a7626bb8cbfee3ec0bd",
+      "source_mtime_utc": "2026-11-06T00:38:16.257463+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 0,
+      "measurement_status": "unavailable",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": null,
+      "saved_edge_heuristic_pass": null,
+      "items": []
+    },
+    {
+      "run_id": "graphiti_claude_sonnet_5_5_asof",
+      "reported_route_label": "claude-sonnet-5-5",
+      "source_sha256": "21264013c2b608899d5da7cda66d943e8de6d16f887fc85543be212394ddd283",
+      "source_mtime_utc": "2026-11-06T00:39:42.309467+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 0,
+      "measurement_status": "unavailable",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": null,
+      "saved_edge_heuristic_pass": null,
+      "items": []
+    },
+    {
+      "run_id": "graphiti_gemini38_asof",
+      "reported_route_label": "gemini-3.8-flash-high",
+      "source_sha256": "ac7e200be5bfcaf8137beb2fb8ab8423df5917240bfa9b586faa13741b7f548c",
+      "source_mtime_utc": "2026-11-06T00:21:59.588405+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 30,
+      "measurement_status": "available",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": 3,
+      "saved_edge_heuristic_pass": 3,
+      "items": [
+        {
+          "question_id": "q001",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q002",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q003",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q004",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q005",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q006",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q007",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q008",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q009",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q010",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q011",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q012",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q013",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q014",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q015",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q016",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q017",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q018",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q019",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q020",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q021",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q022",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q023",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q024",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q025",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q026",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q027",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q028",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q029",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q030",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        }
+      ]
+    },
+    {
+      "run_id": "graphiti_gemini_3_flash_asof",
+      "reported_route_label": "gemini-3-flash",
+      "source_sha256": "4cb8986be37891499bdb63d2758387eec3ff123f5e1f6da0f510cefd847d9616",
+      "source_mtime_utc": "2026-11-06T00:43:54.181333+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 30,
+      "measurement_status": "available",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": 21,
+      "saved_edge_heuristic_pass": 18,
+      "items": [
+        {
+          "question_id": "q001",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q002",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q003",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q004",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q005",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q006",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q007",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q008",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q009",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q010",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q011",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q012",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q013",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q014",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q015",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q016",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q017",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q018",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q019",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q020",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q021",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q022",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q023",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q024",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q025",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q026",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q027",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q028",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q029",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q030",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        }
+      ]
+    },
+    {
+      "run_id": "graphiti_glm_asof",
+      "reported_route_label": "GLM subscription glm-5.3",
+      "source_sha256": "440ae3a2e88b6a97ffdb5649666687c2ec90b718ba0dea846fc96047111218b4",
+      "source_mtime_utc": "2026-11-05T22:56:22.172259+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 30,
+      "measurement_status": "available",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": 7,
+      "saved_edge_heuristic_pass": 6,
+      "items": [
+        {
+          "question_id": "q001",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q002",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q003",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q004",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q005",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q006",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q007",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q008",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q009",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q010",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q011",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q012",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q013",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q014",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q015",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q016",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q017",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q018",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q019",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q020",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q021",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q022",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q023",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q024",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q025",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q026",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q027",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q028",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q029",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q030",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        }
+      ]
+    },
+    {
+      "run_id": "graphiti_glm_asof.run1-search-only",
+      "reported_route_label": "GLM subscription glm-5.3",
+      "source_sha256": "715bbf6934174e1d4c05ab9476dc1373d5a10c62177c7e1df522421e71ec01d5",
+      "source_mtime_utc": "2026-11-05T22:45:17.318753+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 30,
+      "measurement_status": "available",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": 12,
+      "saved_edge_heuristic_pass": null,
+      "items": [
+        {
+          "question_id": "q001",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q002",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q003",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q004",
+          "search_pass": true,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q005",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q006",
+          "search_pass": true,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q007",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q008",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q009",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q010",
+          "search_pass": true,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q011",
+          "search_pass": true,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q012",
+          "search_pass": true,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q013",
+          "search_pass": true,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q014",
+          "search_pass": true,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q015",
+          "search_pass": true,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q016",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q017",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q018",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q019",
+          "search_pass": true,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q020",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q021",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q022",
+          "search_pass": true,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q023",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q024",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q025",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q026",
+          "search_pass": true,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q027",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q028",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q029",
+          "search_pass": false,
+          "edge_heuristic_pass": null
+        },
+        {
+          "question_id": "q030",
+          "search_pass": true,
+          "edge_heuristic_pass": null
+        }
+      ]
+    },
+    {
+      "run_id": "graphiti_gpt6_asof",
+      "reported_route_label": "gpt-6-sol",
+      "source_sha256": "fdd345de8426aadb534664b47ac468d1fb6f206fb925e175d97241dbe8c0ba4c",
+      "source_mtime_utc": "2026-11-06T00:21:00.428060+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 30,
+      "measurement_status": "available",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": 2,
+      "saved_edge_heuristic_pass": 2,
+      "items": [
+        {
+          "question_id": "q001",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q002",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q003",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q004",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q005",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q006",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q007",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q008",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q009",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q010",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q011",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q012",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q013",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q014",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q015",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q016",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q017",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q018",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q019",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q020",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q021",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q022",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q023",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q024",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q025",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q026",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q027",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q028",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q029",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q030",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        }
+      ]
+    },
+    {
+      "run_id": "graphiti_gpt_6_1_sol_asof",
+      "reported_route_label": "gpt-6.1-sol",
+      "source_sha256": "6f6924dfc012e6cf8003d1500dc97f1ddb0b3ae3a51c81aea58af6fe1ae3f538",
+      "source_mtime_utc": "2026-11-06T00:40:21.345244+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 30,
+      "measurement_status": "available",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": 0,
+      "saved_edge_heuristic_pass": 0,
+      "items": [
+        {
+          "question_id": "q001",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q002",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q003",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q004",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q005",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q006",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q007",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q008",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q009",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q010",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q011",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q012",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q013",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q014",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q015",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q016",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q017",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q018",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q019",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q020",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q021",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q022",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q023",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q024",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q025",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q026",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q027",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q028",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q029",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q030",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        }
+      ]
+    },
+    {
+      "run_id": "graphiti_gpt_oss_120b_medium_asof",
+      "reported_route_label": "gpt-oss-120b-medium",
+      "source_sha256": "2c40030c1f4c950f501e990babc38859e3e09fc481a1a61d0705ca55d5400a79",
+      "source_mtime_utc": "2026-11-06T00:42:13.722912+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 0,
+      "measurement_status": "unavailable",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": null,
+      "saved_edge_heuristic_pass": null,
+      "items": []
+    },
+    {
+      "run_id": "graphiti_grok47_asof",
+      "reported_route_label": "grok-4.7",
+      "source_sha256": "4ba1067aa9cda540474dac25e1f79e8fcbf92f713974055c1c5f66db1fdc87c5",
+      "source_mtime_utc": "2026-11-06T00:43:44.113003+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 30,
+      "measurement_status": "available",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": 24,
+      "saved_edge_heuristic_pass": 27,
+      "items": [
+        {
+          "question_id": "q001",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q002",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q003",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q004",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q005",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q006",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q007",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q008",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q009",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q010",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q011",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q012",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q013",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q014",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q015",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q016",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q017",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q018",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q019",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q020",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q021",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q022",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q023",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q024",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q025",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q026",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q027",
+          "search_pass": false,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q028",
+          "search_pass": false,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q029",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q030",
+          "search_pass": false,
+          "edge_heuristic_pass": true
+        }
+      ]
+    },
+    {
+      "run_id": "graphiti_grok_4_20_0309_reasoning_asof",
+      "reported_route_label": "grok-4.20-0309-reasoning",
+      "source_sha256": "c0c9123ebde522c65e53f62899b519d1ab7fcac369f59c8470ee96c8213dc436",
+      "source_mtime_utc": "2026-11-06T01:05:34.689012+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 30,
+      "measurement_status": "available",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": 23,
+      "saved_edge_heuristic_pass": 23,
+      "items": [
+        {
+          "question_id": "q001",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q002",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q003",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q004",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q005",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q006",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q007",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q008",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q009",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q010",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q011",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q012",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q013",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q014",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q015",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q016",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q017",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q018",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q019",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q020",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q021",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q022",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q023",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q024",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q025",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q026",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q027",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q028",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q029",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q030",
+          "search_pass": false,
+          "edge_heuristic_pass": true
+        }
+      ]
+    },
+    {
+      "run_id": "graphiti_grok_4_5_asof",
+      "reported_route_label": "grok-4.5",
+      "source_sha256": "137edd03ef5b7a80e223e0aed5f2f80d6b2db45f8e27254dce77a31638d678ef",
+      "source_mtime_utc": "2026-11-06T01:28:10.376834+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 30,
+      "measurement_status": "available",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": 22,
+      "saved_edge_heuristic_pass": 24,
+      "items": [
+        {
+          "question_id": "q001",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q002",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q003",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q004",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q005",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q006",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q007",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q008",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q009",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q010",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q011",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q012",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q013",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q014",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q015",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q016",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q017",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q018",
+          "search_pass": false,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q019",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q020",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q021",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q022",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q023",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q024",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q025",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q026",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q027",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q028",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q029",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q030",
+          "search_pass": false,
+          "edge_heuristic_pass": true
+        }
+      ]
+    },
+    {
+      "run_id": "graphiti_mistral_asof",
+      "reported_route_label": "Mistral API mistral-large-latest",
+      "source_sha256": "985f126081bf5af68a030aa0a13360460863b18f622423b409b44fd48c7e5034",
+      "source_mtime_utc": "2026-11-06T00:13:10.271958+00:00",
+      "questions": 30,
+      "episodes_total": 30,
+      "episodes_ok": 30,
+      "measurement_status": "available",
+      "embedder": "hash-bow-256; smoke test, not search quality",
+      "saved_search_pass": 15,
+      "saved_edge_heuristic_pass": 3,
+      "items": [
+        {
+          "question_id": "q001",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q002",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q003",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q004",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q005",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q006",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q007",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q008",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q009",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q010",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q011",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q012",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q013",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q014",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q015",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q016",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q017",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q018",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q019",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q020",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q021",
+          "search_pass": true,
+          "edge_heuristic_pass": true
+        },
+        {
+          "question_id": "q022",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q023",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q024",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q025",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q026",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q027",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q028",
+          "search_pass": true,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q029",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        },
+        {
+          "question_id": "q030",
+          "search_pass": false,
+          "edge_heuristic_pass": false
+        }
+      ]
+    }
+  ]
+}
