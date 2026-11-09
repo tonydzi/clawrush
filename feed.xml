@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 13:41:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 07:52:51 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>6 November 2026: Three Skills For Making Skills Already Exist, And The Size Spread Is 267 To One</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261106.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261106.md</guid>
+      <pubDate>Mon, 09 Nov 2026 07:52:27 +0000</pubDate>
+      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
+    </item>
     <item>
       <title>A memory comparison that did not survive its own scoring rules</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/temporal-memory-scoring-audit-2026-11-06.md</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260910.md</guid>
       <pubDate>Fri, 11 Sep 2026 05:44:11 +0000</pubDate>
       <description>The day&#x27;s posts looked scattered: lead scoring, message cleanup, AI-agent memory, subscription economics, job applications, TRIZ, and even conference hygiene. Underneath them was one shared question: how do you make an automated system useful without letting it become careless, opaque, or expensive?</description>
-    </item>
-    <item>
-      <title>September 9, 2026: Bodies, Digital Selves, and Narrow AI That Actually Helps</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260909.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260909.md</guid>
-      <pubDate>Wed, 09 Sep 2026 09:05:11 +0000</pubDate>
-      <description>Today&#x27;s posts looked at the same problem from two different distances: what makes a person persist, and what part of that persistence can be built with today&#x27;s tools.</description>
     </item>
   </channel>
 </rss>
