@@ -1,0 +1,435 @@
+{
+  "ruler": "getzep/zep-papers@4b7f26cc locomo_eval",
+  "n_expected": 1540,
+  "smoke": false,
+  "K": 20,
+  "tag": "",
+  "reference_zep_blog": {
+    "zep_cloud": 75.14,
+    "gpt-4o-mini_full_context": 72.9,
+    "mem0_graph_from_mem0_paper": 68.44,
+    "mem0_from_mem0_paper": 66.88
+  },
+  "runs": {
+    "full@gpt-6-sol/grok-4.20-0309-non-reasoning": [
+      {
+        "run": "r1",
+        "n": 1540,
+        "correct": 1333,
+        "overall": 86.55844155844156,
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 90.78014184397163,
+        "temporal": 67.601246105919,
+        "open-domain": 68.75,
+        "single-hop": 94.41141498216409
+      }
+    ],
+    "graphiti@gpt-6-sol/grok-4.20-0309-non-reasoning": [
+      {
+        "run": "r1",
+        "n": 1540,
+        "correct": 659,
+        "overall": 42.79220779220779,
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 52.12765957446808,
+        "temporal": 26.4797507788162,
+        "open-domain": 48.958333333333336,
+        "single-hop": 45.18430439952438
+      },
+      {
+        "run": "r2",
+        "n": 1540,
+        "correct": 645,
+        "overall": 41.883116883116884,
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 51.41843971631206,
+        "temporal": 23.98753894080997,
+        "open-domain": 44.791666666666664,
+        "single-hop": 45.18430439952438
+      },
+      {
+        "run": "r3",
+        "n": 1540,
+        "correct": 647,
+        "overall": 42.01298701298701,
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 49.645390070921984,
+        "temporal": 22.741433021806852,
+        "open-domain": 45.833333333333336,
+        "single-hop": 46.37336504161712
+      }
+    ],
+    "mem0@gpt-6-sol/grok-4.20-0309-non-reasoning": [
+      {
+        "run": "r1",
+        "n": 1540,
+        "correct": 1214,
+        "overall": 78.83116883116882,
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 81.91489361702128,
+        "temporal": 66.35514018691589,
+        "open-domain": 64.58333333333333,
+        "single-hop": 84.18549346016647
+      },
+      {
+        "run": "r2",
+        "n": 1540,
+        "correct": 1207,
+        "overall": 78.37662337662337,
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 80.1418439716312,
+        "temporal": 67.28971962616822,
+        "open-domain": 62.5,
+        "single-hop": 83.82877526753865
+      },
+      {
+        "run": "r3",
+        "n": 1540,
+        "correct": 1209,
+        "overall": 78.50649350649351,
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 81.56028368794327,
+        "temporal": 67.28971962616822,
+        "open-domain": 64.58333333333333,
+        "single-hop": 83.35315101070155
+      }
+    ],
+    "ours@gpt-6-sol/grok-4.20-0309-non-reasoning": [
+      {
+        "run": "r1",
+        "n": 1540,
+        "correct": 1106,
+        "overall": 71.81818181818181,
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 70.56737588652483,
+        "temporal": 44.23676012461059,
+        "open-domain": 58.333333333333336,
+        "single-hop": 84.30439952437574
+      },
+      {
+        "run": "r2",
+        "n": 1540,
+        "correct": 1112,
+        "overall": 72.20779220779221,
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 72.69503546099291,
+        "temporal": 44.54828660436137,
+        "open-domain": 57.291666666666664,
+        "single-hop": 84.30439952437574
+      },
+      {
+        "run": "r3",
+        "n": 1540,
+        "correct": 1115,
+        "overall": 72.40259740259741,
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 69.8581560283688,
+        "temporal": 45.794392523364486,
+        "open-domain": 59.375,
+        "single-hop": 84.89892984542212
+      }
+    ],
+    "zep@gpt-6-sol/grok-4.20-0309-non-reasoning": [
+      {
+        "run": "r1",
+        "n": 1540,
+        "correct": 1167,
+        "overall": 75.77922077922078,
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 72.69503546099291,
+        "temporal": 70.40498442367601,
+        "open-domain": 62.5,
+        "single-hop": 80.38049940546968
+      },
+      {
+        "run": "r2",
+        "n": 1540,
+        "correct": 1176,
+        "overall": 76.36363636363636,
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 73.75886524822695,
+        "temporal": 69.78193146417445,
+        "open-domain": 65.625,
+        "single-hop": 80.97502972651606
+      },
+      {
+        "run": "r3",
+        "n": 1540,
+        "correct": 1162,
+        "overall": 75.45454545454545,
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 72.34042553191489,
+        "temporal": 69.78193146417445,
+        "open-domain": 62.5,
+        "single-hop": 80.14268727705112
+      }
+    ],
+    "zepans@gpt-4o-mini@zep-published/grok-4.20-0309-non-reasoning": [
+      {
+        "run": "r1",
+        "n": 1540,
+        "correct": 1104,
+        "overall": 71.68831168831169,
+        "reader": "gpt-4o-mini@zep-published",
+        "judge": "grok-4.20-0309-non-reasoning",
+        "multi-hop": 70.2127659574468,
+        "temporal": 65.10903426791278,
+        "open-domain": 57.291666666666664,
+        "single-hop": 76.33769322235435
+      }
+    ],
+    "zepans_upstream@gpt-4o-mini@zep-published/gpt-4o-mini@zep-published": [
+      {
+        "run": "r1",
+        "n": 1540,
+        "correct": 1157,
+        "overall": 75.12987012987013,
+        "reader": "gpt-4o-mini@zep-published",
+        "judge": "gpt-4o-mini@zep-published",
+        "multi-hop": 74.11347517730496,
+        "temporal": 66.04361370716511,
+        "open-domain": 67.70833333333333,
+        "single-hop": 79.7859690844233
+      }
+    ]
+  },
+  "summary": {
+    "full@gpt-6-sol/grok-4.20-0309-non-reasoning": {
+      "system": "full",
+      "overall": {
+        "mean": 86.56,
+        "sd": null,
+        "runs": 1
+      },
+      "multi-hop": {
+        "mean": 90.78,
+        "sd": null,
+        "runs": 1
+      },
+      "temporal": {
+        "mean": 67.6,
+        "sd": null,
+        "runs": 1
+      },
+      "open-domain": {
+        "mean": 68.75,
+        "sd": null,
+        "runs": 1
+      },
+      "single-hop": {
+        "mean": 94.41,
+        "sd": null,
+        "runs": 1
+      },
+      "models": {
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning"
+      }
+    },
+    "graphiti@gpt-6-sol/grok-4.20-0309-non-reasoning": {
+      "system": "graphiti",
+      "overall": {
+        "mean": 42.23,
+        "sd": 0.4,
+        "runs": 3
+      },
+      "multi-hop": {
+        "mean": 51.06,
+        "sd": 1.04,
+        "runs": 3
+      },
+      "temporal": {
+        "mean": 24.4,
+        "sd": 1.55,
+        "runs": 3
+      },
+      "open-domain": {
+        "mean": 46.53,
+        "sd": 1.77,
+        "runs": 3
+      },
+      "single-hop": {
+        "mean": 45.58,
+        "sd": 0.56,
+        "runs": 3
+      },
+      "models": {
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning"
+      }
+    },
+    "mem0@gpt-6-sol/grok-4.20-0309-non-reasoning": {
+      "system": "mem0",
+      "overall": {
+        "mean": 78.57,
+        "sd": 0.19,
+        "runs": 3
+      },
+      "multi-hop": {
+        "mean": 81.21,
+        "sd": 0.77,
+        "runs": 3
+      },
+      "temporal": {
+        "mean": 66.98,
+        "sd": 0.44,
+        "runs": 3
+      },
+      "open-domain": {
+        "mean": 63.89,
+        "sd": 0.98,
+        "runs": 3
+      },
+      "single-hop": {
+        "mean": 83.79,
+        "sd": 0.34,
+        "runs": 3
+      },
+      "models": {
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning"
+      }
+    },
+    "ours@gpt-6-sol/grok-4.20-0309-non-reasoning": {
+      "system": "ours",
+      "overall": {
+        "mean": 72.14,
+        "sd": 0.24,
+        "runs": 3
+      },
+      "multi-hop": {
+        "mean": 71.04,
+        "sd": 1.21,
+        "runs": 3
+      },
+      "temporal": {
+        "mean": 44.86,
+        "sd": 0.67,
+        "runs": 3
+      },
+      "open-domain": {
+        "mean": 58.33,
+        "sd": 0.85,
+        "runs": 3
+      },
+      "single-hop": {
+        "mean": 84.5,
+        "sd": 0.28,
+        "runs": 3
+      },
+      "models": {
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning"
+      }
+    },
+    "zep@gpt-6-sol/grok-4.20-0309-non-reasoning": {
+      "system": "zep",
+      "overall": {
+        "mean": 75.87,
+        "sd": 0.38,
+        "runs": 3
+      },
+      "multi-hop": {
+        "mean": 72.93,
+        "sd": 0.6,
+        "runs": 3
+      },
+      "temporal": {
+        "mean": 69.99,
+        "sd": 0.29,
+        "runs": 3
+      },
+      "open-domain": {
+        "mean": 63.54,
+        "sd": 1.47,
+        "runs": 3
+      },
+      "single-hop": {
+        "mean": 80.5,
+        "sd": 0.35,
+        "runs": 3
+      },
+      "models": {
+        "reader": "gpt-6-sol",
+        "judge": "grok-4.20-0309-non-reasoning"
+      }
+    },
+    "zepans@gpt-4o-mini@zep-published/grok-4.20-0309-non-reasoning": {
+      "system": "zepans",
+      "overall": {
+        "mean": 71.69,
+        "sd": null,
+        "runs": 1
+      },
+      "multi-hop": {
+        "mean": 70.21,
+        "sd": null,
+        "runs": 1
+      },
+      "temporal": {
+        "mean": 65.11,
+        "sd": null,
+        "runs": 1
+      },
+      "open-domain": {
+        "mean": 57.29,
+        "sd": null,
+        "runs": 1
+      },
+      "single-hop": {
+        "mean": 76.34,
+        "sd": null,
+        "runs": 1
+      },
+      "models": {
+        "reader": "gpt-4o-mini@zep-published",
+        "judge": "grok-4.20-0309-non-reasoning"
+      }
+    },
+    "zepans_upstream@gpt-4o-mini@zep-published/gpt-4o-mini@zep-published": {
+      "system": "zepans_upstream",
+      "overall": {
+        "mean": 75.13,
+        "sd": null,
+        "runs": 1
+      },
+      "multi-hop": {
+        "mean": 74.11,
+        "sd": null,
+        "runs": 1
+      },
+      "temporal": {
+        "mean": 66.04,
+        "sd": null,
+        "runs": 1
+      },
+      "open-domain": {
+        "mean": 67.71,
+        "sd": null,
+        "runs": 1
+      },
+      "single-hop": {
+        "mean": 79.79,
+        "sd": null,
+        "runs": 1
+      },
+      "models": {
+        "reader": "gpt-4o-mini@zep-published",
+        "judge": "gpt-4o-mini@zep-published"
+      }
+    }
+  }
+}
