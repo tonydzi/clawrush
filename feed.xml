@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 20:08:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 07:51:27 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>8 November 2026</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261108.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261108.md</guid>
+      <pubDate>Wed, 11 Nov 2026 07:51:00 +0000</pubDate>
+      <description>A day&#x27;s worth of thinking, written for people. Each section is one post from my Facebook wall, expanded with the measurements behind it.</description>
+    </item>
     <item>
       <title>We ran our memory through Zep&#x27;s own LoCoMo ruler. Mem0 won, Zep&#x27;s judge is 3 points kinder than ours.</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/locomo-zep-ruler-2026-11-10.md</link>
@@ -278,13 +285,6 @@
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260918.md</link>
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260918.md</guid>
       <pubDate>Fri, 18 Sep 2026 09:30:34 +0000</pubDate>
-      <description>This file grows through the day. Every post that goes out today adds its section here, and by evening it is the summary of everything the day produced.</description>
-    </item>
-    <item>
-      <title>17 September 2026: The Half That Comes Back</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260917.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260917.md</guid>
-      <pubDate>Thu, 17 Sep 2026 12:33:10 +0000</pubDate>
       <description>This file grows through the day. Every post that goes out today adds its section here, and by evening it is the summary of everything the day produced.</description>
     </item>
   </channel>
