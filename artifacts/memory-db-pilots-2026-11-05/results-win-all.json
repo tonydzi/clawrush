@@ -1,0 +1,71 @@
+{
+ "corpus": {
+  "n": 20000,
+  "dim": 768,
+  "source": "E:\\Obsidian\\_imports\\_brain_e5.npy",
+  "queries": 200,
+  "filter_type": "note",
+  "seed": 7,
+  "ts": "2026-11-05T18:30:40",
+  "host": "win",
+  "tag": "win-all"
+ },
+ "results": [
+  {
+   "engine": "sqlite_numpy",
+   "ok": true,
+   "ingest_s": 3.5,
+   "index_s": 0.0,
+   "q_p50_ms": 2.03,
+   "q_p95_ms": 2.4,
+   "recall@10": 1.0,
+   "filtered_recall@10": 1.0,
+   "update_ok": true,
+   "delete_ok": true,
+   "restart_same": true,
+   "disk_mb": 66.4
+  },
+  {
+   "engine": "sqlite_vec",
+   "ok": true,
+   "ingest_s": 7.21,
+   "index_s": 0.0,
+   "q_p50_ms": 62.32,
+   "q_p95_ms": 299.7,
+   "recall@10": 1.0,
+   "filtered_recall@10": 1.0,
+   "update_ok": true,
+   "delete_ok": true,
+   "restart_same": true,
+   "disk_mb": 68.7
+  },
+  {
+   "engine": "duckdb",
+   "ok": true,
+   "ingest_s": 113.78,
+   "index_s": 4.5,
+   "q_p50_ms": 5.26,
+   "q_p95_ms": 6.99,
+   "recall@10": 0.993,
+   "filtered_recall@10": 0.988,
+   "update_ok": true,
+   "delete_ok": true,
+   "restart_same": true,
+   "disk_mb": 189.0
+  },
+  {
+   "engine": "lancedb",
+   "ok": true,
+   "ingest_s": 125.38,
+   "index_s": 8.79,
+   "q_p50_ms": 403.54,
+   "q_p95_ms": 659.51,
+   "recall@10": 0.633,
+   "filtered_recall@10": 0.616,
+   "update_ok": true,
+   "delete_ok": true,
+   "restart_same": true,
+   "disk_mb": 65.8
+  }
+ ]
+}
