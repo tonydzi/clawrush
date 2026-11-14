@@ -1,0 +1,29 @@
+{
+ "corpus": {
+  "n": 20000,
+  "dim": 768,
+  "source": "E:\\Obsidian\\_imports\\_brain_e5.npy",
+  "queries": 200,
+  "filter_type": "note",
+  "seed": 7,
+  "ts": "2026-11-05T18:50:20",
+  "host": "win",
+  "tag": "win-lance-flat-qdrant"
+ },
+ "results": [
+  {
+   "engine": "lancedb",
+   "ok": true,
+   "ingest_s": 59.55,
+   "index_s": 0.0,
+   "q_p50_ms": 157.42,
+   "q_p95_ms": 475.76,
+   "recall@10": 1.0,
+   "filtered_recall@10": 0.998,
+   "update_ok": true,
+   "delete_ok": true,
+   "restart_same": true,
+   "disk_mb": 63.8
+  }
+ ]
+}
