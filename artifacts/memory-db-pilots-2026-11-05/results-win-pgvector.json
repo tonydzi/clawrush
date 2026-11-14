@@ -1,0 +1,29 @@
+{
+ "corpus": {
+  "n": 20000,
+  "dim": 768,
+  "source": "E:\\Obsidian\\_imports\\_brain_e5.npy",
+  "queries": 200,
+  "filter_type": "note",
+  "seed": 7,
+  "ts": "2026-11-05T22:27:50",
+  "host": "win",
+  "tag": "win-pgvector"
+ },
+ "results": [
+  {
+   "engine": "pgvector",
+   "ok": true,
+   "ingest_s": 24.98,
+   "index_s": 13.8,
+   "q_p50_ms": 1.21,
+   "q_p95_ms": 2.18,
+   "recall@10": 0.995,
+   "filtered_recall@10": 0.998,
+   "update_ok": true,
+   "delete_ok": true,
+   "restart_same": true,
+   "disk_mb": 342.2
+  }
+ ]
+}
