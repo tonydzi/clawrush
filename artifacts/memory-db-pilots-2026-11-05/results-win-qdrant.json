@@ -1,0 +1,29 @@
+{
+ "corpus": {
+  "n": 20000,
+  "dim": 768,
+  "source": "E:\\Obsidian\\_imports\\_brain_e5.npy",
+  "queries": 200,
+  "filter_type": "note",
+  "seed": 7,
+  "ts": "2026-11-05T22:26:42",
+  "host": "win",
+  "tag": "win-qdrant"
+ },
+ "results": [
+  {
+   "engine": "qdrant",
+   "ok": true,
+   "ingest_s": 157.67,
+   "index_s": 0.0,
+   "q_p50_ms": 84.25,
+   "q_p95_ms": 147.86,
+   "recall@10": 1.0,
+   "filtered_recall@10": 1.0,
+   "update_ok": true,
+   "delete_ok": true,
+   "restart_same": true,
+   "disk_mb": 164.7
+  }
+ ]
+}
