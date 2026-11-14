@@ -1,0 +1,9 @@
+== qdrant
+<repo>\_scratch\memory-db-pilots\bench.py:250: DeprecationWarning: `recreate_collection` method is deprecated and will be removed in the future. Use `collection_exists` to check collection existence and `create_collection` instead.
+  self.c.recreate_collection('m', vectors_config=models.VectorParams(size=self.dim, distance=models.Distance.COSINE))
+{"engine": "qdrant", "ok": true, "ingest_s": 157.67, "index_s": 0.0, "q_p50_ms": 84.25, "q_p95_ms": 147.86, "recall@10": 1.0, "filtered_recall@10": 1.0, "update_ok": true, "delete_ok": true, "restart_same": true, "disk_mb": 164.7}
+# memory-db pilots · N=20000 · dim=768 · queries=200 · 2026-11-05T22:26:42
+
+| engine | ok | ingest_s | index_s | q_p50_ms | q_p95_ms | recall@10 | filtered_recall@10 | update_ok | delete_ok | restart_same | disk_mb | error |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| qdrant | True | 157.67 | 0.0 | 84.25 | 147.86 | 1.0 | 1.0 | True | True | True | 164.7 |  |
