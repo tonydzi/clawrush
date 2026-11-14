@@ -26,7 +26,7 @@ The public build diary of C(H+A)RM, a CRM (customer database) for humans and AI 
 git clone https://github.com/tonydzi/clawrush
 cd clawrush
 # machine-readable map of the repo:
-cat llms.txt
+cat llms.txt      # PowerShell: Get-Content llms.txt
 ```
 - `devlog/` raw build log, `longreads/` English essays, `longreads-ru/` Russian essays, `artifacts/` reusable pieces, `diary/` index of social posts, `changelog.md` weekly releases.
 - To cite: use `CITATION.cff`.
@@ -39,6 +39,7 @@ Nothing to configure. To rebuild the RSS feed after adding an essay: `python too
 python tools/build_feed.py --check   # exit 0: feed.xml matches longreads/; exit 1: feed.xml is stale
 python tools/_test_build_feed.py     # self-test of the feed builder
 ```
+Expected: the first prints `feed.xml up to date (<N> items)` and exits `0` (it also lists essays it skips because they are not committed yet; that is normal). The second ends with `GREEN` and `all checks passed`, exit `0`. Both are slow on a weak machine (the self-test took about two minutes here) because they call git.
 
 ### Uninstall / rollback
 Delete the cloned folder. If you regenerated `feed.xml` and do not want it: `git checkout feed.xml`.
