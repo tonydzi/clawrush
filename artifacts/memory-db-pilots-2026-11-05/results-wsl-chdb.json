@@ -1,0 +1,29 @@
+{
+ "corpus": {
+  "n": 20000,
+  "dim": 768,
+  "source": "<vault-imports>/_brain_e5.npy",
+  "queries": 200,
+  "filter_type": "note",
+  "seed": 7,
+  "ts": "2026-11-05T18:31:07",
+  "host": "wsl",
+  "tag": "wsl-chdb"
+ },
+ "results": [
+  {
+   "engine": "chdb",
+   "ok": true,
+   "ingest_s": 8.06,
+   "index_s": 0.0,
+   "q_p50_ms": 30.17,
+   "q_p95_ms": 35.96,
+   "recall@10": 1.0,
+   "filtered_recall@10": 1.0,
+   "update_ok": true,
+   "delete_ok": true,
+   "restart_same": true,
+   "disk_mb": 227.3
+  }
+ ]
+}
