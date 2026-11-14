@@ -1,0 +1,8 @@
+== lancedb
+[2026-11-05T18:51:20Z WARN  lance::dataset::write::insert] No existing dataset at <repo>\_scratch\memory-db-pilots\work\lance\m.lance, it will be created
+<repo>\_scratch\memory-db-pilots\bench.py:220: DeprecationWarning: table_names() is deprecated, use list_tables() instead
+  self.db = lancedb.connect(str(self.path)); self.t = self.db.open_table('m') if 'm' in self.db.table_names() else None
+{"engine": "lancedb", "ok": true, "ingest_s": 59.55, "index_s": 0.0, "q_p50_ms": 157.42, "q_p95_ms": 475.76, "recall@10": 1.0, "filtered_recall@10": 0.998, "update_ok": true, "delete_ok": true, "restart_same": true, "disk_mb": 63.8}
+== qdrant
+<repo>\_scratch\memory-db-pilots\bench.py:250: DeprecationWarning: `recreate_collection` method is deprecated and will be removed in the future. Use `collection_exists` to check collection existence and `create_collection` instead.
+  self.c.recreate_collection('m', vectors_config=models.VectorParams(size=self.dim, distance=models.Distance.COSINE))
