@@ -1,0 +1,9 @@
+Name: embedded-postgres	Version: 18.6.3
+Name: pgvector	Version: 0.5.1
+Name: psycopg	Version: 3.3.8
+Name: qdrant-client	Version: 1.20.0
+Name: lancedb	Version: 0.41.0
+Name: duckdb	Version: 2.0.0
+Name: sqlite-vec	Version: 0.1.9
+Name: numpy	Version: 2.5.4
+pgvector extension (default_version from vector.control): default_version = '0.8.6'
