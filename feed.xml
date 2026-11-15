@@ -5,10 +5,10 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 02:23:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 08:43:18 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Seven local vector stores under one agent memory: in a 20,000-vector pilot only pgvector returned faster than our brute-force numpy scan</title>
+      <title>Seven local vector stores under one agent memory: in a 20,000-vector pilot only pgvector beat our brute-force numpy scan</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/seven-engines-under-one-agent-memory-2026-11-13.md</link>
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/seven-engines-under-one-agent-memory-2026-11-13.md</guid>
       <pubDate>Sat, 14 Nov 2026 02:23:27 +0000</pubDate>
