@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 11:39:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 08:11:36 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Daily longread, 16 November 2026</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261116.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261116.md</guid>
+      <pubDate>Tue, 17 Nov 2026 08:11:09 +0000</pubDate>
+      <description>Written for people. The engineering half of the same day lives in the dev log; if you want your own coding agent to read today instead of you, give it that link.</description>
+    </item>
     <item>
       <title>Daily longread, 13 November 2026</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261113.md</link>
@@ -278,13 +285,6 @@
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260929.md</link>
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260929.md</guid>
       <pubDate>Wed, 30 Sep 2026 12:44:58 +0000</pubDate>
-      <description>This file collects the posts of the day and the connections between them.</description>
-    </item>
-    <item>
-      <title>26 September 2026: Learning in the Only Place Attention Exists</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20260926.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20260926.md</guid>
-      <pubDate>Mon, 28 Sep 2026 07:48:21 +0000</pubDate>
       <description>This file collects the posts of the day and the connections between them.</description>
     </item>
   </channel>
