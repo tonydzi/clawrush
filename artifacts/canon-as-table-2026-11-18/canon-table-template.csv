@@ -1,0 +1,4 @@
+id,section,current,origin,skill,type,clarity,human_comment,proposal,previous
+1.1,Example: destructive actions,"Never delete files outside the scratch folder without asking.","EXAMPLE 2026-01-10: an age-based cleanup removed browser profiles; all logins were lost.",,rule-no-door,,,,
+1.2,Example: reporting,"A claim of done carries the command and its output.","EXAMPLE 2026-02-03: a report said 'verified' and the test had never run.",prove-build-works,rule+skill,,,,
+1.3,Example: thinking,"Fix the cause, not the symptom.",origin not found,,principle,,,,
