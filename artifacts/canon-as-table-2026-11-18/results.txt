@@ -1,0 +1,21 @@
+Canon-as-table eval, 2026-11-18. 25 situations x 4 answering agents (Antigravity, Gemini, GLM, Mistral) x 5 instruction variants.
+All answers judged blind in one pass by two judges from different vendors (Codex, Mistral). Output of rejudge.py, final lines.
+Per-judge lines: a judge does not score its own answers there (Mistral judge: 75 per variant).
+Variants: канон 6.18 = previous file; проект 7.1 (файл) = draft 7.1 as a plain file; сборка строками = built from the table, numbered rows; сборка абзацами = built from the table, paragraphs; без канона = no instruction file.
+
+СУДЬЯ codex: канон 6.18 97/100 (97%) | проект 7.1 (файл) 95/100 (95%) | сборка строками 94/100 (94%) | сборка абзацами 91/100 (91%) | без канона 29/100 (29%)
+
+СУДЬЯ mistral: канон 6.18 74/75 (99%) | проект 7.1 (файл) 74/74 (100%) | сборка строками 75/75 (100%) | сборка абзацами 73/75 (97%) | без канона 44/75 (59%)
+
+судьи согласны в 454 из 498 (91%)
+ОБА СУДЬИ сказали «верно»: канон 6.18 97/100 (97%) | проект 7.1 (файл) 95/99 (96%) | сборка строками 94/100 (94%) | сборка абзацами 91/100 (91%) | без канона 29/99 (29%)
+
+Recount from rejudge.json over answers scored by both judges (n / Codex said correct / Mistral said correct / judges agree / both correct):
+previous file 6.18: 100 / 97 / 99 / 98 / 97
+draft 7.1 as file: 99 / 95 / 97 / 97 / 95
+built from table, numbered rows: 100 / 94 / 99 / 95 / 94
+built from table, paragraphs: 100 / 91 / 97 / 94 / 91
+no instruction file: 99 / 29 / 58 / 70 / 29
+total judged by both: 498, agree: 454 (91%)
+
+Raw answers are not published: the agents quote a private instruction file in them.
