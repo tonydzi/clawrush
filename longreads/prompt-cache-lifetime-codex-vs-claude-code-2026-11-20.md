@@ -95,13 +95,19 @@ Sessions also wake without a human: notifications, scheduled turns, messages fro
 
 Rule: when a human returns after more than an hour and the context is at least T, start a fresh session (measured start size plus a 5K brief) instead of resuming. The replay is sequential: after a simulated restart the session continues from the smaller context, and later returns are judged against that. Returns to a session no larger than a fresh one are skipped, which is why the lowest threshold we ran, 20K, blocks 938 returns and not all 973. The replay uses the one-hour rule for both tools.
 
-| Threshold T | Blocked returns | Modeled gross saving, input eq. | Share of all input | Of which at the moment of return |
-|---|---:|---:|---:|---:|
-| 200K | 627 | 764.4M | 32.5% | 329.3M |
-| 300K | 315 | 587.0M | 25.0% | 199.9M |
-| 400K | 168 | 434.2M | 18.5% | 130.8M |
+| Threshold T | Blocked returns | Full model, input eq. | Share of all input | At the moment of return | Floor: return minus one read of the old session |
+|---|---:|---:|---:|---:|---:|
+| 200K | 627 | 764.4M | 32.5% | 329.3M | 147.7M |
+| 300K | 315 | 587.0M | 25.0% | 199.9M | 80.7M |
+| 400K | 168 | 434.2M | 18.5% | 130.8M | 51.5M |
 
-The right-hand column is the part closest to the logs: 199.9M of 2,349M is 8.5%, a gross reduction at the moment of return. It is modeled too: the original call is observed, its replacement is not. The rest comes from carrying a smaller context for the remainder of the session, and that part is modeled. Neither figure is net. Writing the brief means reading the old session once, possibly cold, and the new session may repeat work. We have not measured those costs.
+Three different numbers come out of this for the 300K rule, and they should not be mixed:
+
+- **8.5%**: the reduction at the moment of return (199.9M of 2,349M). This is the part closest to the logs.
+- **25.0%**: the full model, which also credits the smaller context carried for the rest of the session. This is an assumption about work that did not happen.
+- **3.4%**: the floor (80.7M of 2,349M). It is the reduction at return minus the cost of reading every blocked session once at the full fresh-input price to write the brief, as if a paid model did the summarizing.
+
+Even the 8.5% is modeled in one respect: the original call is observed, its replacement is not. And none of the three is net of repeated work in the new session or of lost context. We have not measured those.
 
 The model also shows where a threshold stops mattering: at 150K it blocks 874 returns against 938 at 20K, for nearly the same modeled saving (816.9M against 822.6M).
 
