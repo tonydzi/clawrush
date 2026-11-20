@@ -99,6 +99,10 @@ def main():
         "sim_at_resume_share_pct": {str(x["T"] // 1000): round(100 * x["saved_at_resume_eq"] / tot, 1)
                                     for x in rep["sim"]},
         "peak_over_500k_sessions": rep["peak_hist"].get("500K+", 0),
+        "sim_floor_M": {str(x["T"] // 1000): round((x["saved_at_resume_eq"] - x["foreign_tokens"]) / 1e6, 1)
+                        for x in rep["sim"]},
+        "sim_floor_pct": {str(x["T"] // 1000): round(100 * (x["saved_at_resume_eq"] - x["foreign_tokens"]) / tot, 1)
+                          for x in rep["sim"]},
         "human_returns_after_1h_ctx_200k_plus": sum(
             v[0] for k, v in rep["cont"].items()
             if k.split("|")[0] in ("1-5 ч", "5-24 ч", ">24 ч")
