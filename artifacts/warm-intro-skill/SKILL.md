@@ -1,12 +1,12 @@
 ---
 name: warm-intro
-description: "Warm introduction of two people from your network: match by CRM tags, DM both sides first, create a group, nudge after 3 days. Triggers: 'introduce X to Y', 'make an intro', 'who should meet whom'."
-version: 1.0.1
+description: "Warm introduction of two people from your network: match by CRM tags, DM both sides first, create a group after two consents, review follow-up when invoked after 3 days. Triggers: 'introduce X to Y', 'make an intro', 'who should meet whom'."
+version: 1.0.2
 ---
 
 # /warm-intro
 
-A warm intro is the most valuable thing a connector trades. This skill turns "introduce Pete to Vasya" into one repeatable operation for Claude Code or Codex, using your own Telegram and WhatsApp.
+Status: procedure draft; no live end-to-end pilot completed. This skill guides an agent through a warm introduction using your connected accounts. It does not run on its own.
 
 ## Needs
 - Claude Code or Codex with a Telegram MCP and (optionally) a WhatsApp MCP connected to YOUR accounts.
@@ -18,25 +18,27 @@ A warm intro is the most valuable thing a connector trades. This skill turns "in
 - Facts about a person come only from their card, a research note, or their own words. A guess is marked as a guess and never goes into a message.
 
 ## 2. Show the owner first
-Show who both people are, the group title, the account that will send, and the drafted texts. Wait for "+". Skip only when the owner says "no approval needed".
+Show who both people are, the group title, the account that will send, and the drafted texts. Wait for "+". The owner may explicitly waive their review for this one pair; that never waives either participant consent.
 
 ## 3. DM each side first
-- To A: "A, I want to introduce you to B, they are great at X. OK?" Mirror for B.
+- To A: "A, B is great at X; you could help each other with Y. May I create a small Telegram group with you and B? Your profile will be visible to the other participant under your Telegram settings. OK?" Mirror for B.
 - Write in English plus a short block in the person's own language when there is evidence for it.
+
+- Bind each affirmative reply to the exact person and DM account/chat ID. Log request and reply message IDs. An ambiguous reply needs clarification; never infer consent from silence or a forwarded reply.
 
 ## 4. Group
 - First verify both consent messages and log their IDs. If either is missing, save the draft and stop here.
-- Create a Telegram group titled `A <> B <> <Your brand>`, with the final title from the start (basic groups cannot be renamed).
+- Create a Telegram group titled `A <> B <> <Your brand>`, with the final title from the start.
 - Post the intro: who A is, who B is, why they should talk, "over to you".
 - Require explicit consent from BOTH people for this exact introduction before creating any group or sharing its link. One reply, silence, or a refusal never counts as two consents. If either declines, stop.
 - After both agree, add them; if adding is technically blocked, send that consenting person the invite link.
-- WhatsApp MCPs usually cannot create groups, so the group lives in Telegram and WhatsApp carries DMs with the link.
+- Inspect connector capabilities first. Use the channel both people agreed to. If group creation is unsupported, record the limit and ask for agreement to another channel before proceeding; do not silently substitute it.
 
 ## 5. Log
-One row per intro: A, B, why, date, channel, proof (group or message id), outcome. Outcomes stronger than `pending` need proof.
+Use the owner's existing CRM/table. If none exists, keep one local `intros.md` table. Required columns: intro ID, A/B identity and DM account/chat IDs, benefit to each, consent request/reply IDs, group ID, created time, follow-up due time, A/B/group nudge message IDs, outcome and evidence. Save the draft and state here before stopping. Check this row and live messages before any retry; do not duplicate a proven send. Outcomes stronger than `pending` need proof.
 
-## 6. Follow-up after 3 days
-You cannot see their private chat, so judge only what you can observe: the group.
+## 6. Follow-up check after 3 days, when invoked
+Write the due time (created time + 3 days) into the same row and use an existing scheduler or a manual reminder to invoke this skill again. The skill cannot wake itself. You cannot see their private chat, so judge only what you can observe: the group.
 - Both wrote in the group: note it as `engaged`, which is not `met`. `met` needs one of them saying they called or met.
 - Group is silent: once each, DM A ("A, did you forget about B? I made you a group: <link>"), DM B (mirror), and post in the group ("A, B, don't forget each other: A is great at X, B at Y. I connected you because Z. Get on a call").
 - Do not nudge a second time. After that, only proof or the owner sets the outcome.
