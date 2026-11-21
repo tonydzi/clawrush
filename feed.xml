@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 11:57:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:09:12 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>When a reranker makes memory search worse</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/reranking-memory-search-2026-11-21.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/reranking-memory-search-2026-11-21.md</guid>
+      <pubDate>Sat, 21 Nov 2026 12:08:47 +0000</pubDate>
+      <description>I reran the 184-question set against a private, immutable copy of the current 112,699-passage index. The first stage now includes E5 and a BM25/RRF lane. This is a comparison within the current pipeline, not a controlled comparison against November 8: the corpus and pipeline changed between those…</description>
+    </item>
     <item>
       <title>Our Claude Code calls go cold after 60 idle minutes. Our Codex calls go cold slowly, over a day. A log study and its limits.</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/prompt-cache-lifetime-codex-vs-claude-code-2026-11-20.md</link>
@@ -278,13 +285,6 @@
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261013.md</link>
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261013.md</guid>
       <pubDate>Tue, 13 Oct 2026 07:02:11 +0000</pubDate>
-      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
-    </item>
-    <item>
-      <title>12 October 2026: The Deciding Constraint Is Never the Technical One</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261012.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261012.md</guid>
-      <pubDate>Mon, 12 Oct 2026 07:38:37 +0000</pubDate>
       <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
     </item>
   </channel>
