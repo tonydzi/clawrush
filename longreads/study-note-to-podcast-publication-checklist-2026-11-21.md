@@ -10,6 +10,14 @@ The resulting MP4 is 25,987,284 bytes. Audio and video durations both read 3035.
 
 The selected YouTube channel then returned an access error. We have not uploaded this episode. A prepared title, description and video file do not change that fact.
 
+## A successful retry can still leave a note hidden
+
+The next check exposed a separate intake problem. A note first reached the queue with personal visibility. After its text was generalized, a retry printed success and marked the material as captured, while the final queue record still said personal. The privacy rule was doing its job: a repeated capture must preserve a deliberate restriction. The success report was wrong.
+
+The repair reads the accepted queue record after saving it. It records the actual visibility, and a public capture is accepted only when the result explicitly reports public. Missing, ambiguous or invalid results stop the capture. A personal or private result stays protected and leaves the reviewed retry available.
+
+The useful check is a short sequence: save a restricted note, generalize it, retry, inspect the final record, explicitly release it after review, then retry again. The final repeat should keep one record. We exercised that sequence with the real intake functions and an isolated on-disk queue on Windows and macOS. That establishes intake behavior for this check. It does not establish delivery to every social platform.
+
 ## The checklist we are using
 
 1. Identify the exact notebook and audio artifact. A familiar title is not a reliable duplicate check.
