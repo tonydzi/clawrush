@@ -4,7 +4,7 @@
 
 I reran the 184-question set against a private, immutable copy of the current 112,699-passage index. The first stage now includes E5 and a BM25/RRF lane. This is a comparison within the current pipeline, not a controlled comparison against November 8: the corpus and pipeline changed between those dates.
 
-The frozen vector candidate lists contained 138 passages per question, before selecting the final 12. Here title means note-title questions, body means opening-paragraph questions, bridge means linked-note targets and temporal means superseded decisions. Bridge recall averages fractions over multiple target notes, rather than binary hits. I froze the candidate lists, then reran the same evaluator with the cross-encoder enabled. Both configurations passed the evaluator's lane-validity checks; this is an execution check, not a proof of ranking quality. A separate calculation from the returned source rankings reproduced every vector-lane recall and nDCG value.
+The frozen vector candidate lists contained 88 to 173 passages per question (mean 138), before selecting the final 12. Here title means note-title questions, body means opening-paragraph questions, bridge means linked-note targets and temporal means superseded decisions. Bridge recall averages fractions over multiple target notes, rather than binary hits. I froze the candidate lists, then reran the same evaluator with the cross-encoder enabled. Both configurations passed the evaluator's lane-validity checks; this is an execution check, not a proof of ranking quality. A separate calculation from the returned source rankings reproduced every vector-lane recall and nDCG value.
 
 | Group | n | nDCG without | nDCG with | Recall without | Recall with |
 |---|---:|---:|---:|---:|---:|
