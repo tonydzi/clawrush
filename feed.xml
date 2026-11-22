@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 14:06:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 15:51:43 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Daily longread, 20 November 2026</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261120.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261120.md</guid>
+      <pubDate>Sun, 22 Nov 2026 15:51:14 +0000</pubDate>
+      <description>Written for people. The engineering half of the same day lives in the dev log; if you want your own coding agent to read today instead of you, give it that link.</description>
+    </item>
     <item>
       <title>A study note became a podcast file. It has not become a publication yet.</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/study-note-to-podcast-publication-checklist-2026-11-21.md</link>
@@ -278,13 +285,6 @@
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261016.md</link>
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261016.md</guid>
       <pubDate>Fri, 16 Oct 2026 07:21:28 +0000</pubDate>
-      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
-    </item>
-    <item>
-      <title>14 October 2026: The Thing Around the Content Does the Work</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261014.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261014.md</guid>
-      <pubDate>Wed, 14 Oct 2026 15:32:32 +0000</pubDate>
       <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
     </item>
   </channel>
