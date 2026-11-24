@@ -1,0 +1,4 @@
+gpt-transcribe@60s vs gpt-4o-transcribe: mean diff +1.15 (95% CI +0.79..+1.53), wins 36 / losses 8 / ties 4 over 48 judge-file pairs
+gpt-transcribe@60s vs whisper-1: mean diff +1.32 (95% CI +0.96..+1.67), wins 39 / losses 8 / ties 1 over 48 judge-file pairs
+gpt-transcribe@60s vs gpt-transcribe: mean diff +0.05 (95% CI -0.35..+0.54), wins 18 / losses 21 / ties 9 over 48 judge-file pairs
+gpt-transcribe@60s vs gpt-4o-mini-transcribe: mean diff +0.60 (95% CI +0.19..+1.02), wins 31 / losses 12 / ties 5 over 48 judge-file pairs
