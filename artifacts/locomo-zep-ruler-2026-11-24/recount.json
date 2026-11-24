@@ -1,0 +1,116 @@
+{
+  "denominator": 1540,
+  "runs": {
+    "jud_full_r1": {
+      "n": 1540,
+      "correct": 1333
+    },
+    "jud_graphiti_r1": {
+      "n": 1540,
+      "correct": 659
+    },
+    "jud_graphiti_r2": {
+      "n": 1540,
+      "correct": 645
+    },
+    "jud_graphiti_r3": {
+      "n": 1540,
+      "correct": 647
+    },
+    "jud_mem0_r1": {
+      "n": 1540,
+      "correct": 1214
+    },
+    "jud_mem0_r2": {
+      "n": 1540,
+      "correct": 1207
+    },
+    "jud_mem0_r3": {
+      "n": 1540,
+      "correct": 1209
+    },
+    "jud_ours_r1": {
+      "n": 1540,
+      "correct": 1106
+    },
+    "jud_ours_r2": {
+      "n": 1540,
+      "correct": 1112
+    },
+    "jud_ours_r3": {
+      "n": 1540,
+      "correct": 1115
+    },
+    "jud_zep_r1": {
+      "n": 1540,
+      "correct": 1167
+    },
+    "jud_zep_r2": {
+      "n": 1540,
+      "correct": 1176
+    },
+    "jud_zep_r3": {
+      "n": 1540,
+      "correct": 1162
+    },
+    "jud_zepans_r1": {
+      "n": 1540,
+      "correct": 1104
+    },
+    "jud_zepans_upstream_r1": {
+      "n": 1540,
+      "correct": 1157
+    }
+  },
+  "upstream_hashes": {
+    "zep_locomo_search.py": "5d659ffa05e721bfab447136ac0b1cf860873c3299578281858f5d1e0071be7d",
+    "zep_locomo_responses.py": "6873a7ed3a5fbdf1b2ed354207bb2cbe16c6ec92f85c8656042d862af5de2046",
+    "zep_locomo_eval.py": "191246ca4a3384c3108e955b812c438442978bb0d95992c17776258db7a3ce62"
+  },
+  "red_control": "PASS: missing question rejected",
+  "ours": {
+    "mean": 72.14285714285714,
+    "sample_sd": 0.29756985032181316,
+    "scores": [
+      71.81818181818181,
+      72.20779220779221,
+      72.40259740259741
+    ]
+  },
+  "mem0": {
+    "mean": 78.57142857142857,
+    "sample_sd": 0.234126706198958,
+    "scores": [
+      78.83116883116882,
+      78.37662337662337,
+      78.50649350649351
+    ]
+  },
+  "zep": {
+    "mean": 75.86580086580086,
+    "sample_sd": 0.46068823925958213,
+    "scores": [
+      75.77922077922078,
+      76.36363636363636,
+      75.45454545454545
+    ]
+  },
+  "graphiti": {
+    "mean": 42.22943722943723,
+    "sample_sd": 0.491680376259763,
+    "scores": [
+      42.79220779220779,
+      41.883116883116884,
+      42.01298701298701
+    ]
+  },
+  "judge_disagreement": {
+    "agree": 1445,
+    "zep_only": 74,
+    "ours_only": 21
+  },
+  "direct_upstream": {
+    "n": 1540,
+    "correct": 1157
+  }
+}
