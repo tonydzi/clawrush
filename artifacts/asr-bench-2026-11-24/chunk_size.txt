@@ -1,0 +1,9 @@
+gpt-4o-mini-transcribe     CER all  16.2%  median  10.1%  long(>60s, n=15)  21.8%  worst 168.0%
+gpt-4o-transcribe          CER all  15.6%  median  13.3%  long(>60s, n=15)  15.3%  worst  76.3%
+gpt-4o-transcribe@60s      CER all  22.2%  median  18.5%  long(>60s, n=15)  23.6%  worst  82.7%
+gpt-transcribe             CER all  11.8%  median   7.2%  long(>60s, n=15)  16.2%  worst  97.8%
+gpt-transcribe+hints       CER all  12.0%  median   7.2%  long(>60s, n=15)  16.5%  worst  97.8%
+gpt-transcribe@120s        CER all   7.1%  median   7.0%  long(>60s, n=15)   8.7%  worst  17.0%
+gpt-transcribe@30s         CER all   9.3%  median   8.9%  long(>60s, n=15)  11.0%  worst  17.8%
+gpt-transcribe@60s         CER all   8.3%  median   7.8%  long(>60s, n=15)   9.9%  worst  17.2%
+whisper-1                  CER all  14.1%  median  12.7%  long(>60s, n=15)  16.7%  worst  38.8%
