@@ -43,7 +43,7 @@ The questions were generated from note titles and opening paragraphs. Linked-not
 
 ## What we know about the history
 
-A source conversation spanning June 12–13 already describes a running e5-plus-reranker server. A preserved June 23 code commit separately contains the same cross-encoder model. The evidence supports use by June 13. It does not establish the first day reranking was enabled.
+The preserved event log records introduction into our primary CLI search on June 1, 2026: brain_ask.py was created at 11:26 UTC, returned cross-encoder scores by 11:28 UTC, and replaced the previous e5-only command in the vault home page at 11:30 UTC. A separate June 12 server run confirms later use. This establishes the documented rollout, not the absence of earlier experiments.
 
 ## Cause and operational choice
 
