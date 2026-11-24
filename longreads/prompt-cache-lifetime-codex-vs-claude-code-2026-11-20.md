@@ -95,7 +95,7 @@ Sessions also wake without a human: notifications, scheduled turns, messages fro
 
 Rule: when a human returns after more than an hour and the context is at least T, start a fresh session (measured start size plus a 5K brief) instead of resuming. The replay is sequential: after a simulated restart the session continues from the smaller context, and later returns are judged against that. Returns to a session no larger than a fresh one are skipped, which is why the lowest threshold we ran, 20K, blocks 938 returns and not all 973. The replay uses the one-hour rule for both tools.
 
-| Threshold T | Blocked returns | Full model, input eq. | Share of all input | At the moment of return | Floor: return minus one read of the old session |
+| Threshold T | Blocked returns | Full model, input eq. | Share of all input | At the moment of return | Return minus one read of the old session |
 |---|---:|---:|---:|---:|---:|
 | 200K | 627 | 764.4M | 32.5% | 329.3M | 147.7M |
 | 300K | 315 | 587.0M | 25.0% | 199.9M | 80.7M |
@@ -105,7 +105,7 @@ Three different numbers come out of this for the 300K rule, and they should not 
 
 - **8.5%**: the reduction at the moment of return (199.9M of 2,349M). This is the part closest to the logs.
 - **25.0%**: the full model, which also credits the smaller context carried for the rest of the session. This is an assumption about work that did not happen.
-- **3.4%**: the floor (80.7M of 2,349M). It is the reduction at return minus the cost of reading every blocked session once at the full fresh-input price to write the brief, as if a paid model did the summarizing.
+- **3.4%**: the reduction at return minus the cost of reading every blocked session once at the full fresh-input price to write the brief, as if a paid model did the summarizing (80.7M of 2,349M). It is not a true floor: with the output tokens of the brief, files the new session reads again and repeated work, the real figure may be lower or negative.
 
 Even the 8.5% is modeled in one respect: the original call is observed, its replacement is not. And none of the three is net of repeated work in the new session or of lost context. We have not measured those.
 
@@ -146,7 +146,7 @@ Scripts and the aggregate tables are in [clawrush/artifacts/prompt-cache-lifetim
 
 ## Appendix: deep research
 
-The background research was ordered as DR26-11-20-MACSTUDIOM4-01-0251 from six vendors. Five reports were collected by publication time (ChatGPT, Claude, Grok, Mistral, GLM); the Gemini run had not finished. They are leads, not independent validations: they repeat each other's sources and, in places, each other's errors. The reports and our synthesis are in the same folder under `dr/`. The claims we rely on above were rechecked against the primary pages on 2026-11-20; the synthesis lists what the reports got wrong.
+The background research was ordered as DR26-11-20-MACSTUDIOM4-01-0251 from six vendors. Five reports were collected (ChatGPT, Claude, Grok, Mistral, GLM); the Gemini run never produced a report. They are leads, not independent validations: they repeat each other's sources and, in places, each other's errors. The reports and our synthesis are in the same folder under `dr/`. The claims we rely on above were rechecked against the primary pages on 2026-11-20; the synthesis lists what the reports got wrong.
 
 Contact and project index: [Anton Dziatkovskii](https://github.com/tonydzi), [WhatsApp](https://wa.me/13412229178).
 
