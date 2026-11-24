@@ -1,0 +1,103 @@
+{
+ "files": 24,
+ "audio_minutes": 44.78,
+ "judges": [
+  "oa:gpt-audio-1.5",
+  "or:google/gemini-3.8-flash"
+ ],
+ "engines": {
+  "whisper-1": {
+   "score_mean": 6.45,
+   "score_median": 6.5,
+   "cer_by_judge": {
+    "oa:gpt-audio-1.5": 14.4,
+    "or:google/gemini-3.8-flash": 13.8
+   },
+   "omitted_share_pct": 3.3,
+   "catastrophic_files": 2,
+   "latency_median_s": 5.28,
+   "usd_total": 0.271,
+   "usd_per_min": 0.00605
+  },
+  "gpt-4o-mini-transcribe": {
+   "score_mean": 7.17,
+   "score_median": 7.1,
+   "cer_by_judge": {
+    "oa:gpt-audio-1.5": 16.7,
+    "or:google/gemini-3.8-flash": 15.8
+   },
+   "omitted_share_pct": 3.1,
+   "catastrophic_files": 0,
+   "latency_median_s": 2.15,
+   "usd_total": 0.0837,
+   "usd_per_min": 0.00187
+  },
+  "gpt-4o-transcribe": {
+   "score_mean": 6.62,
+   "score_median": 6.8,
+   "cer_by_judge": {
+    "oa:gpt-audio-1.5": 15.1,
+    "or:google/gemini-3.8-flash": 16.0
+   },
+   "omitted_share_pct": 5.4,
+   "catastrophic_files": 2,
+   "latency_median_s": 3.31,
+   "usd_total": 0.1526,
+   "usd_per_min": 0.00341
+  },
+  "gpt-transcribe": {
+   "score_mean": 7.73,
+   "score_median": 8.0,
+   "cer_by_judge": {
+    "oa:gpt-audio-1.5": 11.4,
+    "or:google/gemini-3.8-flash": 12.2
+   },
+   "omitted_share_pct": 4.0,
+   "catastrophic_files": 1,
+   "latency_median_s": 2.68,
+   "usd_total": 0.2032,
+   "usd_per_min": 0.00454
+  },
+  "gpt-transcribe+hints": {
+   "score_mean": 7.42,
+   "score_median": 8.0,
+   "cer_by_judge": {
+    "oa:gpt-audio-1.5": 12.1,
+    "or:google/gemini-3.8-flash": 11.8
+   },
+   "omitted_share_pct": 4.7,
+   "catastrophic_files": 2,
+   "latency_median_s": 2.63,
+   "usd_total": 0.2032,
+   "usd_per_min": 0.00454
+  },
+  "gpt-4o-transcribe@60s": {
+   "score_mean": 5.96,
+   "score_median": 6.5,
+   "cer_by_judge": {
+    "oa:gpt-audio-1.5": 21.9,
+    "or:google/gemini-3.8-flash": 22.4
+   },
+   "omitted_share_pct": 7.2,
+   "catastrophic_files": 3,
+   "latency_median_s": 4.24,
+   "usd_total": 0.2687,
+   "usd_per_min": 0.006
+  },
+  "gpt-transcribe@60s": {
+   "score_mean": 7.78,
+   "score_median": 8.0,
+   "cer_by_judge": {
+    "oa:gpt-audio-1.5": 8.2,
+    "or:google/gemini-3.8-flash": 8.3
+   },
+   "omitted_share_pct": 2.5,
+   "catastrophic_files": 0,
+   "latency_median_s": 3.33,
+   "usd_total": 0.2033,
+   "usd_per_min": 0.00454
+  }
+ },
+ "judges_same_winner_pct": 33.3,
+ "judges_score_pearson": 0.567
+}
