@@ -5,7 +5,7 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 21:48:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 21:56:50 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Why a 250-line skill file erases an AI cofounder persona, and how a 9-line tail anchor recovers it across 7 LLMs</title>
@@ -26,7 +26,7 @@
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/cofounder-consistency-73-frontier-efforts-2026-11-26.md.proofread.md</link>
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/cofounder-consistency-73-frontier-efforts-2026-11-26.md.proofread.md</guid>
       <pubDate>Thu, 26 Nov 2026 20:46:02 +0000</pubDate>
-      <description>1. Factual errors and internal contradictions - Counting error in methodology: The text states &quot;For six heavy Antigravity configurations (Gemini 4 Carbon Low/Medium/High, Neon XHigh, Hydrogen XHigh, and the three Orchestrator variants) plus Argon Low&quot;, which actually lists eight configurations (3 +…</description>
+      <description>1) Factual errors and internal contradictions - Harness contradiction on Gemini 4 Carbon Low: In the 16-case table (run via swarm workers), Carbon Low scores 16/16 (100%) with 82.5 median words. In the 100-question table (run via direct agy.exe 13-case batch print), Carbon Low collapses to 0/52…</description>
     </item>
     <item>
       <title>Why 100% on IFEval collapses to 0% on a 120 KB agent canon across 73 frontier pairs</title>
