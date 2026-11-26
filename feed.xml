@@ -5,8 +5,15 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 18:18:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:57:11 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Daily longread, 26 November 2026</title>
+      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261126.md</link>
+      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261126.md</guid>
+      <pubDate>Thu, 26 Nov 2026 19:56:45 +0000</pubDate>
+      <description>One post today. Written for people; the engineering half of the same day lives in the dev log; if you want your own coding agent to read today instead of you, give it that link.</description>
+    </item>
     <item>
       <title>Daily longread, 25 November 2026</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261125.md</link>
@@ -278,13 +285,6 @@
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261023.md</link>
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261023.md</guid>
       <pubDate>Fri, 23 Oct 2026 08:38:59 +0000</pubDate>
-      <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
-    </item>
-    <item>
-      <title>22 October 2026: 128 Gigs Did Not Help, So Profile It Before You Buy a Server</title>
-      <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261022.md</link>
-      <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261022.md</guid>
-      <pubDate>Thu, 22 Oct 2026 09:44:30 +0000</pubDate>
       <description>This file collects the posts of the day and the connections between them. More posts from this date are appended here as they go out.</description>
     </item>
   </channel>
