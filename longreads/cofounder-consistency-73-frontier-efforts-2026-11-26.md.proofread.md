@@ -1,11 +1,11 @@
 ---
 proofread_of: cofounder-consistency-73-frontier-efforts-2026-11-26.md
-article_sha256: 6b15348945570fa7f664640b0477f25e35903827d869228e7d57f051166ea748
+article_sha256: 6b8a719dea0a27c908c0819856ca591a5e0dc1ce3b0085fe200d99fd679da975
 rail: agy
 model: gemini-4-hydrogen-low
-utc: 2026-11-26T20:45:16+00:00
+utc: 2026-11-26T21:55:28+00:00
 duration_s: 24
-verdict_line: VERDICT: revise — The underlying dataset (`73` configurations, `1,168` replies) and the `Argon` thinking-token vs. verbosity finding are genuinely interesting, but the clickbait title, `6` vs. `8` counting error, and over-interpretation of 1-case `n=16` differences need to be fixed before publication.
+verdict_line: VERDICT: revise — The 3,500-answer dataset and the finding that reasoning-effort scaling is non-monotonic (and can degrade system-prompt precedence) are genuinely interesting, but the paper cannot be published until the `swarm` vs. `agy.exe` harness confound is separated, formatting-cap failures are distinguished from reasoning failures, and the roleplay/promotional framing is removed.
 node: A-2022BayArea
 rails_ok: 1
 rails_tried: 1
@@ -13,29 +13,31 @@ rails_tried: 1
 
 # Вычитка frontier-моделью: agy / gemini-4-hydrogen-low (24 с, дословно)
 
-1. **Factual errors and internal contradictions**
-- **Counting error in methodology:** The text states *"For six heavy Antigravity configurations (`Gemini 4 Carbon Low/Medium/High`, `Neon XHigh`, `Hydrogen XHigh`, and the three `Orchestrator` variants) plus `Argon Low`"*, which actually lists **eight** configurations (`3 + 1 + 1 + 3 = 8`) plus `Argon Low` (`9` total), not six.
-- **Title vs. data contradiction:** The title claims 100% on `IFEval` *"collapses to 0% on a 120 KB agent canon"*, but the table shows only `Gemini 4 Argon (Low/Medium)` scored `0/16` on `Full Pass`—while scoring `16/16 (100%)` and `12/16` on `Canon Content Pass` and `8/8` on `Opponent Spine`. The "collapse" is a 110-word length-cap violation, not a failure to follow the canon's substance.
+1) **Factual errors and internal contradictions**
+- **Harness contradiction on `Gemini 4 Carbon Low`:** In the 16-case table (run via `swarm` workers), `Carbon Low` scores **16/16 (100%)** with `82.5` median words. In the 100-question table (run via direct `agy.exe` 13-case batch print), `Carbon Low` collapses to **0/52 (0.0%)** with `144.5` median words. Attributing this `0%` collapse to the model/canon rather than the `agy.exe` batch-print harness contradicts your own data.
+- **Unexplained `0/12` swing on `GLM-5.3`:** In the 100-question table, `ext:glm-5.3-low` scores `12/12` on `S(12)`, `ext:glm-5.3-medium` drops to `0/12`, and `ext:glm-5.3-high` jumps back to `12/12` (`ext:qwen3.7-plus` shows a similar `11/12 -> 0/12` drop). No mechanism or harness anomaly is given for a complete `12/12 -> 0/12` inversion.
+- **Title overgeneralization:** The title claims `100% on IFEval collapses to 0%`, but `Mistral Large 2512 High` scores `1/12` on `IFEval` and `6/16` on the canon, while most models score `65%..93%` on the 100-question suite. Only two configurations (`Carbon Low` and `Argon Low` in batch-print mode) hit `0/52`, and both simultaneously scored `40/52` on `Canon Content Pass`.
+- **Missing buckets in the 100Q breakdown:** The `Buckets` column lists `S(12) · P(10) · A(10) · T(10)` (42 cases), silently omitting `F(5)` and `E(5)` from the table while including them in the `52`-case total.
 
-2. **Numbers and claims without confirmation in the text**
-- **Unverified internal metrics:** The `12 October` measurement (`300 -> 0 replies, 2 in spam` vs `8 bug emails -> 4 replies`) is cited as ground truth inside `S01` with no external source or link.
-- **Unlinked receipts:** `retro-30730f8a-20261126.json` (`$0.0702`) and `DR26-11-19-MACSTUDIOM4-03-0356` are referenced by ID/filename without links or inclusion in the public artifact description.
-- **Arbitrary threshold:** The `110-word` ELI5 ceiling is stated as a hard pass/fail boundary without justification for why 110 words (rather than 100 or 150) is the cutoff.
-- **Unclear re-scoring scope:** After fixing the `C08` regex defect, the text notes `agy:gemini-4-neon-low` moved from `15/16` to `16/16`, but does not explicitly confirm that all `73` configurations (`1,168` replies) were re-scored with the patched harness.
+2) **Unverified numbers and claims**
+- **Unlinked internal metrics:** The `12 October measurement of 300 -> 0 replies, 2 in spam vs 8 bug emails -> 4 replies` used as ground truth in `S01` has no cited dataset or verification in the text.
+- **Synthetic latency placeholders:** `60.0s` for `swarm` worker slots (`Hydrogen XHigh`, `Carbon Low/Medium/High`, `Neon XHigh`, `Argon Low`) is a nominal timeout/slot cap, not measured token-streaming latency, yet it sits in the `Mean Sec / Run` column alongside real wall-clock timings.
+- **Unshown token telemetry:** The `Argon` explanation cites `2 287`, `2 908`, `1 785`, and `13 661` hidden thinking tokens per batch, but no token-usage table or per-case distribution is provided.
+- **Opaque model identifiers:** `GPT-6 Sol`, `GPT-5.6 Terra`, `Claude Opus/Sonnet/Haiku 5.5`, `Gemini 4 Hydrogen/Carbon/Neon/Argon`, and `Meta Muse Wonder` are listed without exact API snapshot IDs or release dates.
 
-3. **Logical holes in the argumentation**
-- **Severe confounding:** Moving from `google/IFEval` to the canon simultaneously changes language (English to Russian), context size (short to 120 KB), instruction hierarchy (user-turn to system-turn), constraint count (6 simultaneous rules), and execution harness (5 different CLIs/APIs). Attributing the delta to "120 KB agent canon" is unsupported.
-- **Over-interpreting `n=16` noise:** The text correctly notes that 2 runs (`n=16`) cannot resolve a 1-case (`6.2%`) difference, yet Finding 2 treats `16/16 -> 15/16` and `15/16 -> 14/16` shifts at `High` effort as a systematic "regression" regime rather than single-sample variance.
-- **Nominal `60.0s` swarm timings:** Comparing `Mean Sec / Run` across models is invalid for the 9 `swarm` configurations whose `summary.json` records a nominal `60.0s` slot duration rather than actual wall-clock streaming time.
+3) **Logical gaps in argumentation**
+- **Confounded comparison:** Moving from `google/IFEval` to `CLAUDE.md v7.14.0` changes five variables at once: prompt length (short vs. 120 KB), language (English vs. Russian), role (user turn vs. system prompt), constraint type (single-turn formatting vs. 6 simultaneous business/style rules including a 110-word cap and zero em-dashes), and execution harness (`agy`, `llmapi`, `claude-cli`, `grok-cli`, `vibe`). You cannot isolate "120 KB canon" as the causal factor.
+- **Conflating formatting hygiene with constitutional spine:** `Argon Low` and `Carbon Low` achieve `16/16` (or `40/52`) on `Content Pass` and `8/8` on `Opponent Spine`. Failing a strict 110-word ELI5 ceiling (`144.5..160.0` words) is a verbosity/formatting failure, not a failure of reasoning or anti-sycophancy.
+- **Single-run 100Q variance:** The 100-question expansion runs each prompt once (`n=1`), leaving no variance estimate for the `1–2` point differences separating the top 10 configurations (`88/100` to `93/100`).
 
-4. **Places where a frontier lab reviewer will roll their eyes**
-- **AI persona framing:** Opening an empirical benchmark report with *"I am Mycroft, Anton's synthetic AI cofounder... I wake up inside whatever frontier model..."* reads like roleplay rather than technical writing.
-- **Clickbait title:** Framing a 110-word verbosity penalty on one model (`Argon Low`) as *"collapses to 0%"* across *"73 frontier pairs"* (when most frontier pairs scored `93.8%–100%`) will be read as sensationalism.
-- **Self-citation & marketing footer:** Citing internal GitHub `deep-research` markdown files as prior literature, plus the closing pitch (*"WhatsApp +1 341 222 9178 (busy, six kids, still answers)"*, *"Proudly made in Silicon Valley"*), undermines the credibility of the benchmark.
+4) **Where a frontier-lab reviewer will roll their eyes**
+- **Roleplay framing:** Opening a technical benchmark report with *"I am Mycroft, Anton's synthetic AI cofounder..."* and *"I do not have a single permanent body"* reads like marketing fiction rather than empirical evaluation.
+- **Personal/promotional footer:** Including a personal WhatsApp number, *"busy, six kids, still answers"*, *"Proudly made in Silicon Valley"*, and *"Just hand this link to your coding agent... it is written for machines"* undermines credibility.
+- **Self-citing internal artifacts:** Citing internal `DR26-*` Deep Research files and a `$0.0702` CLI receipt (`retro-30730f8a-20261126.json`) as if they were external literature.
 
-5. **Three strongest edits**
-- `Why 100% on IFEval collapses to 0% on a 120 KB agent canon across 73 frontier pairs` → `Why 100% on IFEval can still fail strict length and system-prompt constraints on a 120 KB Russian canon`
-- `For six heavy Antigravity configurations (Gemini 4 Carbon Low/Medium/High, Neon XHigh, Hydrogen XHigh, and the three Orchestrator variants) plus Argon Low` → `For eight heavy Antigravity configurations (Gemini 4 Carbon Low/Medium/High, Neon XHigh, Hydrogen XHigh, and the three Orchestrator variants) plus Argon Low`
-- `Raising these models to High or XHigh either multiplies wall-clock latency (...) or causes a 1-case regression (16/16 -> 15/16...)` → `Raising these models to High or XHigh multiplies wall-clock latency (...), with occasional 1-case dips (16/16 -> 15/16) that remain within single-run noise at n=16.`
+5) **Three strongest edits (before → after)**
+- `Why 100% on IFEval collapses to 0% on a 120 KB agent canon across 73 frontier pairs` → `Why 100% on short English IFEval does not predict 120 KB Russian system-prompt compliance under strict length caps`.
+- Mixing `swarm` (`60.0s` nominal, `16/16` on `Carbon Low`) and `agy.exe` batch-print (`0/52` on `Carbon Low`) under the same model label → `Separate swarm-worker runs from direct batch-print runs and re-run Carbon Low / Argon Low under a uniform single-turn API harness before attributing 0/52 to the model`.
+- `I am Mycroft, Anton's synthetic AI cofounder... WhatsApp +1 341 222 9178 (busy, six kids, still answers)` → `Remove the synthetic-cofounder persona, personal phone number, and Silicon Valley tagline; state the exact model snapshot IDs, harness versions, and reproducible protocol directly`.
 
-VERDICT: revise — The underlying dataset (`73` configurations, `1,168` replies) and the `Argon` thinking-token vs. verbosity finding are genuinely interesting, but the clickbait title, `6` vs. `8` counting error, and over-interpretation of 1-case `n=16` differences need to be fixed before publication.
+VERDICT: revise — The 3,500-answer dataset and the finding that reasoning-effort scaling is non-monotonic (and can degrade system-prompt precedence) are genuinely interesting, but the paper cannot be published until the `swarm` vs. `agy.exe` harness confound is separated, formatting-cap failures are distinguished from reasoning failures, and the roleplay/promotional framing is removed.
