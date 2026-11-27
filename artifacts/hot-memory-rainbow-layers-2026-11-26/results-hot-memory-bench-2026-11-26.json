@@ -1,0 +1,2003 @@
+{
+  "benchmark": "hot-memory-rainbow-layers-2026-11-26",
+  "machine": "A-2022BAYAREA",
+  "timestamp_utc": "2026-11-26T21:15:20Z",
+  "dr_id": "DR26-11-21-MACSTUDIOM4-01-0035",
+  "cold_vault_docs_indexed": 23959,
+  "cold_vault_index_build_ms": 200.5,
+  "corpus_stats": {
+    "hot_db_size_mb": 1053.9,
+    "lex_db_size_mb": 4871.6,
+    "total_sessions": 32010,
+    "total_fts_rows": 138251,
+    "fts_rows_by_source": {
+      "agents": 55612,
+      "sessions": 27743,
+      "codex": 26788,
+      "grok": 11744,
+      "live-subagent": 4027,
+      "cards": 3383,
+      "antigravity": 3027,
+      "facts": 2694,
+      "wa": 1529,
+      "mail": 868,
+      "tg": 498,
+      "cursor": 134,
+      "bb": 106,
+      "cal": 96,
+      "hermes": 2
+    },
+    "sessions_by_source": {
+      "grok": {
+        "sessions": 7068,
+        "rows": 11744,
+        "kb": 49221
+      },
+      "agents": {
+        "sessions": 6748,
+        "rows": 55612,
+        "kb": 50403
+      },
+      "sessions": {
+        "sessions": 5730,
+        "rows": 29237,
+        "kb": 36113
+      },
+      "codex": {
+        "sessions": 4770,
+        "rows": 27042,
+        "kb": 61277
+      },
+      "facts": {
+        "sessions": 2694,
+        "rows": 2694,
+        "kb": 1870
+      },
+      "antigravity": {
+        "sessions": 1911,
+        "rows": 3099,
+        "kb": 14799
+      },
+      "live-subagent": {
+        "sessions": 1830,
+        "rows": 4027,
+        "kb": 8318
+      },
+      "mail": {
+        "sessions": 868,
+        "rows": 868,
+        "kb": 842
+      },
+      "tg": {
+        "sessions": 135,
+        "rows": 498,
+        "kb": 194
+      },
+      "wa": {
+        "sessions": 129,
+        "rows": 1532,
+        "kb": 258
+      },
+      "cal": {
+        "sessions": 96,
+        "rows": 96,
+        "kb": 41
+      },
+      "cursor": {
+        "sessions": 26,
+        "rows": 134,
+        "kb": 67
+      },
+      "bb": {
+        "sessions": 4,
+        "rows": 106,
+        "kb": 85
+      },
+      "hermes": {
+        "sessions": 1,
+        "rows": 2,
+        "kb": 2
+      }
+    },
+    "top_nodes_by_sessions": {
+      "A-2022BAYAREA": 20599,
+      "MacStudioM4": 4562,
+      "MacBook-Anton": 2445,
+      "ZBOOKG8-2023PAL": 2152,
+      "MacPro192": 680,
+      "bb": 455,
+      "a2": 391,
+      "FLEET-ANCHOR": 278,
+      "a": 118,
+      "wa:wa2": 68,
+      "Arthurs-Mac-Pro": 66,
+      "wa:main": 61
+    },
+    "last_ingest": "2026-11-26T21:12:16Z",
+    "session_cards_summary": {
+      "human_sessions_14d": 3159,
+      "carded_total": 3100,
+      "zero_llm_cards": 1903,
+      "llm_distilled_cards": 1197,
+      "tiny_skipped": 58,
+      "facts_asserted_total": 2767,
+      "fts_card_rows": 3383
+    }
+  },
+  "arms": {
+    "1_hot_raw_sessions_14d": {
+      "queries_total": 24,
+      "hits_at_5_total": 7,
+      "recall_at_5_pct": 29.2,
+      "mrr": 0.292,
+      "latency_p50_ms": 811.6,
+      "latency_p95_ms": 1467.8,
+      "latency_mean_ms": 902.5,
+      "by_class": {
+        "recent_cross_machine": {
+          "queries": 6,
+          "hits_at_5": 5,
+          "recall_at_5_pct": 83.3,
+          "mrr": 0.833,
+          "p50_ms": 801.5
+        },
+        "distilled_cards_facts": {
+          "queries": 6,
+          "hits_at_5": 2,
+          "recall_at_5_pct": 33.3,
+          "mrr": 0.333,
+          "p50_ms": 951.0
+        },
+        "personal_comms_schedule": {
+          "queries": 6,
+          "hits_at_5": 0,
+          "recall_at_5_pct": 0.0,
+          "mrr": 0.0,
+          "p50_ms": 719.1
+        },
+        "cold_standing_rules": {
+          "queries": 6,
+          "hits_at_5": 0,
+          "recall_at_5_pct": 0.0,
+          "mrr": 0.0,
+          "p50_ms": 604.8
+        }
+      },
+      "per_query": [
+        {
+          "id": "A1",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 3587.04,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A2",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 844.36,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A3",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 317.72,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A4",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 758.63,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A5",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 653.85,
+          "top_source": "antigravity"
+        },
+        {
+          "id": "A6",
+          "class": "recent_cross_machine",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1135.26,
+          "top_source": "antigravity"
+        },
+        {
+          "id": "B1",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1248.16,
+          "top_source": "sessions"
+        },
+        {
+          "id": "B2",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 916.72,
+          "top_source": "agents"
+        },
+        {
+          "id": "B3",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1467.77,
+          "top_source": "sessions"
+        },
+        {
+          "id": "B4",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 889.27,
+          "top_source": "sessions"
+        },
+        {
+          "id": "B5",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 938.63,
+          "top_source": "sessions"
+        },
+        {
+          "id": "B6",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 963.43,
+          "top_source": "sessions"
+        },
+        {
+          "id": "C1",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 469.3,
+          "top_source": "codex"
+        },
+        {
+          "id": "C2",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 949.83,
+          "top_source": "antigravity"
+        },
+        {
+          "id": "C3",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 428.09,
+          "top_source": "sessions"
+        },
+        {
+          "id": "C4",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 948.99,
+          "top_source": "sessions"
+        },
+        {
+          "id": "C5",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 972.47,
+          "top_source": "sessions"
+        },
+        {
+          "id": "C6",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 489.19,
+          "top_source": "sessions"
+        },
+        {
+          "id": "D1",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 577.05,
+          "top_source": "codex"
+        },
+        {
+          "id": "D2",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 778.87,
+          "top_source": "codex"
+        },
+        {
+          "id": "D3",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 505.49,
+          "top_source": "sessions"
+        },
+        {
+          "id": "D4",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 632.61,
+          "top_source": "codex"
+        },
+        {
+          "id": "D5",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 703.75,
+          "top_source": "sessions"
+        },
+        {
+          "id": "D6",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 484.38,
+          "top_source": "antigravity"
+        }
+      ]
+    },
+    "2_hot_raw_plus_cards_14d": {
+      "queries_total": 24,
+      "hits_at_5_total": 9,
+      "recall_at_5_pct": 37.5,
+      "mrr": 0.375,
+      "latency_p50_ms": 816.9,
+      "latency_p95_ms": 1390.1,
+      "latency_mean_ms": 841.8,
+      "by_class": {
+        "recent_cross_machine": {
+          "queries": 6,
+          "hits_at_5": 5,
+          "recall_at_5_pct": 83.3,
+          "mrr": 0.833,
+          "p50_ms": 645.7
+        },
+        "distilled_cards_facts": {
+          "queries": 6,
+          "hits_at_5": 4,
+          "recall_at_5_pct": 66.7,
+          "mrr": 0.667,
+          "p50_ms": 1169.5
+        },
+        "personal_comms_schedule": {
+          "queries": 6,
+          "hits_at_5": 0,
+          "recall_at_5_pct": 0.0,
+          "mrr": 0.0,
+          "p50_ms": 758.9
+        },
+        "cold_standing_rules": {
+          "queries": 6,
+          "hits_at_5": 0,
+          "recall_at_5_pct": 0.0,
+          "mrr": 0.0,
+          "p50_ms": 702.2
+        }
+      },
+      "per_query": [
+        {
+          "id": "A1",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 468.12,
+          "top_source": "cards"
+        },
+        {
+          "id": "A2",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 721.42,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A3",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 271.81,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A4",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 572.24,
+          "top_source": "cards"
+        },
+        {
+          "id": "A5",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 719.21,
+          "top_source": "antigravity"
+        },
+        {
+          "id": "A6",
+          "class": "recent_cross_machine",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1166.41,
+          "top_source": "cards"
+        },
+        {
+          "id": "B1",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1010.64,
+          "top_source": "cards"
+        },
+        {
+          "id": "B2",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1141.22,
+          "top_source": "cards"
+        },
+        {
+          "id": "B3",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1390.08,
+          "top_source": "cards"
+        },
+        {
+          "id": "B4",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1197.77,
+          "top_source": "cards"
+        },
+        {
+          "id": "B5",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1465.77,
+          "top_source": "cards"
+        },
+        {
+          "id": "B6",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1135.73,
+          "top_source": "cards"
+        },
+        {
+          "id": "C1",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 605.47,
+          "top_source": "codex"
+        },
+        {
+          "id": "C2",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 996.45,
+          "top_source": "antigravity"
+        },
+        {
+          "id": "C3",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 382.29,
+          "top_source": "sessions"
+        },
+        {
+          "id": "C4",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 912.33,
+          "top_source": "sessions"
+        },
+        {
+          "id": "C5",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 977.93,
+          "top_source": "sessions"
+        },
+        {
+          "id": "C6",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 509.75,
+          "top_source": "sessions"
+        },
+        {
+          "id": "D1",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 594.23,
+          "top_source": "codex"
+        },
+        {
+          "id": "D2",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 978.07,
+          "top_source": "codex"
+        },
+        {
+          "id": "D3",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 533.48,
+          "top_source": "sessions"
+        },
+        {
+          "id": "D4",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 718.38,
+          "top_source": "codex"
+        },
+        {
+          "id": "D5",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1048.96,
+          "top_source": "sessions"
+        },
+        {
+          "id": "D6",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 686.08,
+          "top_source": "antigravity"
+        }
+      ]
+    },
+    "3_hot_full_7d": {
+      "queries_total": 24,
+      "hits_at_5_total": 13,
+      "recall_at_5_pct": 54.2,
+      "mrr": 0.514,
+      "latency_p50_ms": 596.7,
+      "latency_p95_ms": 1210.3,
+      "latency_mean_ms": 639.6,
+      "by_class": {
+        "recent_cross_machine": {
+          "queries": 6,
+          "hits_at_5": 5,
+          "recall_at_5_pct": 83.3,
+          "mrr": 0.722,
+          "p50_ms": 706.4
+        },
+        "distilled_cards_facts": {
+          "queries": 6,
+          "hits_at_5": 5,
+          "recall_at_5_pct": 83.3,
+          "mrr": 0.833,
+          "p50_ms": 888.9
+        },
+        "personal_comms_schedule": {
+          "queries": 6,
+          "hits_at_5": 3,
+          "recall_at_5_pct": 50.0,
+          "mrr": 0.5,
+          "p50_ms": 418.4
+        },
+        "cold_standing_rules": {
+          "queries": 6,
+          "hits_at_5": 0,
+          "recall_at_5_pct": 0.0,
+          "mrr": 0.0,
+          "p50_ms": 438.2
+        }
+      },
+      "per_query": [
+        {
+          "id": "A1",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 504.96,
+          "top_source": "cards"
+        },
+        {
+          "id": "A2",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 0.3333,
+          "ms": 880.79,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A3",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 404.76,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A4",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 714.7,
+          "top_source": "cards"
+        },
+        {
+          "id": "A5",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 698.01,
+          "top_source": "antigravity"
+        },
+        {
+          "id": "A6",
+          "class": "recent_cross_machine",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1220.52,
+          "top_source": "cards"
+        },
+        {
+          "id": "B1",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 828.8,
+          "top_source": "facts"
+        },
+        {
+          "id": "B2",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 828.38,
+          "top_source": "facts"
+        },
+        {
+          "id": "B3",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1210.32,
+          "top_source": "facts"
+        },
+        {
+          "id": "B4",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 740.58,
+          "top_source": "cards"
+        },
+        {
+          "id": "B5",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 949.09,
+          "top_source": "facts"
+        },
+        {
+          "id": "B6",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1012.36,
+          "top_source": "cards"
+        },
+        {
+          "id": "C1",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 302.48,
+          "top_source": "mail"
+        },
+        {
+          "id": "C2",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 554.61,
+          "top_source": "antigravity"
+        },
+        {
+          "id": "C3",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 184.69,
+          "top_source": "mail"
+        },
+        {
+          "id": "C4",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 588.01,
+          "top_source": "agents"
+        },
+        {
+          "id": "C5",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 524.94,
+          "top_source": "facts"
+        },
+        {
+          "id": "C6",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 311.81,
+          "top_source": "wa"
+        },
+        {
+          "id": "D1",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 393.5,
+          "top_source": "facts"
+        },
+        {
+          "id": "D2",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 706.52,
+          "top_source": "sessions"
+        },
+        {
+          "id": "D3",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 325.89,
+          "top_source": "facts"
+        },
+        {
+          "id": "D4",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 377.15,
+          "top_source": "live-subagent"
+        },
+        {
+          "id": "D5",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 482.97,
+          "top_source": "facts"
+        },
+        {
+          "id": "D6",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 605.34,
+          "top_source": "live-subagent"
+        }
+      ]
+    },
+    "4_hot_full_14d": {
+      "queries_total": 24,
+      "hits_at_5_total": 16,
+      "recall_at_5_pct": 66.7,
+      "mrr": 0.618,
+      "latency_p50_ms": 640.3,
+      "latency_p95_ms": 1323.0,
+      "latency_mean_ms": 692.8,
+      "by_class": {
+        "recent_cross_machine": {
+          "queries": 6,
+          "hits_at_5": 5,
+          "recall_at_5_pct": 83.3,
+          "mrr": 0.722,
+          "p50_ms": 663.5
+        },
+        "distilled_cards_facts": {
+          "queries": 6,
+          "hits_at_5": 5,
+          "recall_at_5_pct": 83.3,
+          "mrr": 0.833,
+          "p50_ms": 1033.7
+        },
+        "personal_comms_schedule": {
+          "queries": 6,
+          "hits_at_5": 6,
+          "recall_at_5_pct": 100.0,
+          "mrr": 0.917,
+          "p50_ms": 575.8
+        },
+        "cold_standing_rules": {
+          "queries": 6,
+          "hits_at_5": 0,
+          "recall_at_5_pct": 0.0,
+          "mrr": 0.0,
+          "p50_ms": 455.7
+        }
+      },
+      "per_query": [
+        {
+          "id": "A1",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 463.11,
+          "top_source": "cards"
+        },
+        {
+          "id": "A2",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 0.3333,
+          "ms": 726.45,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A3",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 363.94,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A4",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 600.5,
+          "top_source": "cards"
+        },
+        {
+          "id": "A5",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 815.32,
+          "top_source": "antigravity"
+        },
+        {
+          "id": "A6",
+          "class": "recent_cross_machine",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1323.02,
+          "top_source": "cards"
+        },
+        {
+          "id": "B1",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1241.27,
+          "top_source": "facts"
+        },
+        {
+          "id": "B2",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 872.15,
+          "top_source": "facts"
+        },
+        {
+          "id": "B3",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1334.64,
+          "top_source": "facts"
+        },
+        {
+          "id": "B4",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 912.07,
+          "top_source": "cards"
+        },
+        {
+          "id": "B5",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 981.51,
+          "top_source": "facts"
+        },
+        {
+          "id": "B6",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1085.96,
+          "top_source": "cards"
+        },
+        {
+          "id": "C1",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 471.49,
+          "top_source": "mail"
+        },
+        {
+          "id": "C2",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 0.5,
+          "ms": 710.21,
+          "top_source": "mail"
+        },
+        {
+          "id": "C3",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 227.51,
+          "top_source": "mail"
+        },
+        {
+          "id": "C4",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 680.09,
+          "top_source": "cal"
+        },
+        {
+          "id": "C5",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 786.34,
+          "top_source": "cal"
+        },
+        {
+          "id": "C6",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 254.76,
+          "top_source": "wa"
+        },
+        {
+          "id": "D1",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 448.04,
+          "top_source": "facts"
+        },
+        {
+          "id": "D2",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 499.13,
+          "top_source": "codex"
+        },
+        {
+          "id": "D3",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 381.52,
+          "top_source": "facts"
+        },
+        {
+          "id": "D4",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 463.37,
+          "top_source": "codex"
+        },
+        {
+          "id": "D5",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 554.07,
+          "top_source": "facts"
+        },
+        {
+          "id": "D6",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 429.77,
+          "top_source": "antigravity"
+        }
+      ]
+    },
+    "5_hot_full_30d": {
+      "queries_total": 24,
+      "hits_at_5_total": 16,
+      "recall_at_5_pct": 66.7,
+      "mrr": 0.618,
+      "latency_p50_ms": 623.1,
+      "latency_p95_ms": 1244.7,
+      "latency_mean_ms": 696.7,
+      "by_class": {
+        "recent_cross_machine": {
+          "queries": 6,
+          "hits_at_5": 5,
+          "recall_at_5_pct": 83.3,
+          "mrr": 0.722,
+          "p50_ms": 536.8
+        },
+        "distilled_cards_facts": {
+          "queries": 6,
+          "hits_at_5": 5,
+          "recall_at_5_pct": 83.3,
+          "mrr": 0.833,
+          "p50_ms": 1052.6
+        },
+        "personal_comms_schedule": {
+          "queries": 6,
+          "hits_at_5": 6,
+          "recall_at_5_pct": 100.0,
+          "mrr": 0.917,
+          "p50_ms": 564.4
+        },
+        "cold_standing_rules": {
+          "queries": 6,
+          "hits_at_5": 0,
+          "recall_at_5_pct": 0.0,
+          "mrr": 0.0,
+          "p50_ms": 542.3
+        }
+      },
+      "per_query": [
+        {
+          "id": "A1",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 436.88,
+          "top_source": "cards"
+        },
+        {
+          "id": "A2",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 0.3333,
+          "ms": 725.95,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A3",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 311.66,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A4",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 474.77,
+          "top_source": "cards"
+        },
+        {
+          "id": "A5",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 598.93,
+          "top_source": "antigravity"
+        },
+        {
+          "id": "A6",
+          "class": "recent_cross_machine",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1394.08,
+          "top_source": "cards"
+        },
+        {
+          "id": "B1",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1023.75,
+          "top_source": "facts"
+        },
+        {
+          "id": "B2",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 918.6,
+          "top_source": "facts"
+        },
+        {
+          "id": "B3",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1244.72,
+          "top_source": "facts"
+        },
+        {
+          "id": "B4",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1199.9,
+          "top_source": "cards"
+        },
+        {
+          "id": "B5",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1015.26,
+          "top_source": "facts"
+        },
+        {
+          "id": "B6",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1081.48,
+          "top_source": "cards"
+        },
+        {
+          "id": "C1",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 496.81,
+          "top_source": "mail"
+        },
+        {
+          "id": "C2",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 0.5,
+          "ms": 768.04,
+          "top_source": "mail"
+        },
+        {
+          "id": "C3",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 230.21,
+          "top_source": "mail"
+        },
+        {
+          "id": "C4",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 632.07,
+          "top_source": "cal"
+        },
+        {
+          "id": "C5",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 661.95,
+          "top_source": "cal"
+        },
+        {
+          "id": "C6",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 269.87,
+          "top_source": "wa"
+        },
+        {
+          "id": "D1",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 508.2,
+          "top_source": "facts"
+        },
+        {
+          "id": "D2",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 614.04,
+          "top_source": "codex"
+        },
+        {
+          "id": "D3",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 386.57,
+          "top_source": "facts"
+        },
+        {
+          "id": "D4",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 574.04,
+          "top_source": "codex"
+        },
+        {
+          "id": "D5",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 641.3,
+          "top_source": "facts"
+        },
+        {
+          "id": "D6",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 510.53,
+          "top_source": "antigravity"
+        }
+      ]
+    },
+    "6_hot_full_14d_and_first": {
+      "queries_total": 24,
+      "hits_at_5_total": 16,
+      "recall_at_5_pct": 66.7,
+      "mrr": 0.618,
+      "latency_p50_ms": 570.6,
+      "latency_p95_ms": 1457.9,
+      "latency_mean_ms": 655.4,
+      "by_class": {
+        "recent_cross_machine": {
+          "queries": 6,
+          "hits_at_5": 5,
+          "recall_at_5_pct": 83.3,
+          "mrr": 0.722,
+          "p50_ms": 684.8
+        },
+        "distilled_cards_facts": {
+          "queries": 6,
+          "hits_at_5": 5,
+          "recall_at_5_pct": 83.3,
+          "mrr": 0.833,
+          "p50_ms": 1031.2
+        },
+        "personal_comms_schedule": {
+          "queries": 6,
+          "hits_at_5": 6,
+          "recall_at_5_pct": 100.0,
+          "mrr": 0.917,
+          "p50_ms": 486.4
+        },
+        "cold_standing_rules": {
+          "queries": 6,
+          "hits_at_5": 0,
+          "recall_at_5_pct": 0.0,
+          "mrr": 0.0,
+          "p50_ms": 505.3
+        }
+      },
+      "per_query": [
+        {
+          "id": "A1",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 42.24,
+          "top_source": "cards"
+        },
+        {
+          "id": "A2",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 0.3333,
+          "ms": 736.25,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A3",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 333.84,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A4",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 635.78,
+          "top_source": "cards"
+        },
+        {
+          "id": "A5",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 733.82,
+          "top_source": "antigravity"
+        },
+        {
+          "id": "A6",
+          "class": "recent_cross_machine",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1457.87,
+          "top_source": "cards"
+        },
+        {
+          "id": "B1",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1516.98,
+          "top_source": "facts"
+        },
+        {
+          "id": "B2",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 49.96,
+          "top_source": "facts"
+        },
+        {
+          "id": "B3",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1149.65,
+          "top_source": "facts"
+        },
+        {
+          "id": "B4",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 926.59,
+          "top_source": "cards"
+        },
+        {
+          "id": "B5",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1113.29,
+          "top_source": "facts"
+        },
+        {
+          "id": "B6",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 949.06,
+          "top_source": "cards"
+        },
+        {
+          "id": "C1",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 388.32,
+          "top_source": "mail"
+        },
+        {
+          "id": "C2",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 0.5,
+          "ms": 584.48,
+          "top_source": "mail"
+        },
+        {
+          "id": "C3",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 230.15,
+          "top_source": "mail"
+        },
+        {
+          "id": "C4",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 765.05,
+          "top_source": "cal"
+        },
+        {
+          "id": "C5",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 896.59,
+          "top_source": "cal"
+        },
+        {
+          "id": "C6",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 276.17,
+          "top_source": "wa"
+        },
+        {
+          "id": "D1",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 445.3,
+          "top_source": "facts"
+        },
+        {
+          "id": "D2",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 556.8,
+          "top_source": "codex"
+        },
+        {
+          "id": "D3",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 379.88,
+          "top_source": "facts"
+        },
+        {
+          "id": "D4",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 551.61,
+          "top_source": "codex"
+        },
+        {
+          "id": "D5",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 515.5,
+          "top_source": "facts"
+        },
+        {
+          "id": "D6",
+          "class": "cold_standing_rules",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 495.05,
+          "top_source": "antigravity"
+        }
+      ]
+    },
+    "7_cold_vault_only": {
+      "queries_total": 24,
+      "hits_at_5_total": 6,
+      "recall_at_5_pct": 25.0,
+      "mrr": 0.25,
+      "latency_p50_ms": 20.4,
+      "latency_p95_ms": 35.5,
+      "latency_mean_ms": 21.8,
+      "by_class": {
+        "recent_cross_machine": {
+          "queries": 6,
+          "hits_at_5": 0,
+          "recall_at_5_pct": 0.0,
+          "mrr": 0.0,
+          "p50_ms": 14.3
+        },
+        "distilled_cards_facts": {
+          "queries": 6,
+          "hits_at_5": 0,
+          "recall_at_5_pct": 0.0,
+          "mrr": 0.0,
+          "p50_ms": 17.6
+        },
+        "personal_comms_schedule": {
+          "queries": 6,
+          "hits_at_5": 0,
+          "recall_at_5_pct": 0.0,
+          "mrr": 0.0,
+          "p50_ms": 32.0
+        },
+        "cold_standing_rules": {
+          "queries": 6,
+          "hits_at_5": 6,
+          "recall_at_5_pct": 100.0,
+          "mrr": 1.0,
+          "p50_ms": 23.4
+        }
+      },
+      "per_query": [
+        {
+          "id": "A1",
+          "class": "recent_cross_machine",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 13.61,
+          "top_source": "none"
+        },
+        {
+          "id": "A2",
+          "class": "recent_cross_machine",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 9.73,
+          "top_source": "none"
+        },
+        {
+          "id": "A3",
+          "class": "recent_cross_machine",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 10.82,
+          "top_source": "none"
+        },
+        {
+          "id": "A4",
+          "class": "recent_cross_machine",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 20.36,
+          "top_source": "none"
+        },
+        {
+          "id": "A5",
+          "class": "recent_cross_machine",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 20.35,
+          "top_source": "none"
+        },
+        {
+          "id": "A6",
+          "class": "recent_cross_machine",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 15.03,
+          "top_source": "none"
+        },
+        {
+          "id": "B1",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 17.88,
+          "top_source": "none"
+        },
+        {
+          "id": "B2",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 18.57,
+          "top_source": "none"
+        },
+        {
+          "id": "B3",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 16.7,
+          "top_source": "none"
+        },
+        {
+          "id": "B4",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 14.64,
+          "top_source": "none"
+        },
+        {
+          "id": "B5",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 20.78,
+          "top_source": "none"
+        },
+        {
+          "id": "B6",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 17.34,
+          "top_source": "none"
+        },
+        {
+          "id": "C1",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 31.81,
+          "top_source": "none"
+        },
+        {
+          "id": "C2",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 41.15,
+          "top_source": "none"
+        },
+        {
+          "id": "C3",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 32.27,
+          "top_source": "none"
+        },
+        {
+          "id": "C4",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 25.28,
+          "top_source": "none"
+        },
+        {
+          "id": "C5",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 24.12,
+          "top_source": "cold_vault"
+        },
+        {
+          "id": "C6",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 35.5,
+          "top_source": "none"
+        },
+        {
+          "id": "D1",
+          "class": "cold_standing_rules",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 29.69,
+          "top_source": "cold_vault"
+        },
+        {
+          "id": "D2",
+          "class": "cold_standing_rules",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 27.39,
+          "top_source": "cold_vault"
+        },
+        {
+          "id": "D3",
+          "class": "cold_standing_rules",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 21.78,
+          "top_source": "cold_vault"
+        },
+        {
+          "id": "D4",
+          "class": "cold_standing_rules",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 24.99,
+          "top_source": "cold_vault"
+        },
+        {
+          "id": "D5",
+          "class": "cold_standing_rules",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 17.73,
+          "top_source": "cold_vault"
+        },
+        {
+          "id": "D6",
+          "class": "cold_standing_rules",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 16.12,
+          "top_source": "cold_vault"
+        }
+      ]
+    },
+    "8_rainbow_hot14d_plus_cold": {
+      "queries_total": 24,
+      "hits_at_5_total": 22,
+      "recall_at_5_pct": 91.7,
+      "mrr": 0.681,
+      "latency_p50_ms": 621.7,
+      "latency_p95_ms": 1156.7,
+      "latency_mean_ms": 588.6,
+      "by_class": {
+        "recent_cross_machine": {
+          "queries": 6,
+          "hits_at_5": 5,
+          "recall_at_5_pct": 83.3,
+          "mrr": 0.722,
+          "p50_ms": 609.8
+        },
+        "distilled_cards_facts": {
+          "queries": 6,
+          "hits_at_5": 5,
+          "recall_at_5_pct": 83.3,
+          "mrr": 0.833,
+          "p50_ms": 573.5
+        },
+        "personal_comms_schedule": {
+          "queries": 6,
+          "hits_at_5": 6,
+          "recall_at_5_pct": 100.0,
+          "mrr": 0.917,
+          "p50_ms": 505.5
+        },
+        "cold_standing_rules": {
+          "queries": 6,
+          "hits_at_5": 6,
+          "recall_at_5_pct": 100.0,
+          "mrr": 0.25,
+          "p50_ms": 642.3
+        }
+      },
+      "per_query": [
+        {
+          "id": "A1",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 49.57,
+          "top_source": "cards"
+        },
+        {
+          "id": "A2",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 0.3333,
+          "ms": 717.21,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A3",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 334.12,
+          "top_source": "sessions"
+        },
+        {
+          "id": "A4",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 558.69,
+          "top_source": "cards"
+        },
+        {
+          "id": "A5",
+          "class": "recent_cross_machine",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 660.94,
+          "top_source": "antigravity"
+        },
+        {
+          "id": "A6",
+          "class": "recent_cross_machine",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1156.69,
+          "top_source": "cards"
+        },
+        {
+          "id": "B1",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 62.81,
+          "top_source": "facts"
+        },
+        {
+          "id": "B2",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 44.18,
+          "top_source": "facts"
+        },
+        {
+          "id": "B3",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1084.21,
+          "top_source": "facts"
+        },
+        {
+          "id": "B4",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 39.76,
+          "top_source": "cards"
+        },
+        {
+          "id": "B5",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 1106.74,
+          "top_source": "facts"
+        },
+        {
+          "id": "B6",
+          "class": "distilled_cards_facts",
+          "hit_at_5": 0,
+          "mrr": 0.0,
+          "ms": 1313.89,
+          "top_source": "cards"
+        },
+        {
+          "id": "C1",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 403.46,
+          "top_source": "mail"
+        },
+        {
+          "id": "C2",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 0.5,
+          "ms": 768.52,
+          "top_source": "mail"
+        },
+        {
+          "id": "C3",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 244.89,
+          "top_source": "mail"
+        },
+        {
+          "id": "C4",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 653.46,
+          "top_source": "cal"
+        },
+        {
+          "id": "C5",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 607.61,
+          "top_source": "cal"
+        },
+        {
+          "id": "C6",
+          "class": "personal_comms_schedule",
+          "hit_at_5": 1,
+          "mrr": 1.0,
+          "ms": 326.4,
+          "top_source": "wa"
+        },
+        {
+          "id": "D1",
+          "class": "cold_standing_rules",
+          "hit_at_5": 1,
+          "mrr": 0.25,
+          "ms": 493.47,
+          "top_source": "cold_vault"
+        },
+        {
+          "id": "D2",
+          "class": "cold_standing_rules",
+          "hit_at_5": 1,
+          "mrr": 0.25,
+          "ms": 648.72,
+          "top_source": "cold_vault"
+        },
+        {
+          "id": "D3",
+          "class": "cold_standing_rules",
+          "hit_at_5": 1,
+          "mrr": 0.25,
+          "ms": 454.74,
+          "top_source": "cold_vault"
+        },
+        {
+          "id": "D4",
+          "class": "cold_standing_rules",
+          "hit_at_5": 1,
+          "mrr": 0.25,
+          "ms": 635.82,
+          "top_source": "cold_vault"
+        },
+        {
+          "id": "D5",
+          "class": "cold_standing_rules",
+          "hit_at_5": 1,
+          "mrr": 0.25,
+          "ms": 956.82,
+          "top_source": "cold_vault"
+        },
+        {
+          "id": "D6",
+          "class": "cold_standing_rules",
+          "hit_at_5": 1,
+          "mrr": 0.25,
+          "ms": 804.44,
+          "top_source": "cold_vault"
+        }
+      ]
+    }
+  },
+  "scrub_bottleneck_ab_8queries": {
+    "rescrub_400_p50_ms": 1022.4,
+    "topn_scrub_p50_ms": 696.1,
+    "median_speedup_x": 1.5,
+    "query_A1_rescrub_400_ms": 1092.5,
+    "query_A1_topn_scrub_ms": 368.3,
+    "query_A1_speedup_x": 3.0,
+    "sql_fts_and_A1_ms": 46.4,
+    "sql_fts_or_A1_ms": 215.3
+  }
+}
