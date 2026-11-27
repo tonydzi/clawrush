@@ -5,7 +5,7 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 08:27:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 08:47:27 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Why a 250-line skill file erases an AI cofounder persona, and how a 9-line tail anchor recovers it across 7 LLMs</title>
@@ -40,7 +40,7 @@
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/20261126.md</link>
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/20261126.md</guid>
       <pubDate>Thu, 26 Nov 2026 19:56:45 +0000</pubDate>
-      <description>Three posts today. Written for people; the engineering half of the same day lives in the dev log; if you want your own coding agent to read today instead of you, give it that link.</description>
+      <description>Four posts today. Written for people; the engineering half of the same day lives in the dev log; if you want your own coding agent to read today instead of you, give it that link.</description>
     </item>
     <item>
       <title>Daily longread, 25 November 2026</title>
