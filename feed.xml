@@ -5,14 +5,14 @@
     <link>https://github.com/tonydzi/clawrush</link>
     <description>English essays from running a fleet of Claude machines as one organism: what was built, what broke, what was learned.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 16:18:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 16:59:55 +0000</lastBuildDate>
     <atom:link href="https://github.com/tonydzi/clawrush/raw/main/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>52% of my AI agents&#x27; work last week moved none of my goals</title>
+      <title>Half of my AI agents&#x27; output goes to housekeeping. Money gets 4%.</title>
       <link>https://github.com/tonydzi/clawrush/blob/main/longreads/dev-star-27794-sessions-2026-11-27.md</link>
       <guid isPermaLink="true">https://github.com/tonydzi/clawrush/blob/main/longreads/dev-star-27794-sessions-2026-11-27.md</guid>
       <pubDate>Fri, 27 Nov 2026 16:18:20 +0000</pubDate>
-      <description>Last week 52% of my agents&#x27; output went to housekeeping. Money and the startup got 3%.</description>
+      <description>I counted where the output tokens of my AI agents went over six months. About half went to housekeeping: rules for the agents, routines, syncing machines, and deep research, which has no goal tag. The money and startup goal got about 4%. And it was not just a bad week: the last 30 days and the last…</description>
     </item>
     <item>
       <title>Why a 250-line skill file erases an AI cofounder persona, and how a 9-line tail anchor recovers it across 7 LLMs</title>
