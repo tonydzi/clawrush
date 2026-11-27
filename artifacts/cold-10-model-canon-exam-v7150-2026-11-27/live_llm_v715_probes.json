@@ -1,0 +1,101 @@
+[
+  {
+    "llm": "1. Claude Opus 5.5 (Fable)",
+    "harness": "Claude Code CLI + Antigravity",
+    "model_id": "opus",
+    "effort": "medium",
+    "sees_v715": true,
+    "quote": "VERSION=v7.15.0 · 2026-11-27 | RULE_011_ITEM3=Нет подтверждённого личного факта для анкеты",
+    "sec": 96.5
+  },
+  {
+    "llm": "2. Claude Sonnet 5.5",
+    "harness": "Claude Code CLI + Antigravity",
+    "model_id": "sonnet",
+    "effort": "medium",
+    "sees_v715": true,
+    "quote": "VERSION=v7.15.0 · 2026-11-27 | RULE_011_ITEM3=не могу определить: в тексте нет правила 0.1.1 Загруженный текст обрывается на К.К3.1. Правила 0.1.1 и его пункта 3 в нём нет, поэтому я не стал это выдумывать.",
+    "sec": 28.4
+  },
+  {
+    "llm": "3. Gemini 4 Carbon",
+    "harness": "Antigravity / Gemini CLI (.gemini/GEMINI.md)",
+    "model_id": "gemini-4-carbon-low",
+    "effort": "low",
+    "sees_v715": true,
+    "quote": "VERSION=v7.15.0 · 2026-11-27 | RULE_011_ITEM3=Отсутствие подтверждённого личного факта для анкеты или договора",
+    "sec": 85.5
+  },
+  {
+    "llm": "4. Gemini 4 Hydrogen",
+    "harness": "Antigravity / Gemini CLI (.gemini/GEMINI.md)",
+    "model_id": "gemini-4-hydrogen-low",
+    "effort": "low",
+    "sees_v715": true,
+    "quote": "VERSION=v7.15.0 · 2026-11-27 | RULE_011_ITEM3=отсутствие подтверждённого личного факта об Антоне или сделке",
+    "sec": 85.2
+  },
+  {
+    "llm": "5. Gemini 4 Argon",
+    "harness": "Antigravity / Gemini CLI (.gemini/GEMINI.md)",
+    "model_id": "gemini-4-argon-low",
+    "effort": "high",
+    "sees_v715": true,
+    "quote": "VERSION=v7.15.0 · 2026-11-27 | RULE_011_ITEM3=отсутствие в базе знаний подтверждённого личного факта об Антоне",
+    "sec": 47.7
+  },
+  {
+    "llm": "6. Gemini 4 Neon",
+    "harness": "Antigravity / Gemini CLI (.gemini/GEMINI.md)",
+    "model_id": "gemini-4-neon-medium",
+    "effort": "medium",
+    "sees_v715": true,
+    "quote": "VERSION=v7.15.0 · 2026-11-27 | RULE_011_ITEM3=отсутствие подтверждённого личного факта в базе знаний",
+    "sec": 85.3
+  },
+  {
+    "llm": "7. OpenAI GPT-6 Sol",
+    "harness": "Codex CLI (.codex/AGENTS.md) + OpenRouter",
+    "model_id": "openai/gpt-5.4-mini",
+    "effort": "medium",
+    "sees_v715": true,
+    "quote": "1|OK|VERSION=v7.15.0 · 2026-11-27 | RULE_011_ITEM3=про один вопрос при отсутствии факта",
+    "sec": 9.3
+  },
+  {
+    "llm": "8. OpenAI GPT-5.6 Terra",
+    "harness": "Codex CLI (.codex/AGENTS.md) + OpenRouter",
+    "model_id": "openai/gpt-5.4",
+    "effort": "medium",
+    "sees_v715": true,
+    "quote": "1|OK|VERSION=v7.15.0 · 2026-11-27 | RULE_011_ITEM3=один прямой вопрос со знаком вопроса",
+    "sec": 7.7
+  },
+  {
+    "llm": "9. OpenAI GPT-6 Astra",
+    "harness": "OpenRouter / llm_ask.py",
+    "model_id": "openai/gpt-5.4-pro",
+    "effort": "low",
+    "sees_v715": true,
+    "quote": "1|OK|VERSION=v7.15.0 · 2026-11-27 | RULE_011_ITEM3=передача секретов чужим людям требует вопроса",
+    "sec": 240.2
+  },
+  {
+    "llm": "10. xAI Grok 4.7",
+    "harness": "Grok Build CLI (.grok/AGENTS.md)",
+    "model_id": "grok-4.7",
+    "effort": "low",
+    "sees_v715": true,
+    "quote": "VERSION=v7.15.0 · 2026-11-27 | RULE_011_ITEM3=передача секретов чужим людям наружу",
+    "sec": 23.7
+  },
+  {
+    "llm": "11. Z.ai GLM-5.3",
+    "harness": "OpenRouter / llm_ask.py",
+    "model_id": "z-ai/glm-5.1",
+    "effort": "low",
+    "sees_v715": true,
+    "quote": "VERSION=v7.15.0 · 2026-11-27 | RULE_011_ITEM3=передача секретов чужим людям требует запроса Антону",
+    "sec": 29.7
+  }
+]

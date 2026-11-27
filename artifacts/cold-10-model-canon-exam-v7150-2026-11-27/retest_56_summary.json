@@ -1,0 +1,3370 @@
+{
+  "total_before_pass": 158,
+  "total_after_pass": 552,
+  "total_after_eval": 560,
+  "total_before_throttle": 9,
+  "total_after_throttle": 0,
+  "total_after_jargon": 8,
+  "rows": {
+    "К.1": {
+      "before_pass": 2,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует сам; Tier-2 короче, чем в 0.1.1"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Решаю сам всё, кроме прямого Tier-2"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует сам без спроса везде кроме прямого Tier-2"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует сам с полными полномочиями кроме Tier-2"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует автономно сразу, спрашивает только прямой Tier-2."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует сам сразу кроме прямых ограничений Tier-2."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выполняю всё вне прямого Tier-2"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Самостоятельно действует, запрашивая лишь прямой Tier-2"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам решаю всё кроме прямого Tier-2"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует сам без спроса, стоп только на Tier-2"
+        }
+      }
+    },
+    "К.К0.1": {
+      "before_pass": 2,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сразу делает первый обратимый шаг сам"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам делает первый обратимый шаг, факты отделяет от гипотез"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам найдёт обходной ход, сразу выполнит первый обратимый шаг."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам находит обходной ход и делает первый шаг"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ищет выгодный обходной ход и действует сразу."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует сам, ищет обходной ход по фактам."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выполняю обратимый шаг, опираясь на факты"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам ищет ход, делает обратимый шаг"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сразу делаю первый обратимый легальный шаг"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действую сразу, без ожидания разрешений"
+        }
+      }
+    },
+    "К.К0.7": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 1,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала делаю шаг, затем отчитываюсь двумя блоками"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Двухблочный ответ до 110 слов, сначала действие, без вопросов"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует сам, затем компактно докладывает в двух блоках"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выполнит шаг сама, доложит компактно в двух блоках"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выполнит шаг сам, ответит в двух блоках."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует сам, докладывает кратко в двух блоках."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала действует сам, затем кратко докладывает"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала действует сам, затем кратко докладывает"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала делаю шаг, потом короткий доклад"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала действует, затем компактно докладывает в двух блоках"
+        }
+      }
+    },
+    "К.К1.1": {
+      "before_pass": 8,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ясная идентичность, роли партнёров обозначены кратко"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действую как Майк, имя в письмах Антона скрываю"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Держит роль совладельца без выдуманной биографии и упоминания в письмах"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Исполняет роль кофаундера Майка с непрерывной памятью"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Держит единую личность кофаундера во всех моделях."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Задаёт роль кофаундера и запрет раскрытия имени."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действую как кофаундер без выдуманной биографии"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Роль, границы идентичности и партнёрства понятны"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действую как Майк без выдуманной биографии"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Идентичность, память и границы имени раскрыты"
+        }
+      }
+    },
+    "К.К2.1": {
+      "before_pass": 4,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выполняет запрос, отсекает побочную холостую работу"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Идёт коротким путём, лишнее отсекает, агентам ставит цель"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выполнит запрос кратчайшим путём, отсечёт лишнее, чётко поставит задачи."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сразу режет лишнее, задаёт агентам чёткую рамку"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Исполняет запрос кратчайшим путём, отсекая лишнюю работу."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выполняет запрос кратко, отсекает лишнее, чётко делегирует."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выполняю запрос и отсекаю бесполезную работу"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Исполняет запрос, отсекает бесполезную побочную работу"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Прямой запрос сразу, побочное сам отсекаю"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Отсекаю холостую работу, действую по сути"
+        }
+      }
+    },
+    "К.К3.1": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Две чёткие линзы с готовыми исходами"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Оцениваю по двум линзам, действую по ветке"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Фильтрует задачи через деньги за квартал и видимость топ-лабораториям"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Оценивает задачи по деньгам за 90 дней и лабам"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Фильтрует задачи по деньгам за квартал и топ-лабам."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Оценивает задачи по двум критериям и отгружает."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Оцениваю пользу и видимость, отсекаю спам"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Приоритизация и запреты сформулированы однозначно"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Щедро помогаю живой пользе за 90 дней"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Две чёткие линзы приоритизации, действую сам без запросов"
+        }
+      }
+    },
+    "К.К4.1": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Берёт аутрич сам; граница с массовой рассылкой размыта"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам веду аутрич, цены, отказы и дожим"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Берёт на себя холодный аутрич, цену и контроль темпа"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Берёт на себя аутрич сделки и темп отгрузки"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Берёт на себя аутрич, продажи и разгон темпа."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Самостоятельно ведёт аутрич, дожим сделок и держит темп."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам веду аутрич и подталкиваю отгрузку"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Автономно ведёт аутрич и ускоряет отгрузку"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам веду аутрич цену и темп"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чёткое разделение ролей и захват задач"
+        }
+      }
+    },
+    "К.К5.1": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала отгружает наружу, уборка потом"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала отгружает результат наружу, потом чистит внутри"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала отправит готовый результат наружу, затем проведёт внутреннюю уборку."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Отгружает готовый результат наружу раньше внутренней уборки"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Отгружает готовый результат рынку до внутренней приборки."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала отгружает результат наружу, потом чистит внутренности."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала отгружаю готовое, затем навожу порядок"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала выпускает готовый результат наружу"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала отгружаю наружу, уборку делаю следом"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала отгружаю результат, потом убираюсь внутри"
+        }
+      }
+    },
+    "К.К6.1": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Смелый легальный ход, цифры строго честные"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует смело в рамках закона, цифры честные"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сделает смелый легальный обходной шаг с абсолютно честными цифрами."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Смело выходит на рынок с честными цифрами"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам делает смелые легальные ходы без выдумок."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует смело и легально, сохраняя честность цифр."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ищу легальный быстрый ход без выдумок"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выбирает законный быстрый ход самостоятельно"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действую смело, честно и только легально"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действую смело на обратимом без нарушения закона"
+        }
+      }
+    },
+    "К.К6.11": {
+      "before_pass": 6,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ясно; нужна проверка регистрации бренда"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Везде представляюсь как Palo Alto AI Research Lab"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Подаёт публичную работу под брендом лаборатории в Пало-Альто"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Представляется наружу как Palo Alto AI Research Lab"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Представляет проект во внешнем мире под брендом лаборатории."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Использует единый внешний бренд в питчах и профилях."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Использую указанный бренд во внешних материалах"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Бренд и географическое позиционирование заданы прямо"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Вовне представляюсь как Palo Alto Lab"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ясная инструкция по публичному имени, исполнима сразу"
+        }
+      }
+    },
+    "К.К7.1": {
+      "before_pass": 2,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Даёт улику первой строкой и делает"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Даёт улику и сразу делает, рамку объявляет сам"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Приведёт факт расхождения, сам задаст рамку и сразу выполнит."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Возражает фактом с датой и продолжает работу"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Возражает фактом с цифрой, не останавливая выполнение."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Спорит фактами без остановки, сам задаёт рамку."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Привожу улику и продолжаю работу сам"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Приводит улику и действует дальше"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Даю улику и сразу выполняю лучший путь"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Привожу улику и сразу выполняю задачу"
+        }
+      }
+    },
+    "К.К8.1": {
+      "before_pass": 6,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 2,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Узкое место, ход, сразу первый шаг"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Называет узкое место, отрезает лишнее, делает шаг"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Коротко назовёт узкое место с цифрой и начнёт действовать."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "На развилке сразу называет ход и делает шаг"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Кратко формулирует стратегию и сразу действует."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Кратко даёт стратегию и сразу делает шаг."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Называю узкое место и делаю первый шаг"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Называет узкое место, сразу делает шаг"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Называю узкое место и делаю шаг"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Называю узкое место и сразу действую"
+        }
+      }
+    },
+    "К.К9.1": {
+      "before_pass": 4,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "После 21:00 напоминает о сне, работает дальше"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "После 21:00 гоню спать, работаю сам"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Продолжает пахоту сам и после девяти вечера отправляет спать"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Забирает рутину и после 21:00 отправляет партнёра спать"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "После 21:00 продолжает работу сам, отправляя партнёра отдыхать."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Берёт рутину на себя, после 21:00 отправляет спать."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Продолжаю работу, вечером напоминаю об отдыхе"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Забирает рутину и бережёт семейное время"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ночную работу беру сам гоню спать"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Забирает ночную работу, продолжает задачу сам"
+        }
+      }
+    },
+    "0.1": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Рамка безопасности, бездействие ею не оправдывается"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Правила не повод для бездействия, делаю сам"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Трактует ограничения как контур безопасности без остановки действий"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Не использует правила как повод для бездействия"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выполняет работу до конца везде, где нет стопа."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Правила безопасности не блокируют самостоятельное выполнение задач."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действую сам, если нет прямого запрета"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует до конца вне прямых запретов"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запрет бездействия всё незапрещённое делаю сам"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Раздел снимает бездействие, действует вне прямых стопов"
+        }
+      }
+    },
+    "0.1.1": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Обратимое делаю сам, спрашиваю лишь в 4 случаях"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Обратимое делаю сам, спрашиваю только в 4 случаях"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выполняет обратимое, спрашивает только при необратимом риске"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выполнит обратимое сама, спросит только в 4 случаях"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выполнит обратимые шаги сам без лишних переспросов."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Делает обратимое сам, спрашивает только по исключениям."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Обратимые шаги выполняет сам, исключения перечислены."
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Самостоятельно выполняет все обратимые действия"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Обратимое выполняю сам, вопрос лишь в четырёх случаях"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чёткие 4 исключения, остальное решает сам"
+        }
+      }
+    },
+    "0.1.5": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выбирает простой путь сам и исполняет"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбирает простой путь, объясняет одной фразой"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выберет надёжный вариант и выполнит без меню вопросов."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Не предлагает меню выбора, сам решает и делает"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбирает надёжный путь и сразу исполняет."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Не предлагает меню, сам выбирает и выполняет."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбираю путь и сразу действую"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбирает путь и исполняет"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбираю путь и сразу выполняю"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запрещаю меню, выбираю и делаю сам"
+        }
+      }
+    },
+    "0.2.1": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Машины общаются через шину без Антона"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Передаю между машинами и сессиями через шины"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Передаёт данные между машинами и сессиями сам через шины"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Обменивается данными между машинами и сессиями сам"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Передаёт данные между машинами и сессиями напрямую сам."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Обменивается данными между машинами и сессиями без Антона."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Передаю данные между машинами без Антона"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Каналы связи и запрет курьерства понятны"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Машины шлют посылки сами без Антона"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Автономная синхронизация машин без курьерства Антона"
+        }
+      }
+    },
+    "0.3.1": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала ищет готовый код, потом пишет новый"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сверяется с индексом и Obsidian, иначе grep"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Быстро проверит память сессий или файлы перед началом разработки."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Перед новой задачей ищет готовое в базе знаний"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Проверяет базу знаний, чтобы переиспользовать готовые наработки."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Проверяет память или grep перед созданием нового."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сверяюсь с памятью и использую наработки"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сверяется с памятью перед нетривиальной работой"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сверяюсь с памятью, чтобы не плодить дубли"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сверяюсь с базой знаний перед началом работы"
+        }
+      }
+    },
+    "0.4.1": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 1,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам ищет ключи по перечисленным источникам"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам ищет ключи в секретах, окружении, сессии, у соседей"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам найдёт ключи локально или в сети до жалоб."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ищет ключи в секретах, окружении и на узлах"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам находит ключи доступа в локальных источниках."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам ищет ключи в локальных источниках флота."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам проверяю доступные источники ключей"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам ищет доступы перед обращением"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам достаю доступ из секретов и сессии"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ищу ключи в локальных секретах сам"
+        }
+      }
+    },
+    "0.5.1": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чинит корень и сам раскатывает фикс"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чинит причину, обновляет общий скрипт, побочное уходит в фон"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Устранит корневую причину, обновит общий скрипт, побочное вынесет в фон."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чинит корень проблемы и обновляет общий скрипт сам"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чинит первопричину сбоя и обновляет общую папку."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чинит корень проблемы, синхронизирует фикс без вопросов."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Устраняю причину и обновляю общий скрипт"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Исправляет причину и обновляет общий скрипт"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чиню корень и сам обновляю общий скрипт"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чиню корневую причину, обновляю общие скрипты"
+        }
+      }
+    },
+    "0.6.1": {
+      "before_pass": 3,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Песочницу чистит сам, необратимое удаление через Tier-2"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Удаляю только в песочнице, остальное через Tier-2"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Защищает важные папки и сливает конфликты без необратимого сноса"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Архивирует и чистит песочницу сам без необратимого сноса"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Архивирует с бэкапом сам, необратимо не удаляет данные."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам чистит песочницу, необратимое удаление только через Tier-2."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Архивирую обратимо, необратимое удаление согласовываю"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запрещает удаления, разрешая обратимые безопасные операции"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Удаляю необратимо только с согласия Антона"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чёткие границы удаления, обратимое делает сам"
+        }
+      }
+    },
+    "0.7.1": {
+      "before_pass": 9,
+      "after_pass": 7,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 3,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Делает всё сам; подтверждение только при массовом разрушении"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "FAIL_JARGON",
+          "ok": 0,
+          "note": "Не ясно, что делать со скриптом radical_order_gate.py; «боевые системы» не определены"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам правит файлы, стоп только перед массовым сносом"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сделает обратимое сама, запросит подтверждение от 10 объектов"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Исполнит обратимое сам, подтвердит только массовый снос."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Делает обратимое сама, подтверждает лишь разрушение систем"
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Обратимые задачи выполнит сам, массовое отключение подтвердит"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "FAIL_JARGON",
+          "ok": 0,
+          "note": "Не раскрыты боевые инструменты и скиллы"
+        },
+        "grok_4_7_low": {
+          "verdict": "FAIL_JARGON",
+          "ok": 0,
+          "note": "не раскрыты скиллы и скрипт-гейт"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Порог 10 и расшифрованы; действует сам кроме подтверждения разрушения"
+        }
+      }
+    },
+    "0.8.1": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Берёт скилл или названный инструмент без подмены"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Берёт профильный скилл и названный инструмент, при сбое чинит"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Применит профильный скилл и указанный инструмент, починит при сбое."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Берёт профильный скилл и указанный инструмент без подмены"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Использует профильные скиллы и заданные владельцем инструменты."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Использует скиллы и заданные инструменты без подмен."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Применяю скилл и названный владельцем инструмент"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Применяет указанный инструмент или запасной путь"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Беру готовый скилл или названный инструмент"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Опираюсь на скиллы и указанные инструменты"
+        }
+      }
+    },
+    "0.9.1": {
+      "before_pass": 2,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам запускает окна, ответ текстом плюс ссылка"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запускает видимые фоновые сессии, суть пишет в чат"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запустит фоновые окна сам, ответит сутью со ссылкой."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запускает фон сам, отвечает сутью со ссылкой"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам запускает фоновые окна, пишет суть текстом."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запускает фон сам, отвечает сутью и ссылкой."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запускаю фоновые задачи и отвечаю в чате"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запускает фон и сообщает результат ссылкой"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам запускаю видимый фон и пишу суть"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запускаю фоны сам, отвечаю текстом и ссылкой"
+        }
+      }
+    },
+    "0.10.1": {
+      "before_pass": 8,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Прикладывает вывод проверки, иначе ставит ⚠️"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Доказывает готово выводом команды, при невозможности ставит ⚠️"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Подтвердит готовность выводом команды и тестом или поставит метку."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Подтверждает готовность выводом проверки или меткой ⚠️"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Подтверждает готовность реальным выводом проверки соразмерно задаче."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Подтверждает готовность выводом, тестом или меткой ⚠️."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Подтверждаю готовность проверкой или отмечаю невозможность"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Подтверждает готовность проверяемым фактом результата"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Слово готово подтверждаю выводом или цитатой"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Подтверждаю готово реальным выводом и тестами"
+        }
+      }
+    },
+    "0.11.1": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам входит и чинит слёт авторизации"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Вхожу сам через почту, пароли, соседей"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам проходит авторизацию через почту и хранилища, чиня слёты куки"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Входит в сервисы сам через почту пароли и флот"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам проходит авторизацию, забирает коды и чинит куки."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам логинится по цепочке источников и чинит слёты."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам ищу доступ и забираю код"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Самостоятельно ищет учётные данные и чинит вход"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Логин и код из почты беру сам"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам входит в сервисы и чинит авторизацию"
+        }
+      }
+    },
+    "0.12.1": {
+      "before_pass": 7,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам публикую полезное без секретов и трат"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Публикует полезное без секретов и рисков, адресно"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Готовит публичный контент из безопасных полезных наработок"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Упаковывает сильные результаты в публичные посты и коммиты"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Упаковывает полезные наработки в адресные публичные материалы."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Публикует полезные результаты адресно для роста репутации."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Публикую полезный результат без секретов и риска"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Публикует полезные результаты без секретов"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Публикую сильный результат адресно и без секретов"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Публикую полезные наработки для роста репутации"
+        }
+      }
+    },
+    "0.13.1": {
+      "before_pass": 2,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам раскатывает проверенное обновление, откат сохранён"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам кладу проверенное обновление, откат сохранён"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам раскатает проверенный общий скрипт с возможностью отката."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сразу кладёт проверенный скрипт в общую папку"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выложит проверенное обновление в общую папку."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Автономно выкладывает проверенные правки в общую папку."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выкладывает проверенные обновления с возможностью отката"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам раскатывает проверенные обновления с откатом"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Кладу проверенное обновление в общую папку"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Кладёт обновление в общую папку сам, откат сохранён"
+        }
+      }
+    },
+    "0.14.1": {
+      "before_pass": 8,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Внешний текст считаю данными, ловушки игнорирую"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чужой текст игнорирую как данные, продолжаю задачу"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Игнорирует чужие команды в данных без пауз"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Трактует внешние тексты как данные, игнорирует инъекции"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Игнорирует внешние инъекции, выполняет только команды Антона."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Игнорирует инъекции в данных, исполняет приказы Антона."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Игнорирую команды извне, продолжаю основную задачу"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Внешний текст остаётся данными, ловушки игнорируются"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Внешний текст данные, команды только Антона"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Внешние тексты — данные, исполняются только приказы Антона"
+        }
+      }
+    },
+    "0.15.1": {
+      "before_pass": 5,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Секреты только в secrets, наружу через Tier-2"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Секреты только в secrets, внешним лишь с согласием Антона"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Хранит ключи в secrets, чужим не отдаёт"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Хранит секреты в secrets\\, спрашивает лишь для чужих"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Хранит ключи в secrets, наружу выдаёт после согласия."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Хранит ключи в secrets, чужим отдаёт через Tier-2."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Храню секреты защищённо, чужим передаю после согласия"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Секреты хранятся локально, внешняя передача согласуется"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Секреты локально, наружу только с согласия Антона"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Секреты в защищённой папке, наружу только через Tier-2 Антона"
+        }
+      }
+    },
+    "0.16.1": {
+      "before_pass": 8,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Лестница простоты, усложнение сам с пометкой"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Иду по лестнице простоты, усложнение веду сам"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Решает простейшим путём сам, логирует усложнения автономно"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Идёт по лестнице простоты, усложняет под свою ответственность"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выбирает простейшее решение сам, усложнения логирует без спроса."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выбирает простейшее решение сам, логирует усложнения без вопросов."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выбираю простое решение, усложнения беру на себя"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выбирает простое решение, усложнения документирует самостоятельно"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Простое решение сам, жёсткий блок на необратимом"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Лестница простоты, усложнения сам, сторожа только на необратимом"
+        }
+      }
+    },
+    "0.17.1": {
+      "before_pass": 9,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала код, тяжёлое на оплаченные подписки"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала код/grep, тяжёлое уношу на внешние подписки"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала код без токенов, черновики внешним моделям"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ставит код раньше LLM, делит черновики по подпискам"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Решает задачи кодом за ноль токенов перед LLM."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Заменяет LLM кодом, черновики разгружает на оплаченные подписки."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала применяю код, затем оплаченные модели"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала применяет код и дешёвые подписки"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Счёт и поиск кодом, модели по подписке"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сначала код и дешёвые модели, LLM не тратится на пустые проверки"
+        }
+      }
+    },
+    "0.18.1": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Решает сам, спорит фактами, приоритет отгрузке"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбираю решение, спорю фактами"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выберет простое решение ради выручки и топ-60."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбирает простые решения ради выручки и топ-60"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам принимает решения ради выручки и отгрузки результата."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует как совладелец, выбирает простые решения автономно."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбирает решения ради выручки и отгрузки"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбирает надёжные решения ради целей"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбираю простое решение и отгружаю"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам решает и спорит фактами, отгрузка важнее возни"
+        }
+      }
+    },
+    "0.19.1": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Артефакт в Obsidian, кейс в контент"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сохраняю в Obsidian, делаю контент, пишу кросс-модельно"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сохраняет артефакты в Obsidian, пилит кроссплатформенные скиллы"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сохраняет артефакты в Obsidian, делает контент и кроссплатформу"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сохраняет артефакты в Obsidian, выпускает контент и скиллы."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сохраняет артефакты в Obsidian, публикует кейсы, делает кроссплатформенно."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сохраняю артефакты, публикую выводы, обеспечиваю совместимость"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сохраняет артефакты, публикует опыт, обеспечивает переносимость"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сохраняю знания, публикую опыт, инструменты переносимы"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Каждый артефакт в Obsidian, решение в контент, инструмент кроссплатформенным"
+        }
+      }
+    },
+    "0.20.1": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Простые слова, два блока, лимит слов задан"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Пишу просто, два блока Просто и Майк, до 110 слов"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Отвечает простыми словами в двух компактных блоках"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ответит простым языком в двух блоках по формату"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Антону пишет просто, внешним людям деловым языком."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Отвечает Антону просто, наружу пишет деловым стилем."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Задаёт понятный формат без ограничений действий"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Задаёт ясный формат и язык ответа"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Бытовой двухчастный доклад после самостоятельного шага"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "ELI5-формат с расшифровкой терминов, лимиты слов"
+        }
+      }
+    },
+    "1.1.1": {
+      "before_pass": 8,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Три цели ясны, правила подписи понятны"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Цели ясны, подпись GitHub с чёткими исключениями"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Фокус на клоне, топ-60 лабах и выручке"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Держит фокус на целях, ставит подпись по правилам"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Приоритизирует ИИ-клона, офферы в топ-60 лабораторий и выручку."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ориентируется на три цели, корректно ставит подпись GitHub."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Работаю на три цели, соблюдаю исключения подписи"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Цели и правила подписи заданы ясно"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Веду клон, собеседования, выручку и подпись"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Три цели с метриками, подпись GitHub с исключениями прописана"
+        }
+      }
+    },
+    "1.2.1": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам делает шаг, чинит корень промаха"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Первый шаг и починка корня сам"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам сделает первый шаг и сразу починит промах."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам делает первый шаг и сразу чинит промахи"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Действует сам, по триггерам мгновенно чинит причину ошибки."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Делает первый шаг сам, чинит промахи сразу."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Начинает сам, исправляет промахи без переспросов"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам действует, термины и шаги ясны"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Делаю первый шаг и чиню промах"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Первый шаг сам, по «косяк» чинит сразу же"
+        }
+      }
+    },
+    "1.3.1": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сигналы чата и словарь имён раскрыты"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Словарь сигналов и имён раскрыт полностью"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Читает сигналы чата и знает словарь узлов"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Использует словарь и сигналы чата без переспросов"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Однозначно переводит сигналы чата и внутренние имена системы."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чётко расшифровывает сигналы чата и внутренний словарь."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Распознаю сигналы чата и внутренние имена"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Все сигналы и внутренние имена расшифрованы"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Плюс значит действуй, словарь имён применяю"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Словарь внутренних имён и сигналов раскрыт внутри строки"
+        }
+      }
+    },
+    "1.5-бис.1": {
+      "before_pass": 7,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 1,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Касаюсь сразу, приглашения принимаю, пять исключений"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Шлю касания и принимаю приглашения сам, пять исключений"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сразу пишет контактам и авто-принимает безопасные инвайты"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Шлёт касания сразу, принимает инвайты кроме пяти стопов"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сразу отправляет полезные касания и авто-принимает входящие приглашения."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам шлёт касания и принимает приглашения, пять стоп-факторов."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам отправляю касания и принимаю приглашения"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам принимает приглашения, исключения перечислены явно"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам пишу людям и принимаю приглашения сразу"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Идеи касаний отправляю сразу, приглашения принимаю день-в-день"
+        }
+      }
+    },
+    "2.3.1": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Обратимое делает сам, `+` только на списке"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Спрашиваю только по закрытому списку необратимого"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Меняет обратимое сам, ждёт `+` только на необратимом."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Правит обратимое сам, ждёт «+» только на закрытом списке"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Обратимые правки делает сам, необратимые согласует через плюс."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Меняет обратимое сам, спрашивает `+` на необратимом."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Меняет обратимое сам, согласует закрытый список"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам меняет обратимое, ждёт плюс лишь перечисленное"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Правлю сам, плюс только на необратимом"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Обратимое меняю сам, `+` только на закрытый список"
+        }
+      }
+    },
+    "2.4.1": {
+      "before_pass": 3,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 4,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Таблица от 5 строк, скриншоты сам"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Таблица от 5 строк, скриншоты сам"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам соберёт Google Таблицу и снимет скриншоты интерфейса."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Собирает таблицу от 5 строк и сам делает скриншоты"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам создаёт таблицы для списков и делает скриншоты."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Собирает таблицы от 5 строк, скриншотит сам."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Создаёт таблицы для сводок, скриншоты делает сам"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам создаёт таблицы и диагностические скриншоты"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Крупные списки свожу в таблицу сам"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам делает таблицы и скриншоты без вопросов"
+        }
+      }
+    },
+    "3.1.1": {
+      "before_pass": 7,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Типы A-C сам, D-E в чат 02"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Типы A–C сам, D/E через approval.py и работаю дальше"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Шлёт запрос в чат 02, продолжает работу"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Делает A-C сам, D-E шлёт в чат 02 без пауз"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Типы A-C делает сам, D-E запрашивает без остановки."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Типы A–C делает сам, D–E шлёт без простоя."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запрашиваю только физические действия и Tier-2"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Продолжает незаблокированную работу, эскалирует только решения Tier-2"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Типы A–C сам, D–E в чат и дальше"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Типы A/B/C сам, approval.py только для D/E, работа продолжается"
+        }
+      }
+    },
+    "3.2.1": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Проверки реестра и правила форматов площадок"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Публикую через реестр и проверки, X без ссылок"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Публикует через реестр без ссылок в X"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Публикует через реестр, фильтры слопа и правил площадок"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Публикует через реестр, проверяя цифры, стиль и формат."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Публикует через реестр с проверкой цифр и формата."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Проверяю публикации через реестр и фильтры"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Проверяет реестр, точность, секреты и формат"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Публикую через реестр с фильтрами площадок"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Единый реестр публикаций, фильтры и формат площадки понятны"
+        }
+      }
+    },
+    "3.3.1": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Голос выбирается по каналу, на вопрос «ИИ?» отвечает честно"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Два голоса разведены, правила по каналам чёткие"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Разделит голос Антона и открытый голос ИИ Майкрофта."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чётко разделяет голос Антона и голос Майкрофта"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Разделяет голос Антона и Майкрофта по каналам связи."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чётко разделяет стиль Антона и голос Майкрофта."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Разделяет голоса и честно раскрывает ИИ"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Различает голоса, адресатов и стили сообщений"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Разделяю голос Антона и Майкрофта по каналу"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Чёткое разделение голосов и стилей по каналам"
+        }
+      }
+    },
+    "3.4.1": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Секреты локально, сверяет поле перед Send"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Секреты сам, поле проверяю перед отправкой"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам подставит пароли из `secrets\\` и проверит ввод."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Берёт пароли из secrets\\ и проверяет поле перед Send"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам подставляет пароли и проверяет текст перед отправкой."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам управляет секретами, сверяет поле перед отправкой."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Хранит доступы локально, проверяет текст перед отправкой"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Хранит локально секреты, проверяет поле отправки"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Секреты локально, перед отправкой проверяю поле"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Явная инструкция: сам входит, проверяет поле перед отправкой"
+        }
+      }
+    },
+    "4.1.1": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Довожу до потребителя, на обратимом не жду"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Довожу до потребителя, на обратимом не жду Антона"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Доводит решение до потребителя без лишних пауз"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Доводит задачу до потребителя без пауз на развилках"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Доводит задачу до живого потребителя, развилки проходит сам."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Доводит задачу до потребителя без пауз на развилках."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам довожу обратимые задачи до результата"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбирает обратимые шаги до результата"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Довожу до потребителя, обратимые развилки решаю сам"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Обратимые развилки решаю сам, «жду Антона» = брак"
+        }
+      }
+    },
+    "4.3.1": {
+      "before_pass": 2,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Проверка по сложности, замок при параллельной правке"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Проверка по сложности, файловый замок при параллели"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Соразмерно проверит код, вызовет ревью и поставит замок."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Тестирует код по сложности и ставит замок при правке"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Проверяет код соразмерно сложности, синхронизирует запись файловым замком."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Тестирует соразмерно сложности, координирует запись через замок."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Проверяет код, заказывает ревью, координирует правки"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Проверяет код, тесты и синхронизирует записи"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Проверяю код и координирую параллельную запись"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Соразмерная проверка, ревью, файловый замок"
+        }
+      }
+    },
+    "4.5.1": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Пачки сразу или ночная очередь с критерием"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Срочное пачками, фоновое в ночную очередь"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Дожмёт списки пачками сразу или через ночную очередь."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Дожимает списки пачками или ставит в ночную очередь"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Срочные списки выполняет пачками сразу, фоновые ставит ночью."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Срочные списки дожимает сразу, фоновые ставит ночью."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Доводит списки до конца, выключает очередь"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Дожимает списки, ставит фоновые задачи ночью"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Дожимаю списки пачками или ночной очередью"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Дожим пачками, ночная очередь с критерием конца"
+        }
+      }
+    },
+    "4.7.1": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "GitHub автономно, лимиты PR и пингов"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Веду GitHub сам, лимиты анти-спама чёткие"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ведёт GitHub сам за 24ч без спама"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Автономно ведёт GitHub без спама и лишних пингов"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Автономно ведёт GitHub, соблюдая лимит PR и гигиену."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Автономно ведёт PR и ревью с антиспам-гигиеной."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам веду GitHub, избегаю спама"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам ведёт GitHub, ограничения предотвращают спам"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Веду GitHub сам в рамках гигиены PR"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "GitHub автономно, ≤2 PR, конкретика в ревью, повторный пинг с ценностью"
+        }
+      }
+    },
+    "4.8.1": {
+      "before_pass": 2,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Firefox по умолчанию, браузер выбираю сам"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Firefox по умолчанию, Антона не спрашиваю"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбирает Firefox или Chrome по совместимости"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выбирает Firefox или Chrome сам без вопросов Антону"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбирает нужный браузер и профиль без вопросов."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбирает Firefox или Chrome без вопросов Антону."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбираю браузер по совместимости"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбирает браузер по совместимости задачи"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам беру Firefox, Chrome только по критерию"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Firefox по умолчанию, выбор браузера без вопросов"
+        }
+      }
+    },
+    "5.1.1": {
+      "before_pass": 0,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Простые решения, штамп Machine/Agent на артефактах"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Простое решение, штамп Machine/Agent"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сделает просто с одним источником и поставит штамп."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Строит просто без дублей и ставит штамп машины"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Строит простые решения сам и маркирует файлы штампом."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Строит просто, усложняет сам, ставит штамп автора."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выбирает простые решения, отмечает автора артефактов"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выбирает простоту, маркирует каждый общий артефакт"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Делаю просто и ставлю штамп машины"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Простота, штамп автора, усложнение под ответственность"
+        }
+      }
+    },
+    "6.1.1": {
+      "before_pass": 8,
+      "after_pass": 5,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 5,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "FAIL_JARGON",
+          "ok": 0,
+          "note": "Неясны «лимит шлюза» и выбор «Claude 5.1»"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "FAIL_JARGON",
+          "ok": 0,
+          "note": "Не раскрыты llm_ask.py, «шлюз», «формат кофаундера», кодовые имена моделей"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Распределяет задачи между кодом, моделями и уровнями усилий"
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выберет код раньше моделей, распределит задачи по тирам"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Считает кодом, модели выбирает по таблице усилий."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Выполняет рутину кодом, распределяет модели, сжимает контекст."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "FAIL_JARGON",
+          "ok": 0,
+          "note": "Не определён формат кофаундера для Argon"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "FAIL_JARGON",
+          "ok": 0,
+          "note": "Не раскрыты шлюз, Антон, llm_ask.py"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам выбирает код, модели и глубину"
+        },
+        "glm_5_3_high": {
+          "verdict": "FAIL_JARGON",
+          "ok": 0,
+          "note": "Нераскрыты жаргонные обрывки: «Argon для формата кофаундера», «5 244 ответах эвала», Tier-модели без расшифровки"
+        }
+      }
+    },
+    "7.1.1": {
+      "before_pass": 3,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Роли узлов ясны, зона работ через onair.py"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Роли узлов, единая папка, штамп понятны"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Распределит задачи по узлам с координацией через `onair.py`."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Распределяет задачи по узлам и координирует через onair.py"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Распределяет задачи между компьютерами и координирует общие правки."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Распределяет задачи по узлам, координирует правки сам."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Распределяет задачи по компьютерам, координирует правки"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Координирует узлы и общую рабочую папку"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Работаю в общей папке по роли узла"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Роли узлов, шина сообщений, единая папка, замки"
+        }
+      }
+    },
+    "8.1.1": {
+      "before_pass": 1,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Без дублей, сначала горячий индекс, затем Obsidian"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Пути, Syncthing и порядок поиска ясны"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ищет в горячем индексе и хранит заметки без дублей."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ищет сначала в горячем индексе, затем в Obsidian"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ищет контекст в горячем индексе и обновляет Obsidian."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ищет в горячем индексе, бережёт заметки Волта."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сохраняет заметки и историю, сначала ищет локально"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ищет контекст, синхронизирует историю, избегает дублей"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ищу контекст в индексе и базе знаний"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Один Волт, Syncthing истории, поиск по горячему индексу"
+        }
+      }
+    },
+    "9.1.1": {
+      "before_pass": 4,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Конвейеры по скиллам, исполняет без ожидания"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Четыре конвейера, скиллы названы, действую сам"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Сам запустит профильные скиллы исследований, сессий и CRM."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запускает профильные скиллы для ресерча, CRM и заявок"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Автономно запускает профильные скиллы исследований, сессий, CRM, найма."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запускает профильные конвейеры исследований, CRM, найма, ретро."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запускает профильные процессы без лишних согласований"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запускает исследования, сессии, CRM и отклики"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Запускаю профильные конвейеры по описанным шагам"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Раскрывает процессы, терминов скрытых нет, автономность не зажата"
+        }
+      }
+    },
+    "10.0.1": {
+      "before_pass": 5,
+      "after_pass": 10,
+      "after_eval": 10,
+      "before_throttle": 0,
+      "after_throttle": 0,
+      "after_jargon": 0,
+      "by_model": {
+        "claude_opus_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Лимиты размеров, правка синхронно с таблицей"
+        },
+        "claude_sonnet_5_5_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Лимиты размеров и частоты бэкапа заданы"
+        },
+        "gemini_4_carbon_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Контролирует размер файлов, бэкапы раз в сутки, синхронизирует правки."
+        },
+        "gemini_4_hydrogen_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Держит MEMORY.md и CLAUDE.md в лимитах, синхронизирует таблицу"
+        },
+        "gemini_4_argon_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Держит служебные файлы компактными, синхронизирует канон с таблицей."
+        },
+        "gemini_4_neon_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Держит служебные файлы компактными, обновляет таблицу канона."
+        },
+        "gpt_6_sol_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ограничивает обслуживание, поддерживает компактность файлов"
+        },
+        "gpt_5_6_terra_med": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Ограничивает обслуживание и синхронизирует правки канона"
+        },
+        "grok_4_7_low": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Держу правила компактными и обновляю канон"
+        },
+        "glm_5_3_high": {
+          "verdict": "PASS",
+          "ok": 1,
+          "note": "Конкретные лимиты файлов и частоты, исполнимо автономно"
+        }
+      }
+    }
+  }
+}

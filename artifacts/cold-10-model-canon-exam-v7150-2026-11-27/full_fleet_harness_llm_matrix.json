@@ -1,0 +1,340 @@
+{
+  "NODE-WIN2": {
+    "reachable": true,
+    "host": "NODE-WIN2",
+    "data": {
+      "primary_home": "/home/anton",
+      "harnesses": {
+        "Claude Code (CLAUDE.md)": {
+          "exists": true,
+          "path": "/home/anton/.claude/CLAUDE.md",
+          "bytes": 62195,
+          "md5": "305852e8",
+          "nmd5": "fd6604c8",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Codex CLI/App (.codex/AGENTS.md)": {
+          "exists": true,
+          "path": "/home/anton/.codex/AGENTS.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Grok CLI (.grok/AGENTS.md)": {
+          "exists": true,
+          "path": "/home/anton/.grok/AGENTS.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Gemini CLI / Antigravity (.gemini/GEMINI.md)": {
+          "exists": true,
+          "path": "/home/anton/.gemini/GEMINI.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Cursor (.cursor/rules/00-lab-canon.mdc)": {
+          "exists": true,
+          "path": "/home/anton/.cursor/rules/00-lab-canon.mdc",
+          "bytes": 62195,
+          "md5": "305852e8",
+          "nmd5": "fd6604c8",
+          "version": "v7.15.0",
+          "has_v715": true
+        }
+      }
+    }
+  },
+  "NODE-HUB-WIN1": {
+    "reachable": true,
+    "data": {
+      "primary_home": "<HOME>",
+      "harnesses": {
+        "Claude Code (CLAUDE.md)": {
+          "exists": true,
+          "path": "<HOME>\\.claude\\CLAUDE.md",
+          "bytes": 62195,
+          "md5": "305852e8",
+          "nmd5": "fd6604c8",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Codex CLI/App (.codex/AGENTS.md)": {
+          "exists": true,
+          "path": "<HOME>\\.codex\\AGENTS.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Grok CLI (.grok/AGENTS.md)": {
+          "exists": true,
+          "path": "<HOME>\\.grok\\AGENTS.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Gemini CLI / Antigravity (.gemini/GEMINI.md)": {
+          "exists": true,
+          "path": "<HOME>\\.gemini\\GEMINI.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Cursor (.cursor/rules/00-lab-canon.mdc)": {
+          "exists": true,
+          "path": "<WORKSPACE>\\.cursor\\rules\\00-lab-canon.mdc",
+          "bytes": 69661,
+          "md5": "9153e23c",
+          "nmd5": "714148cd",
+          "version": "v7.15.0",
+          "has_v715": true
+        }
+      }
+    }
+  },
+  "NODE-WIN3": {
+    "reachable": true,
+    "host": "NODE-WIN3",
+    "data": {
+      "primary_home": "<HOME>",
+      "harnesses": {
+        "Claude Code (CLAUDE.md)": {
+          "exists": true,
+          "path": "<HOME>\\.claude\\CLAUDE.md",
+          "bytes": 62195,
+          "md5": "305852e8",
+          "nmd5": "fd6604c8",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Codex CLI/App (.codex/AGENTS.md)": {
+          "exists": true,
+          "path": "<HOME>\\.codex\\AGENTS.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Grok CLI (.grok/AGENTS.md)": {
+          "exists": true,
+          "path": "<HOME>\\.grok\\AGENTS.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Gemini CLI / Antigravity (.gemini/GEMINI.md)": {
+          "exists": true,
+          "path": "<HOME>\\.gemini\\GEMINI.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Cursor (.cursor/rules/00-lab-canon.mdc)": {
+          "exists": true,
+          "path": "<WORKSPACE>\\.cursor\\rules\\00-lab-canon.mdc",
+          "bytes": 69661,
+          "md5": "9153e23c",
+          "nmd5": "714148cd",
+          "version": "v7.15.0",
+          "has_v715": true
+        }
+      }
+    }
+  },
+  "NODE-MAC1": {
+    "reachable": true,
+    "host": "NODE-MAC1",
+    "data": {
+      "primary_home": "<HOME>",
+      "harnesses": {
+        "Claude Code (CLAUDE.md)": {
+          "exists": true,
+          "path": "<HOME>/.claude/CLAUDE.md",
+          "bytes": 62195,
+          "md5": "305852e8",
+          "nmd5": "fd6604c8",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Codex CLI/App (.codex/AGENTS.md)": {
+          "exists": true,
+          "path": "<HOME>/.codex/AGENTS.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Grok CLI (.grok/AGENTS.md)": {
+          "exists": true,
+          "path": "<HOME>/.grok/AGENTS.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Gemini CLI / Antigravity (.gemini/GEMINI.md)": {
+          "exists": true,
+          "path": "<HOME>/.gemini/GEMINI.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Cursor (.cursor/rules/00-lab-canon.mdc)": {
+          "exists": true,
+          "path": "<HOME>/.cursor/rules/00-lab-canon.mdc",
+          "bytes": 62195,
+          "md5": "305852e8",
+          "nmd5": "fd6604c8",
+          "version": "v7.15.0",
+          "has_v715": true
+        }
+      }
+    }
+  },
+  "NODE-PEER-WIN4": {
+    "reachable": false,
+    "host": "NODE-PEER-WIN4",
+    "err": "SSH недоступен (выключен или вне сети)"
+  },
+  "NODE-PEER-MAC4": {
+    "reachable": false,
+    "host": "NODE-PEER-MAC4",
+    "err": "SSH недоступен (выключен или вне сети)"
+  },
+  "NODE-MAC2": {
+    "reachable": true,
+    "host": "NODE-MAC2",
+    "data": {
+      "primary_home": "<HOME>",
+      "harnesses": {
+        "Claude Code (CLAUDE.md)": {
+          "exists": true,
+          "path": "<HOME>/.claude/CLAUDE.md",
+          "bytes": 62195,
+          "md5": "305852e8",
+          "nmd5": "fd6604c8",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Codex CLI/App (.codex/AGENTS.md)": {
+          "exists": true,
+          "path": "<HOME>/.codex/AGENTS.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Grok CLI (.grok/AGENTS.md)": {
+          "exists": true,
+          "path": "<HOME>/.grok/AGENTS.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Gemini CLI / Antigravity (.gemini/GEMINI.md)": {
+          "exists": true,
+          "path": "<HOME>/.gemini/GEMINI.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Cursor (.cursor/rules/00-lab-canon.mdc)": {
+          "exists": true,
+          "path": "<HOME>/.cursor/rules/00-lab-canon.mdc",
+          "bytes": 62195,
+          "md5": "305852e8",
+          "nmd5": "fd6604c8",
+          "version": "v7.15.0",
+          "has_v715": true
+        }
+      }
+    }
+  },
+  "EDITKA": {
+    "reachable": false,
+    "host": "EDITKA",
+    "err": "SSH недоступен (выключен или вне сети)"
+  },
+  "NODE-MAC3": {
+    "reachable": true,
+    "host": "NODE-MAC3",
+    "data": {
+      "primary_home": "<HOME>",
+      "harnesses": {
+        "Claude Code (CLAUDE.md)": {
+          "exists": true,
+          "path": "<HOME>/.claude/CLAUDE.md",
+          "bytes": 62195,
+          "md5": "305852e8",
+          "nmd5": "fd6604c8",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Codex CLI/App (.codex/AGENTS.md)": {
+          "exists": true,
+          "path": "<HOME>/.codex/AGENTS.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Grok CLI (.grok/AGENTS.md)": {
+          "exists": true,
+          "path": "<HOME>/.grok/AGENTS.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Gemini CLI / Antigravity (.gemini/GEMINI.md)": {
+          "exists": true,
+          "path": "<HOME>/.gemini/GEMINI.md",
+          "bytes": 69864,
+          "md5": "b85445ec",
+          "nmd5": "330ee770",
+          "version": "v7.15.0",
+          "has_v715": true
+        },
+        "Cursor (.cursor/rules/00-lab-canon.mdc)": {
+          "exists": true,
+          "path": "<HOME>/.cursor/rules/00-lab-canon.mdc",
+          "bytes": 62195,
+          "md5": "305852e8",
+          "nmd5": "fd6604c8",
+          "version": "v7.15.0",
+          "has_v715": true
+        }
+      }
+    }
+  }
+}
