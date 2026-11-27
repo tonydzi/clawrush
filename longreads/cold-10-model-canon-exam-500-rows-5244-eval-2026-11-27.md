@@ -184,10 +184,10 @@ Look at the transformation for **OpenAI GPT-6 Sol (`Med`)**, **Claude Sonnet 5.5
 A system prompt refactor only counts when every machine, every agent CLI harness, and every live model actually reads the same bytes.
 
 Why do multi-agent fleets drift after a prompt update? Because different agent harnesses read different entry files:
-1. **Claude Code** reads `~/.claude/CLAUDE.md`.
-2. **OpenAI Codex CLI** reads `~/.codex/AGENTS.md` (compiled via `codex_mirror.py build`).
-3. **xAI Grok Build CLI** reads `~/.claude/AGENTS.md` + workspace `AGENTS.md`.
-4. **Google Gemini / Antigravity** reads `~/.gemini/GEMINI.md` (with `<!-- CANON-BODY-BEGIN -->` mirror block).
+1. **Claude Code** reads `.claude/CLAUDE.md`.
+2. **OpenAI Codex CLI** reads `.codex/AGENTS.md` (compiled via `codex_mirror.py build`).
+3. **xAI Grok Build CLI** reads `.claude/AGENTS.md` + workspace `AGENTS.md`.
+4. **Google Gemini / Antigravity** reads `.gemini/GEMINI.md` (with `<!-- CANON-BODY-BEGIN -->` mirror block).
 5. **Cursor** reads `.cursor/rules/00-lab-canon.mdc` inside the active workspace (generated via `cursor_canon_entry.py`).
 
 We published the signed transit manifest (`v7.15.0`, `62,195` bytes, `md5 305852e8975e5d2656dcbce79c6f891e`) from our primary hub workstation and verified every harness file across all **6 active production machines** (3 Windows + 3 macOS), then executed **11 live end-to-end LLM ingestion probes** asking each model to report the exact canon version, byte count, and Tier-2 rule set loaded in its active context:

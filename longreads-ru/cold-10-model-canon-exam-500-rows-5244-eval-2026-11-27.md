@@ -184,10 +184,10 @@
 Переписать системный промпт недостаточно - нужно доказать, что каждая машина флота, каждый CLI-харнес и каждая живая модель читают одни и те же байты.
 
 В мультиагентном флоте разные харнесы смотрят в разные входные файлы:
-1. **Claude Code** читает `~/.claude/CLAUDE.md`.
-2. **OpenAI Codex CLI** читает `~/.codex/AGENTS.md` (собирается механически через `codex_mirror.py build`).
-3. **xAI Grok Build CLI** читает `~/.claude/AGENTS.md` и `AGENTS.md` рабочей папки.
-4. **Google Gemini / Antigravity** читает `~/.gemini/GEMINI.md` (зеркало между метками `<!-- CANON-BODY-BEGIN -->`).
+1. **Claude Code** читает `.claude/CLAUDE.md`.
+2. **OpenAI Codex CLI** читает `.codex/AGENTS.md` (собирается механически через `codex_mirror.py build`).
+3. **xAI Grok Build CLI** читает `.claude/AGENTS.md` и `AGENTS.md` рабочей папки.
+4. **Google Gemini / Antigravity** читает `.gemini/GEMINI.md` (зеркало между метками `<!-- CANON-BODY-BEGIN -->`).
 5. **Cursor** читает `.cursor/rules/00-lab-canon.mdc` в рабочей папке (собирается через `cursor_canon_entry.py`).
 
 Мы опубликовали подписанный транзитный манифест (`v7.15.0`, `62 195` байт, `md5 305852e8975e5d2656dcbce79c6f891e`), проверили все `30` входных файлов на всех **6 живых машинах флота** (3 Windows + 3 macOS), а затем провели **11 живых сквозных запросов к LLM**, попросив каждую модель назвать версию канона, размер и список железных стопов Tier-2 из своего активного контекста:
