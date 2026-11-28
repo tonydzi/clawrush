@@ -1,6 +1,6 @@
 ---
 proofread_of: cold-10-model-canon-exam-500-rows-5244-eval-2026-11-27.md
-article_sha256: 26cb7f46d312a8dfa984540b0ac148ca0bab7eeddb78a7ef2f6aad2bb5ff1951
+article_sha256: fde97e124dc52c4185147caf6dc1c03acded75a61802ca3634329c064ca76baa
 rail: agy
 model: gemini-4-argon-high
 utc: 2026-11-27T17:37:06+00:00
