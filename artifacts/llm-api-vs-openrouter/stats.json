@@ -1,0 +1,357 @@
+{
+ "run_A": {
+  "id": "20261124T141600Z",
+  "summary": {
+   "llmapi|claude-sonnet-5": {
+    "n": 36,
+    "errors": 0,
+    "error_classes": {},
+    "http": {
+     "200": 36
+    },
+    "correct": 23,
+    "ttft_med": 2.372,
+    "ttft_p90": 3.323,
+    "total_med": 2.686,
+    "total_p90": 3.661,
+    "cost_usd": 0.01154,
+    "cost_reported": 36,
+    "providers": {
+     "None": 36
+    },
+    "returned_models": {
+     "computebase/claude-sonnet-5": 12,
+     "claude-sonnet-5": 24
+    }
+   },
+   "llmapi|gpt-6.1-terra": {
+    "n": 36,
+    "errors": 36,
+    "error_classes": {
+     "http_400": 36
+    },
+    "http": {
+     "400": 36
+    },
+    "correct": 0,
+    "ttft_med": null,
+    "ttft_p90": null,
+    "total_med": null,
+    "total_p90": null,
+    "cost_usd": 0,
+    "cost_reported": 0,
+    "providers": {
+     "None": 36
+    },
+    "returned_models": {
+     "None": 36
+    }
+   },
+   "openrouter|claude-sonnet-5": {
+    "n": 36,
+    "errors": 0,
+    "error_classes": {},
+    "http": {
+     "200": 36
+    },
+    "correct": 23,
+    "ttft_med": 1.241,
+    "ttft_p90": 2.111,
+    "total_med": 1.507,
+    "total_p90": 2.184,
+    "cost_usd": 0.01315,
+    "cost_reported": 36,
+    "providers": {
+     "Claude Platform on AWS": 36
+    },
+    "returned_models": {
+     "anthropic/claude-sonnet-5": 36
+    }
+   },
+   "openrouter|gpt-6.1-terra": {
+    "n": 36,
+    "errors": 0,
+    "error_classes": {},
+    "http": {
+     "200": 36
+    },
+    "correct": 36,
+    "ttft_med": 2.622,
+    "ttft_p90": 6.934,
+    "total_med": 2.754,
+    "total_p90": 7.059,
+    "cost_usd": 0.00386,
+    "cost_reported": 36,
+    "providers": {
+     "OpenAI": 36
+    },
+    "returned_models": {
+     "openai/gpt-6.1-terra": 36
+    }
+   }
+  },
+  "paired_sonnet": {
+   "pairs": 36,
+   "llmapi_ttft_faster": 4,
+   "same_correctness": 32
+  }
+ },
+ "run_B_no_temp": {
+  "id": "20261124T142153Z",
+  "summary": {
+   "llmapi|gpt-6.1-terra": {
+    "n": 36,
+    "errors": 0,
+    "error_classes": {},
+    "http": {
+     "200": 36
+    },
+    "correct": 36,
+    "ttft_med": 0.914,
+    "ttft_p90": 1.565,
+    "total_med": 0.958,
+    "total_p90": 1.64,
+    "cost_usd": 0.00236,
+    "cost_reported": 36,
+    "providers": {
+     "None": 36
+    },
+    "returned_models": {
+     "gpt-6.1-terra": 36
+    }
+   },
+   "openrouter|gpt-6.1-terra": {
+    "n": 36,
+    "errors": 0,
+    "error_classes": {},
+    "http": {
+     "200": 36
+    },
+    "correct": 36,
+    "ttft_med": 2.503,
+    "ttft_p90": 5.766,
+    "total_med": 2.708,
+    "total_p90": 5.886,
+    "cost_usd": 0.00382,
+    "cost_reported": 36,
+    "providers": {
+     "OpenAI": 36
+    },
+    "returned_models": {
+     "openai/gpt-6.1-terra": 36
+    }
+   }
+  },
+  "paired_terra": {
+   "pairs": 36,
+   "llmapi_ttft_faster": 35,
+   "same_correctness": 36
+  }
+ },
+ "sonnet_fails": {
+  "cap1": [
+   [
+    "llmapi",
+    0,
+    "**Canberra**",
+    "stop",
+    8
+   ],
+   [
+    "openrouter",
+    0,
+    "**Canberra**",
+    "stop",
+    8
+   ],
+   [
+    "llmapi",
+    1,
+    "**Canberra**",
+    "stop",
+    8
+   ],
+   [
+    "openrouter",
+    1,
+    "**Canberra**",
+    "stop",
+    8
+   ],
+   [
+    "openrouter",
+    2,
+    "**Canberra**",
+    "stop",
+    8
+   ],
+   [
+    "llmapi",
+    2,
+    "**Canberra**",
+    "stop",
+    8
+   ]
+  ],
+  "prime1": [
+   [
+    "openrouter",
+    0,
+    "No, 221 is not a prime number (221 = 13 × 17).",
+    "stop",
+    50
+   ],
+   [
+    "llmapi",
+    0,
+    "No.\n\n221 = 13 × 17, so it is not a prime number.",
+    "stop",
+    24
+   ],
+   [
+    "llmapi",
+    1,
+    "No.\n\n221 = 13 × 17, so it is not a prime number.",
+    "stop",
+    24
+   ],
+   [
+    "openrouter",
+    1,
+    "No. 221 = 13 × 17, so it is not a prime number.",
+    "stop",
+    54
+   ],
+   [
+    "openrouter",
+    2,
+    "No, 221 = 13 × 17.",
+    "stop",
+    41
+   ],
+   [
+    "llmapi",
+    2,
+    "No. 221 = 13 × 17, so it is not a prime number.",
+    "stop",
+    50
+   ]
+  ],
+  "unit1": [
+   [
+    "openrouter",
+    0,
+    "**10800**",
+    "stop",
+    6
+   ],
+   [
+    "openrouter",
+    1,
+    "**10800**",
+    "stop",
+    6
+   ],
+   [
+    "openrouter",
+    2,
+    "**10800**",
+    "stop",
+    6
+   ],
+   [
+    "llmapi",
+    2,
+    "**10800**",
+    "stop",
+    6
+   ]
+  ],
+  "code1": [
+   [
+    "llmapi",
+    0,
+    "**4**\n\nThe unique characters in 'mississippi' are: m, i, s, p",
+    "stop",
+    93
+   ],
+   [
+    "llmapi",
+    1,
+    "**4**\n\nThe unique characters in 'mississippi' are: m, i, s, p",
+    "stop",
+    101
+   ],
+   [
+    "openrouter",
+    1,
+    "**4**\n\nThe unique characters in 'mississippi' are: m, i, s, p",
+    "stop",
+    91
+   ],
+   [
+    "llmapi",
+    2,
+    "4\n\nThe distinct characters in 'mississippi' are: m, i, s, p — totaling **4** uni",
+    "stop",
+    39
+   ]
+  ],
+  "logic1": [
+   [
+    "llmapi",
+    0,
+    "**Yes.**\n\nThis follows from the transitive property of categorical logic:\n- All ",
+    "stop",
+    62
+   ],
+   [
+    "openrouter",
+    0,
+    "**Yes.**\n\nThis follows by transitivity: if all bloops are razzies (bloops ⊆ razz",
+    "stop",
+    89
+   ],
+   [
+    "openrouter",
+    1,
+    "**Yes.**\n\nThis follows from the transitive property of categorical logic:\n- All ",
+    "stop",
+    62
+   ],
+   [
+    "llmapi",
+    1,
+    "**Yes.**\n\nSince all bloops are razzies, and all razzies are lazzies, by transiti",
+    "stop",
+    47
+   ],
+   [
+    "openrouter",
+    2,
+    "**Yes.**\n\nThis follows from basic logical transitivity: if all bloops are razzie",
+    "stop",
+    93
+   ],
+   [
+    "llmapi",
+    2,
+    "Yes.\n\nAll bloops are razzies, and all razzies are lazzies. By transitivity, all ",
+    "stop",
+    43
+   ]
+  ]
+ },
+ "llmapi_terra_errors_sample": [
+  [
+   400,
+   "http_400",
+   "{\"error\":{\"message\":\"Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\",\"type\":\"invalid_request_erro"
+  ],
+  [
+   400,
+   "http_400",
+   "{\"error\":{\"message\":\"Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\",\"type\":\"invalid_request_erro"
+  ]
+ ]
+}
