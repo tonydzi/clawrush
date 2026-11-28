@@ -1,0 +1,169 @@
+{
+  "benchmark_id": "rtx5060ti-vs-macstudio-m4max-asr-2026-11-28",
+  "date": "2026-11-28",
+  "lab": "Palo Alto AI Research Lab",
+  "audio_fixture": {
+    "filename": "teach-2026-11-27-session-adventures-kaper-7llm-ru-eli5.m4a",
+    "language": "ru (Russian with English AI/ML technical terms)",
+    "duration_sec": 752.16,
+    "duration_min": 12.54,
+    "size_bytes": 9179158
+  },
+  "nodes": {
+    "hub_rtx5060ti": {
+      "machine": "A-2022BAYAREA (Hub)",
+      "chip": "NVIDIA GeForce RTX 5060 Ti (15.93 GB VRAM, CUDA float16)",
+      "audio_file": "teach-2026-11-27-session-adventures-kaper-7llm-ru-eli5.m4a",
+      "audio_duration_sec": 752.16,
+      "audio_bytes": 9179158,
+      "model_load_sec": 75.89,
+      "runs": [
+        {
+          "mode": "faster-whisper large-v3 CUDA float16 Batched (batch=8, beam=5)",
+          "elapsed_sec": 20.15,
+          "speed_x_realtime": 37.33,
+          "chars": 10877,
+          "words": 1681,
+          "segments": 28
+        },
+        {
+          "mode": "faster-whisper large-v3 CUDA float16 Batched-Fast (batch=16, beam=1)",
+          "elapsed_sec": 13.23,
+          "speed_x_realtime": 56.85,
+          "chars": 10873,
+          "words": 1680,
+          "segments": 28
+        },
+        {
+          "mode": "faster-whisper large-v3 CUDA float16 Sequential Quality (beam=5, no VAD)",
+          "elapsed_sec": 88.77,
+          "speed_x_realtime": 8.47,
+          "chars": 10979,
+          "words": 1701,
+          "segments": 348
+        },
+        {
+          "mode": "faster-whisper large-v3-turbo CUDA float16 Batched (batch=8, beam=5)",
+          "elapsed_sec": 9.26,
+          "speed_x_realtime": 81.23,
+          "chars": 10873,
+          "words": 1684,
+          "segments": 28
+        },
+        {
+          "mode": "faster-whisper large-v3-turbo CUDA float16 Batched-Fast (batch=16, beam=1)",
+          "elapsed_sec": 7.27,
+          "speed_x_realtime": 103.46,
+          "chars": 10870,
+          "words": 1681,
+          "segments": 28
+        }
+      ]
+    },
+    "macstudio_m4max": {
+      "machine": "MacStudioM4",
+      "chip": "Apple M4 Max (16-core CPU, 40-core Metal 4 GPU, 128 GB Unified Memory, 546 GB/s)",
+      "audio_file": "teach-2026-11-27-session-adventures-kaper-7llm-ru-eli5.m4a",
+      "audio_duration_sec": 752.16,
+      "audio_bytes": 9179158,
+      "runs": [
+        {
+          "mode": "mlx-whisper large-v3-turbo Apple M4 Max 40-core Metal 4 GPU (float16, sequential no-VAD)",
+          "elapsed_sec": 65.5,
+          "speed_x_realtime": 11.48,
+          "chars": 10860,
+          "words": 1679,
+          "segments": 348
+        },
+        {
+          "mode": "faster-whisper large-v3-turbo Apple M4 Max Metal MPS (float16) Batched (batch=8, beam=5)",
+          "elapsed_sec": 85.55,
+          "speed_x_realtime": 8.79,
+          "chars": 10873,
+          "words": 1684,
+          "segments": 28
+        },
+        {
+          "mode": "faster-whisper large-v3-turbo Apple M4 Max Metal MPS (float16) Batched-Fast (batch=16, beam=1)",
+          "elapsed_sec": 63.17,
+          "speed_x_realtime": 11.91,
+          "chars": 10868,
+          "words": 1681,
+          "segments": 28
+        },
+        {
+          "mode": "faster-whisper large-v3 (1.55B) Apple M4 Max Metal MPS (float16) Batched (batch=8, beam=5)",
+          "elapsed_sec": 279.18,
+          "speed_x_realtime": 2.69,
+          "chars": 10877,
+          "words": 1681,
+          "segments": 28
+        },
+        {
+          "mode": "faster-whisper large-v3 (1.55B) Apple M4 Max Metal MPS (float16) Batched-Fast (batch=16, beam=1)",
+          "elapsed_sec": 143.21,
+          "speed_x_realtime": 5.25,
+          "chars": 10873,
+          "words": 1680,
+          "segments": 28
+        },
+        {
+          "mode": "faster-whisper large-v3-turbo Apple M4 Max CPU int8 (4 threads) Batched (batch=8, beam=5)",
+          "elapsed_sec": 140.12,
+          "speed_x_realtime": 5.37,
+          "chars": 10870,
+          "words": 1684,
+          "segments": 28
+        },
+        {
+          "mode": "faster-whisper large-v3-turbo Apple M4 Max CPU int8 (8 threads) Batched-Fast (batch=16, beam=1)",
+          "elapsed_sec": 70.97,
+          "speed_x_realtime": 10.6,
+          "chars": 10868,
+          "words": 1682,
+          "segments": 28
+        }
+      ]
+    }
+  },
+  "head_to_head_speedups": {
+    "large_v3_turbo_batched_fast_b16_beam1": {
+      "rtx5060ti_sec": 7.27,
+      "rtx5060ti_x_realtime": 103.46,
+      "m4max_mps_sec": 63.17,
+      "m4max_mps_x_realtime": 11.91,
+      "m4max_mlx_sec": 65.5,
+      "m4max_mlx_x_realtime": 11.48,
+      "m4max_cpu8_sec": 70.97,
+      "m4max_cpu8_x_realtime": 10.6,
+      "rtx_vs_m4max_best_speedup_x": 8.69
+    },
+    "large_v3_turbo_batched_b8_beam5": {
+      "rtx5060ti_sec": 9.26,
+      "rtx5060ti_x_realtime": 81.23,
+      "m4max_mps_sec": 85.55,
+      "m4max_mps_x_realtime": 8.79,
+      "m4max_cpu4_old_default_sec": 140.12,
+      "m4max_cpu4_old_default_x_realtime": 5.37,
+      "rtx_vs_m4max_mps_speedup_x": 9.24,
+      "rtx_vs_m4max_cpu4_speedup_x": 15.13,
+      "m4max_mps_vs_cpu4_speedup_x": 1.64
+    },
+    "large_v3_full_155B_batched_b8_beam5": {
+      "rtx5060ti_sec": 20.15,
+      "rtx5060ti_x_realtime": 37.33,
+      "m4max_mps_sec": 279.18,
+      "m4max_mps_x_realtime": 2.69,
+      "exact_char_match": "10877 chars / 1681 words on both machines",
+      "rtx_vs_m4max_mps_speedup_x": 13.86
+    },
+    "large_v3_full_155B_batched_fast_b16_beam1": {
+      "rtx5060ti_sec": 13.23,
+      "rtx5060ti_x_realtime": 56.85,
+      "m4max_mps_sec": 143.21,
+      "m4max_mps_x_realtime": 5.25,
+      "exact_char_match": "10873 chars / 1680 words on both machines",
+      "rtx_vs_m4max_mps_speedup_x": 10.82
+    }
+  }
+}
